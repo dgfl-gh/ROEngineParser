@@ -5,6 +5,6 @@ namespace ROEngineParser
     public class IgnitionData
     {
         public int number;
-        public Dictionary<PropellantData, float> resources = new Dictionary<PropellantData, float>();
+        public Dictionary<string, float> resources = new Dictionary<string, float>();
     }
 }

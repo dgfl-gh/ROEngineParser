@@ -1,8 +1,8 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
-using System.Text.Json;
-using System.Text.Json.Serialization;
 
 namespace ROEngineParser
 {
@@ -16,14 +16,23 @@ namespace ROEngineParser
 
     public class EngineData
     {
+        [JsonProperty(Order = 1)]
         public string Title { get; set; }
+        [JsonProperty(Order = 2)]
         public string Manufacturer { get; set; }
+        [JsonProperty(Order = 3)]
         public string Description { get; set; }
+        [JsonProperty(Order = 4)]
         public float OriginalMass { get; set; }
+        [JsonProperty(Order = 5)]
         public bool LiteralZeroIgnitions { get; set; }
+        [JsonProperty(Order = 6)]
         public EngineType EngineType { get; set; }
+        [JsonProperty(Order = 7)]
         public string DefaultConfig { get; set; }
+        [JsonProperty(Order = 8)]
         public GimbalData Gimbal { get; set; }
+        [JsonProperty(Order = 9)]
         public Dictionary<string, EngineConfigData> EngineConfigs = new Dictionary<string, EngineConfigData>();
 
         public EngineData(List<string[]> cfg)
@@ -36,11 +45,49 @@ namespace ROEngineParser
 
         public string ToJson()
         {
-            var options = new JsonSerializerOptions
+            var settings = new JsonSerializerSettings
             {
-                WriteIndented = true,
+                Formatting = Formatting.Indented,
+                PreserveReferencesHandling = PreserveReferencesHandling.All
             };
-            return JsonSerializer.Serialize(this, options);
+
+            return JsonConvert.SerializeObject(this, settings);
+        }
+
+        public bool ToJsonFile(string path, bool overwrite = true)
+        {
+            string basePath = path;
+
+            int i = 1;
+            while (File.Exists(path) && !overwrite)
+            {
+                i++;
+                path = $"{basePath}({i}).json";
+            }
+
+            if (Path.GetFullPath(path) is string fullPath)
+            {
+                try
+                {
+                    using StreamWriter file = File.CreateText(@fullPath);
+                    JsonSerializer serializer = new JsonSerializer
+                    {
+                        Formatting = Formatting.Indented,
+                        //PreserveReferencesHandling = PreserveReferencesHandling.All
+                    };
+
+                    serializer.Serialize(file, this);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex);
+                    return false;
+                }
+
+                return true;
+            }
+
+            return false;
         }
 
         public void FromJson(string json)
@@ -94,8 +141,8 @@ namespace ROEngineParser
                     Gimbal = new GimbalData(block);
                     break;
                 case BlockType.ModuleEngineConfigs:
-                    OriginalMass = float.Parse(block.GetFieldValue("origMass"));
-                    LiteralZeroIgnitions = bool.Parse(block.GetFieldValue("literalZeroIgnitions"));
+                    OriginalMass = block.GetFieldValue("origMass").ParseFloat(defVal: 1);
+                    LiteralZeroIgnitions = block.GetFieldValue("literalZeroIgnitions").ParseBool(defVal: false);
                     DefaultConfig = block.GetFieldValue("configuration");
 
                     foreach (var config in block.childrenBlocks ?? Enumerable.Empty<ConfigBlock>())
@@ -114,7 +161,7 @@ namespace ROEngineParser
                     break;
                 case BlockType.Part:
                     FetchEngineData(block.content);
-                    foreach(var b in block.childrenBlocks)
+                    foreach (var b in block.childrenBlocks)
                     {
                         GetDataFromBlock(b);
                     }

@@ -23,15 +23,15 @@
 
         public ReliabilityData(ConfigBlock cfg)
         {
-            RatedBurnTime = int.Parse(cfg.GetFieldValue("ratedBurnTime"));
+            RatedBurnTime = cfg.GetFieldValue("ratedBurnTime").ParseInt();
 
-            IgnitionReliabilityStart = float.Parse(cfg.GetFieldValue("ignitionReliabilityStart"));
+            IgnitionReliabilityStart = cfg.GetFieldValue("ignitionReliabilityStart").ParseFloat();
 
-            IgnitionReliabilityEnd = float.Parse(cfg.GetFieldValue("ignitionReliabilityEnd"));
+            IgnitionReliabilityEnd = cfg.GetFieldValue("ignitionReliabilityEnd").ParseFloat();
 
-            CycleReliabilityStart = float.Parse(cfg.GetFieldValue("cycleReliabilityStart"));
+            CycleReliabilityStart = cfg.GetFieldValue("cycleReliabilityStart").ParseFloat();
 
-            CycleReliabilityEnd = float.Parse(cfg.GetFieldValue("cycleReliabilityEnd"));
+            CycleReliabilityEnd = cfg.GetFieldValue("cycleReliabilityEnd").ParseFloat();
         }
     }
 }

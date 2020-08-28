@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
 namespace ROEngineParser
@@ -72,7 +71,9 @@ namespace ROEngineParser
                     }
                 }
 
-                if (name.Contains("ModuleEngineConfigs"))
+                if (name == null)
+                    type = BlockType.Unknown;
+                else if (name.Contains("ModuleEngineConfigs"))
                     type = BlockType.ModuleEngineConfigs;
             }
             else if (type == BlockType.Propellant || type == BlockType.IgnitorResource)
@@ -122,7 +123,7 @@ namespace ROEngineParser
 
             List<string[]> block = input.GetRange(blockStartIndex, length);
 
-            if(remove)
+            if (remove)
                 input.RemoveRange(blockStartIndex, length);
 
             index--;
@@ -187,7 +188,7 @@ namespace ROEngineParser
                 {
                     bracketCounter++;
 
-                    if(bracketCounter == 1)
+                    if (bracketCounter == 1)
                         blockStartIndex = i - 1;
                 }
                 if (line[0] == "}" && i > blockStartIndex && --bracketCounter == 0)

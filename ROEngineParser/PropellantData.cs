@@ -2,25 +2,26 @@
 
 namespace ROEngineParser
 {
+    //TODO: Make this class store a reference to resources
     public class PropellantData
     {
         public string Name { get; set; } = "";
         public string DisplayName { get; set; } = "";
-        public double Density { get; set; } = 0;
-        public double UnitCost { get; set; } = 0;
+        public float Density { get; set; } = 0;
+        public float UnitCost { get; set; } = 0;
 
         private readonly static Dictionary<string, PropellantData> propellantsDict = new Dictionary<string, PropellantData>();
 
-        public static PropellantData CreateProp(string name, string displayName = null, double? density = null, double? unitCost = null)
+        public static PropellantData CreateProp(string name, string displayName = null, float? density = null, float? unitCost = null)
         {
             if (propellantsDict.ContainsKey(name))
             {
                 if (displayName != null)
                     propellantsDict[name].DisplayName = displayName;
                 if (density != null)
-                    propellantsDict[name].Density = (double)density;
+                    propellantsDict[name].Density = (float)density;
                 if (unitCost != null)
-                    propellantsDict[name].UnitCost = (double)unitCost;
+                    propellantsDict[name].UnitCost = (float)unitCost;
 
                 return propellantsDict[name];
             }
@@ -29,10 +30,10 @@ namespace ROEngineParser
                 return new PropellantData(name, displayName);
 
             else if (displayName != null && density != null && unitCost == null)
-                return new PropellantData(name, displayName, (double)density);
+                return new PropellantData(name, displayName, (float)density);
 
             else if (displayName != null && density != null && unitCost != null)
-                return new PropellantData(name, displayName, (double)density, (double)unitCost);
+                return new PropellantData(name, displayName, (float)density, (float)unitCost);
 
             else
                 return new PropellantData(name);
@@ -57,7 +58,7 @@ namespace ROEngineParser
             propellantsDict.Add(name, this);
         }
 
-        private PropellantData(string name, string displayName, double density)
+        private PropellantData(string name, string displayName, float density)
         {
             if (propellantsDict.ContainsKey(name))
                 return;
@@ -68,7 +69,7 @@ namespace ROEngineParser
             propellantsDict.Add(name, this);
         }
 
-        private PropellantData(string name, string displayName, double density, double unitCost)
+        private PropellantData(string name, string displayName, float density, float unitCost)
         {
             if (propellantsDict.ContainsKey(name))
                 return;

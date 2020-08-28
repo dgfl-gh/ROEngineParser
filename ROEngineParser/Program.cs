@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
+using System.Linq.Expressions;
 
 namespace ROEngineParser
 {
@@ -9,33 +11,68 @@ namespace ROEngineParser
         static void Main(string[] args)
         {
             List<EngineData> engines = new List<EngineData>();
-            List<string> enginesJson = new List<string>();
-            string path;
+            string inputPath = null;
+            string outputPath = null;
+            string BaseFileName = "ROEngineData";
+            bool overwrite = true;
 
-            if (args.Length > 0)
-                path = args[0];
-            else
+            if (args.Length == 1)
+                inputPath = args[0];
+            else if (args.Length > 1)
             {
-                Console.Write("Input the path of the engine config you want to parse: ");
-                path = Console.ReadLine();
+                inputPath = args[0];
+                outputPath = args[1];
             }
 
-            while(engines.Count == 0)
+            if(string.IsNullOrEmpty(inputPath))
             {
-                Console.WriteLine($"Parsing Engine configs from {path}...");
+                Console.Write("Input engine configs input folder path: ");
+                inputPath = Console.ReadLine();
+            }
 
-                if (Load(path) is EngineData e)
-                    engines.Add(e);
+            if (string.IsNullOrEmpty(outputPath))
+            {
+                Console.Write("Input json output folder path: ");
+                outputPath = Console.ReadLine();
+            }
+
+            while (engines.Count == 0)
+            {
+                Console.WriteLine($"Parsing Engine configs from {inputPath}...");
+                IEnumerable<string> filePaths = Directory.EnumerateFiles(inputPath, "*.cfg");
+
+                if(filePaths.Count() > 0)
+                {
+                    foreach (string file in filePaths)
+                    {
+                        string contents = File.ReadAllText(file);
+
+                        if (Load(file) is EngineData e)
+                            engines.Add(e);
+                    }
+                }
                 else
                 {
-                    Console.WriteLine("ERROR: Couldn't load engine data");
-                    Console.Write("Input the path of the engine config you want to parse: ");
-                    path = Console.ReadLine();
+                    Console.WriteLine("ERROR: No configs found in folder");
+                    Console.Write("Input the path of the folder containing your engine configs: ");
+                    inputPath = Console.ReadLine();
                 }
             }
 
-            engines.ForEach(e => enginesJson.Add(e.ToJson()));
-            enginesJson.ForEach(ej => Console.WriteLine(ej));
+
+            string fullOutPath = Path.GetFullPath(outputPath);
+            Directory.CreateDirectory(fullOutPath);
+
+            for (int i1 = 0; i1 < engines.Count; i1++)
+            {
+                EngineData e = engines[i1];
+                if(e.Title != null)
+                {
+                    string FileName = $"{fullOutPath}/{e.Title.Replace(" ", "_")}.json";
+
+                    e.ToJsonFile(FileName, overwrite);
+                }
+            }
         }
 
         private static EngineData Load(string fileFullName)

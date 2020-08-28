@@ -31,10 +31,10 @@ namespace ROEngineParser
                 string[] array = key.Split(" ", 2, StringSplitOptions.None);
                 if (array.Length <= 0)
                     continue;
-                else if (int.Parse(array[0]) == 0)
-                    IspVacuum = float.Parse(array[1]);
-                else if (int.Parse(array[0]) == 1)
-                    IspSeaLevel = float.Parse(array[1]);
+                else if (array[0].ParseInt() == 0)
+                    IspVacuum = array[1].ParseFloat();
+                else if (array[0].ParseInt() == 1)
+                    IspSeaLevel = array[1].ParseFloat();
             }
         }
     }

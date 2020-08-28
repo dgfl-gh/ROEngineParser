@@ -14,7 +14,7 @@ namespace ROEngineParser
                 Range = 0;
             }
 
-            Range = float.Parse(block.GetFieldValue("gimbalRange"));
+            Range = block.GetFieldValue("gimbalRange").ParseFloat(defVal: 0);
 
             if (Range > 0)
                 IsGimbaled = true;
@@ -29,7 +29,7 @@ namespace ROEngineParser
                     field = field.RemoveOperator();
 
                     if (field.Contains("gimbalRange"))
-                        Range = float.Parse(value);
+                        Range = value.ParseFloat(defVal: 0);
 
                     if (Range > 0)
                         IsGimbaled = true;

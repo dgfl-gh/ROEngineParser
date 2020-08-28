@@ -2,7 +2,7 @@
   "profiles": {
     "ROEngineParser": {
       "commandName": "Project",
-      "commandLineArgs": "\"E:\\KSP\\RO DEV\\GameData\\RealismOverhaul\\Engine_Configs\\LR79_Config.cfg\""
+      "commandLineArgs": "\"E:\\GitHub\\realismoverhaul\\GameData\\RealismOverhaul\\Engine_Configs\" \"E:\\GitHub\\ROEngineParser\\data\""
     }
   }
 }
