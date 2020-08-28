@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ROEngineParser": {
+      "commandName": "Project",
+      "commandLineArgs": "\"E:\\KSP\\RO DEV\\GameData\\RealismOverhaul\\Engine_Configs\\LR79_Config.cfg\""
+    }
+  }
+}
