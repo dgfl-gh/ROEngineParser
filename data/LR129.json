@@ -1,0 +1,135 @@
+{
+  "Title": "LR129",
+  "Manufacturer": "Pratt & Whitney",
+  "Description": "Staged combustion sustainer engine developed for the USAF ISINGLASS spaceplane. After the ISINGLASS project was cancelled, it was adapted by P&W for their SSME proposal. It utilized staged combustion, mixture control and extendable nozzles to allow for versitility and high performance.",
+  "OriginalMass": 1.5966,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 0,
+  "DefaultConfig": "LR129",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 8.5
+  },
+  "EngineConfigs": {
+    "XLR129-P-1": {
+      "Propellants": {
+        "LqdHydrogen": 0.7276,
+        "LqdOxygen": 0.2724
+      },
+      "ConfigName": "XLR129-P-1",
+      "ConfigDescription": "Prototype for USAF ISINGLASS rocketplane",
+      "MaxThrust": 1085.4,
+      "MinThrust": 217.1,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 450.0,
+      "IspSeaLevel": 385.7,
+      "MinThrottle": 0.20001842,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 480,
+        "IgnitionReliabilityStart": 0.8491,
+        "IgnitionReliabilityEnd": 0.9091,
+        "CycleReliabilityStart": 0.8875,
+        "CycleReliabilityEnd": 0.9475
+      }
+    },
+    "LR129-P-1": {
+      "Propellants": {
+        "LqdHydrogen": 0.7276,
+        "LqdOxygen": 0.2724
+      },
+      "ConfigName": "LR129-P-1",
+      "ConfigDescription": "Production model for USAF ISINGLASS rocketplane",
+      "MaxThrust": 1112.1,
+      "MinThrust": 222.4,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 463.0,
+      "IspSeaLevel": 390.0,
+      "MinThrottle": 0.19998202,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 480,
+        "IgnitionReliabilityStart": 0.902,
+        "IgnitionReliabilityEnd": 0.962,
+        "CycleReliabilityStart": 0.9468,
+        "CycleReliabilityEnd": 0.9995
+      }
+    },
+    "LR129-P-2": {
+      "Propellants": {
+        "LqdHydrogen": 0.7276,
+        "LqdOxygen": 0.2724
+      },
+      "ConfigName": "LR129-P-2",
+      "ConfigDescription": "P&W proposal for Space Shuttle Main Engine",
+      "MaxThrust": 1556.9,
+      "MinThrust": 778.5,
+      "MassMult": 1.25,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 463.0,
+      "IspSeaLevel": 390.0,
+      "MinThrottle": 0.5000321,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 480,
+        "IgnitionReliabilityStart": 0.932,
+        "IgnitionReliabilityEnd": 0.992,
+        "CycleReliabilityStart": 0.872,
+        "CycleReliabilityEnd": 0.932
+      }
+    },
+    "LR129-P-3": {
+      "Propellants": {
+        "LqdHydrogen": 0.7276,
+        "LqdOxygen": 0.2724
+      },
+      "ConfigName": "LR129-P-3",
+      "ConfigDescription": "Speculative upgrade",
+      "MaxThrust": 1619.2,
+      "MinThrust": 809.6,
+      "MassMult": 1.25,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 463.0,
+      "IspSeaLevel": 390.0,
+      "MinThrottle": 0.5,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 480,
+        "IgnitionReliabilityStart": 0.9415,
+        "IgnitionReliabilityEnd": 0.9995,
+        "CycleReliabilityStart": 0.9415,
+        "CycleReliabilityEnd": 0.9995
+      }
+    }
+  }
+}

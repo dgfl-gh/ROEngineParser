@@ -1,0 +1,71 @@
+{
+  "Title": "SNTP-PFE100 Atomic Rocket Motor",
+  "Manufacturer": "Grumman & Aerojet",
+  "Description": null,
+  "OriginalMass": 1.5,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 0,
+  "DefaultConfig": "SNTPPFE100-Prototype",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 3.0
+  },
+  "EngineConfigs": {
+    "SNTPPFE100-Prototype": {
+      "Propellants": {
+        "LqdHydrogen": 1.0,
+        "EnrichedUranium": 1E-11
+      },
+      "ConfigName": "SNTPPFE100-Prototype",
+      "ConfigDescription": "LV-03/DE-01 technology demonstrator",
+      "MaxThrust": 206.0,
+      "MinThrust": 41.2,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 940.0,
+      "IspSeaLevel": 733.0,
+      "MinThrottle": 0.2,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 5,
+        "resources": {}
+      },
+      "Reliability": {
+        "RatedBurnTime": 600,
+        "IgnitionReliabilityStart": 0.99,
+        "IgnitionReliabilityEnd": 0.999997,
+        "CycleReliabilityStart": 0.999,
+        "CycleReliabilityEnd": 0.999997
+      }
+    },
+    "SNTPPFE100": {
+      "Propellants": {
+        "LqdHydrogen": 1.0,
+        "EnrichedUranium": 1E-11
+      },
+      "ConfigName": "SNTPPFE100",
+      "ConfigDescription": "Production engine predicted performance. Increased core temperature to 3000K and Carbon-Carbon turbopumps to handle higher flow rates and inlet temperatures",
+      "MaxThrust": 245.2,
+      "MinThrust": 49.0,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 954.0,
+      "IspSeaLevel": 747.0,
+      "MinThrottle": 0.19983687,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 15,
+        "resources": {}
+      },
+      "Reliability": {
+        "RatedBurnTime": 1050,
+        "IgnitionReliabilityStart": 0.99,
+        "IgnitionReliabilityEnd": 0.999997,
+        "CycleReliabilityStart": 0.999,
+        "CycleReliabilityEnd": 0.999997
+      }
+    }
+  }
+}

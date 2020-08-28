@@ -1,0 +1,39 @@
+{
+  "Title": "Antares IIA X-259",
+  "Manufacturer": "Allegany Ballistics Laboratory",
+  "Description": "The Antares II solid rocket motor was used as the third stage for the majority of the Scout launch vehicle launches.",
+  "OriginalMass": 0.116,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 1,
+  "DefaultConfig": "Antares-II",
+  "Gimbal": null,
+  "EngineConfigs": {
+    "Antares-II": {
+      "Propellants": {
+        "PBAN": 1.0
+      },
+      "ConfigName": "Antares-II",
+      "ConfigDescription": null,
+      "MaxThrust": 93.074554,
+      "MinThrust": 93.074554,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 281.4,
+      "IspSeaLevel": 200.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {}
+      },
+      "Reliability": {
+        "RatedBurnTime": 37,
+        "IgnitionReliabilityStart": 0.962264,
+        "IgnitionReliabilityEnd": 0.992453,
+        "CycleReliabilityStart": 0.962264,
+        "CycleReliabilityEnd": 0.992453
+      }
+    }
+  }
+}

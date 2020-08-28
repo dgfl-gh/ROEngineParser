@@ -1,0 +1,75 @@
+{
+  "Title": "J-2T",
+  "Manufacturer": "Rocketdyne",
+  "Description": "Aerospike. Using proven technology from the J-2 and introducing an aerospike nozzle to the developing J-2S machinery.",
+  "OriginalMass": 1.4,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 0,
+  "DefaultConfig": "J-2T-200K",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 7.0
+  },
+  "EngineConfigs": {
+    "J-2T-200K": {
+      "Propellants": {
+        "LqdHydrogen": 0.745,
+        "LqdOxygen": 0.255
+      },
+      "ConfigName": "J-2T-200K",
+      "ConfigDescription": null,
+      "MaxThrust": 889.3,
+      "MinThrust": 177.8,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 435.0,
+      "IspSeaLevel": 300.0,
+      "MinThrottle": 0.19993253,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 3,
+        "resources": {
+          "ElectricCharge": 2.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 500,
+        "IgnitionReliabilityStart": 0.9665,
+        "IgnitionReliabilityEnd": 0.9999,
+        "CycleReliabilityStart": 0.9665,
+        "CycleReliabilityEnd": 0.9999
+      }
+    },
+    "J-2T-250K": {
+      "Propellants": {
+        "LqdHydrogen": 0.745,
+        "LqdOxygen": 0.255
+      },
+      "ConfigName": "J-2T-250K",
+      "ConfigDescription": null,
+      "MaxThrust": 1111.6,
+      "MinThrust": 222.32,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 441.0,
+      "IspSeaLevel": 290.0,
+      "MinThrottle": 0.20000002,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 3,
+        "resources": {
+          "ElectricCharge": 2.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 500,
+        "IgnitionReliabilityStart": 0.9665,
+        "IgnitionReliabilityEnd": 0.9999,
+        "CycleReliabilityStart": 0.9665,
+        "CycleReliabilityEnd": 0.9999
+      }
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "Title": "R-4D",
+  "Manufacturer": "Aerojet (GenCorp)",
+  "Description": "A 490 N bipropellant thruster as found in the propulsion system of the ESA ATV and the Orion MPCV Service Module. The R-4D HiPAT or High Performance Liquid Apogee Thruster performs orbit-raising manoeuvres for many of the world's communication satellite platforms, including the Astrium Eurostar 3000, Boeing Space Systems 702HP, MELCO DS-2000 & the Loral LS-1300. The R-4D has also played a critical role in NASA missions such as Cassini's orbit insertion of Saturn.",
+  "OriginalMass": 0.00376,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 0,
+  "DefaultConfig": "R-4D-11",
+  "Gimbal": null,
+  "EngineConfigs": {
+    "R-4D-11": {
+      "Propellants": {
+        "MMH": 0.499,
+        "MON3": 0.501
+      },
+      "ConfigName": "R-4D-11",
+      "ConfigDescription": "164:1 nozzle ratio version used on the Cassini probe",
+      "MaxThrust": 0.49,
+      "MinThrust": 0.49,
+      "MassMult": 1.0,
+      "Ullage": false,
+      "PressureFed": true,
+      "IspVacuum": 311.0,
+      "IspSeaLevel": 155.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.0046
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 12000,
+        "IgnitionReliabilityStart": 0.98,
+        "IgnitionReliabilityEnd": 0.995,
+        "CycleReliabilityStart": 0.98,
+        "CycleReliabilityEnd": 0.9985
+      }
+    },
+    "HiPAT-445": {
+      "Propellants": {
+        "MMH": 0.499,
+        "MON3": 0.501
+      },
+      "ConfigName": "HiPAT-445",
+      "ConfigDescription": "375:1 nozzle ratio version",
+      "MaxThrust": 0.445,
+      "MinThrust": 0.445,
+      "MassMult": 1.4468,
+      "Ullage": false,
+      "PressureFed": true,
+      "IspVacuum": 323.0,
+      "IspSeaLevel": 155.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.005
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 0,
+        "IgnitionReliabilityStart": 0.0,
+        "IgnitionReliabilityEnd": 0.0,
+        "CycleReliabilityStart": 0.0,
+        "CycleReliabilityEnd": 0.0
+      }
+    },
+    "HiPAT-445-Dual": {
+      "Propellants": {
+        "MMH": 0.4003,
+        "MON3": 0.5997
+      },
+      "ConfigName": "HiPAT-445-Dual",
+      "ConfigDescription": "375:1 nozzle ratio version with improved efficiency",
+      "MaxThrust": 0.445,
+      "MinThrust": 0.445,
+      "MassMult": 1.4468,
+      "Ullage": false,
+      "PressureFed": true,
+      "IspVacuum": 329.0,
+      "IspSeaLevel": 155.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.005
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 0,
+        "IgnitionReliabilityStart": 0.0,
+        "IgnitionReliabilityEnd": 0.0,
+        "CycleReliabilityStart": 0.0,
+        "CycleReliabilityEnd": 0.0
+      }
+    }
+  }
+}

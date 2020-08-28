@@ -1,0 +1,67 @@
+{
+  "Title": "S5.98M",
+  "Manufacturer": "KB KhIMMASH",
+  "Description": "A staged combustion cycle hypergolic vacuum engine. Used on the Briz upper stage series.",
+  "OriginalMass": 0.095,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 0,
+  "DefaultConfig": "S5.98M",
+  "Gimbal": null,
+  "EngineConfigs": {
+    "S5.98M": {
+      "Propellants": {
+        "UDMH": 0.4782,
+        "NTO": 0.5218
+      },
+      "ConfigName": "S5.98M",
+      "ConfigDescription": null,
+      "MaxThrust": 19.61,
+      "MinThrust": 19.61,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 328.0,
+      "IspSeaLevel": 150.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 8,
+        "resources": {
+          "ElectricCharge": 0.01
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 0,
+        "IgnitionReliabilityStart": 0.0,
+        "IgnitionReliabilityEnd": 0.0,
+        "CycleReliabilityStart": 0.0,
+        "CycleReliabilityEnd": 0.0
+      }
+    },
+    "S5-98M": {
+      "Propellants": {},
+      "ConfigName": null,
+      "ConfigDescription": null,
+      "MaxThrust": 0.0,
+      "MinThrust": 0.0,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 0.0,
+      "IspSeaLevel": 0.0,
+      "MinThrottle": "NaN",
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Reliability": {
+        "RatedBurnTime": 0,
+        "IgnitionReliabilityStart": 0.0,
+        "IgnitionReliabilityEnd": 0.0,
+        "CycleReliabilityStart": 0.0,
+        "CycleReliabilityEnd": 0.0
+      }
+    }
+  }
+}

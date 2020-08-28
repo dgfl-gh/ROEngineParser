@@ -1,0 +1,39 @@
+{
+  "Title": "Castor 4",
+  "Manufacturer": "Thiokol",
+  "Description": "The Castor 4 was developed as the second stage of the Athena H missile and first flew in 1971. It was later adapted to replace Delta's Castor 2 boosters, increasing GTO capacity from 1593 lb (723 kg) to nearly 2000 lb (900 kg). The resulting Delta 3000-series launched in 1975 and was the first to adopt a staggered booster staging sequence. Previous Delta vehicles burned their motors in a 6-3 sequence and then jettisoned all SRMs at once. The heavier and longer-burning Castor 4 required that the ground-lit motors be jettisoned immediately after depletion to reduce dead weight. Early launches used a less efficient 5-4 sequence to reduce acceleration but returned to a 6-3 sequence after Delta was strengthened in the early 80s.",
+  "OriginalMass": 1.269,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 1,
+  "DefaultConfig": "Castor-4",
+  "Gimbal": null,
+  "EngineConfigs": {
+    "Castor-4": {
+      "Propellants": {
+        "PBAN": 1.0
+      },
+      "ConfigName": "Castor-4",
+      "ConfigDescription": null,
+      "MaxThrust": 460.0,
+      "MinThrust": 460.0,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 261.0,
+      "IspSeaLevel": 228.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Reliability": {
+        "RatedBurnTime": 54,
+        "IgnitionReliabilityStart": 0.99,
+        "IgnitionReliabilityEnd": 1.0,
+        "CycleReliabilityStart": 0.997076,
+        "CycleReliabilityEnd": 0.999415
+      }
+    }
+  }
+}

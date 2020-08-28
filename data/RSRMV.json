@@ -1,0 +1,42 @@
+{
+  "Title": "RSRMV",
+  "Manufacturer": "Orbital ATK",
+  "Description": "The 5-segment Reusable Solid Rocket Motor (RSRMV) was first studied as an upgrade for the Space Shuttle, and entered full-scale development for Ares I. Development continued for SLS after the cancellation of Ares. Nose Cone 6.50662m tall.",
+  "OriginalMass": 85.5,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 1,
+  "DefaultConfig": "RSRMV",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 8.0
+  },
+  "EngineConfigs": {
+    "RSRMV": {
+      "Propellants": {
+        "PBAN": 1.0
+      },
+      "ConfigName": "RSRMV",
+      "ConfigDescription": null,
+      "MaxThrust": 15800.0,
+      "MinThrust": 15800.0,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 266.0,
+      "IspSeaLevel": 242.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Reliability": {
+        "RatedBurnTime": 126,
+        "IgnitionReliabilityStart": 0.99,
+        "IgnitionReliabilityEnd": 1.0,
+        "CycleReliabilityStart": 0.995392,
+        "CycleReliabilityEnd": 0.999078
+      }
+    }
+  }
+}

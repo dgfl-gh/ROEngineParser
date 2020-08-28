@@ -1,0 +1,136 @@
+{
+  "Title": "Veronique",
+  "Manufacturer": "LRBA",
+  "Description": "Wasserfall derivative engine, developed by German and French engineers after WW2 for the sounding rocket of the same name. It was the first French high altitude sounding rocket",
+  "OriginalMass": 0.15,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 0,
+  "DefaultConfig": "VeroniqueR",
+  "Gimbal": null,
+  "EngineConfigs": {
+    "VeroniqueR": {
+      "Propellants": {
+        "Kerosene": 0.3971,
+        "IRFNA-III": 0.6029
+      },
+      "ConfigName": "VeroniqueR",
+      "ConfigDescription": "Prototype, used for early tests",
+      "MaxThrust": 44.4,
+      "MinThrust": 44.4,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 200.0,
+      "IspSeaLevel": 180.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "Tonka250": 1.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 0,
+        "IgnitionReliabilityStart": 0.85,
+        "IgnitionReliabilityEnd": 0.97,
+        "CycleReliabilityStart": 0.875,
+        "CycleReliabilityEnd": 0.975
+      }
+    },
+    "Veronique": {
+      "Propellants": {
+        "Kerosene": 0.3971,
+        "IRFNA-III": 0.6029
+      },
+      "ConfigName": "Veronique",
+      "ConfigDescription": "Production Engine",
+      "MaxThrust": 44.4,
+      "MinThrust": 44.4,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 200.0,
+      "IspSeaLevel": 180.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "Tonka250": 1.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 45,
+        "IgnitionReliabilityStart": 0.85,
+        "IgnitionReliabilityEnd": 0.97,
+        "CycleReliabilityStart": 0.648148,
+        "CycleReliabilityEnd": 0.92963
+      }
+    },
+    "VeroniqueAGI": {
+      "Propellants": {
+        "Turpentine": 0.3464,
+        "IWFNA": 0.6536
+      },
+      "ConfigName": "VeroniqueAGI",
+      "ConfigDescription": "Turpentine fuel for increased performance",
+      "MaxThrust": 43.6,
+      "MinThrust": 43.6,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 220.0,
+      "IspSeaLevel": 202.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "Tonka250": 1.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 49,
+        "IgnitionReliabilityStart": 0.85,
+        "IgnitionReliabilityEnd": 0.97,
+        "CycleReliabilityStart": 0.888889,
+        "CycleReliabilityEnd": 0.977778
+      }
+    },
+    "Veronique61": {
+      "Propellants": {
+        "Turpentine": 0.3464,
+        "IWFNA": 0.6536
+      },
+      "ConfigName": "Veronique61",
+      "ConfigDescription": "Uprated version",
+      "MaxThrust": 65.3,
+      "MinThrust": 65.3,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 220.0,
+      "IspSeaLevel": 202.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "Tonka250": 1.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 56,
+        "IgnitionReliabilityStart": 0.85,
+        "IgnitionReliabilityEnd": 0.97,
+        "CycleReliabilityStart": 0.954545,
+        "CycleReliabilityEnd": 0.990909
+      }
+    }
+  }
+}

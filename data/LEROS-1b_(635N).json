@@ -1,0 +1,102 @@
+{
+  "Title": "LEROS-1b (635N)",
+  "Manufacturer": "Moog ISP",
+  "Description": "LEROS is a family of chemical rocket engines manufactured by Moog-ISP. LEROS engines have been used as primary apogee engines for telecommunications satellites such as the Lockheed Martin A2100 as well as deep space missions such as Juno.",
+  "OriginalMass": 0.0045,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 0,
+  "DefaultConfig": "LEROS-1b",
+  "Gimbal": null,
+  "EngineConfigs": {
+    "LEROS-1b": {
+      "Propellants": {
+        "Hydrazine": 0.54,
+        "MON1": 0.46
+      },
+      "ConfigName": "LEROS-1b",
+      "ConfigDescription": "Used for deep space trajectory correction and planetary orbit insertion.",
+      "MaxThrust": 0.707,
+      "MinThrust": 0.587,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": true,
+      "IspVacuum": 317.0,
+      "IspSeaLevel": 155.0,
+      "MinThrottle": 0.83026874,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 70,
+        "resources": {
+          "ElectricCharge": 0.005
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 0,
+        "IgnitionReliabilityStart": 0.0,
+        "IgnitionReliabilityEnd": 0.0,
+        "CycleReliabilityStart": 0.0,
+        "CycleReliabilityEnd": 0.0
+      }
+    },
+    "LEROS-1c": {
+      "Propellants": {
+        "Hydrazine": 0.54,
+        "MON1": 0.46
+      },
+      "ConfigName": "LEROS-1c",
+      "ConfigDescription": null,
+      "MaxThrust": 0.47,
+      "MinThrust": 0.386,
+      "MassMult": 0.9556,
+      "Ullage": false,
+      "PressureFed": true,
+      "IspVacuum": 324.0,
+      "IspSeaLevel": 155.0,
+      "MinThrottle": 0.8212766,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 72,
+        "resources": {
+          "ElectricCharge": 0.005
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 0,
+        "IgnitionReliabilityStart": 0.0,
+        "IgnitionReliabilityEnd": 0.0,
+        "CycleReliabilityStart": 0.0,
+        "CycleReliabilityEnd": 0.0
+      }
+    },
+    "LEROS-2b": {
+      "Propellants": {
+        "MMH": 0.6,
+        "MON3": 0.4
+      },
+      "ConfigName": "LEROS-2b",
+      "ConfigDescription": null,
+      "MaxThrust": 0.456,
+      "MinThrust": 0.367,
+      "MassMult": 1.1111,
+      "Ullage": false,
+      "PressureFed": true,
+      "IspVacuum": 318.0,
+      "IspSeaLevel": 155.0,
+      "MinThrottle": 0.8048246,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 75,
+        "resources": {
+          "ElectricCharge": 0.005
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 0,
+        "IgnitionReliabilityStart": 0.0,
+        "IgnitionReliabilityEnd": 0.0,
+        "CycleReliabilityStart": 0.0,
+        "CycleReliabilityEnd": 0.0
+      }
+    }
+  }
+}

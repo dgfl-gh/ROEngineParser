@@ -1,0 +1,42 @@
+{
+  "Title": "Algol IB",
+  "Manufacturer": "Aerojet Rocketdyne",
+  "Description": "First stage solid rocket motor used on the early X-1 and X-2 Scout launch vehicles.",
+  "OriginalMass": 1.402325,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 1,
+  "DefaultConfig": "Algol-I",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 6.0
+  },
+  "EngineConfigs": {
+    "Algol-I": {
+      "Propellants": {
+        "HTPB": 1.0
+      },
+      "ConfigName": "Algol-I",
+      "ConfigDescription": null,
+      "MaxThrust": 493.6442,
+      "MinThrust": 493.6442,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 241.4,
+      "IspSeaLevel": 214.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {}
+      },
+      "Reliability": {
+        "RatedBurnTime": 45,
+        "IgnitionReliabilityStart": 0.99,
+        "IgnitionReliabilityEnd": 0.9999,
+        "CycleReliabilityStart": 0.944444,
+        "CycleReliabilityEnd": 0.988889
+      }
+    }
+  }
+}

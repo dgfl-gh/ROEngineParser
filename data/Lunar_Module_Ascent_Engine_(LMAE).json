@@ -1,0 +1,42 @@
+{
+  "Title": "Lunar Module Ascent Engine (LMAE)",
+  "Manufacturer": "Bell / Rocketdyne",
+  "Description": "Pressure-fed engine used for the ascent module of the Apollo lunar lander.",
+  "OriginalMass": 0.095,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 0,
+  "DefaultConfig": "LMAE",
+  "Gimbal": null,
+  "EngineConfigs": {
+    "LMAE": {
+      "Propellants": {
+        "Aerozine50": 0.5017,
+        "NTO": 0.4983
+      },
+      "ConfigName": "LMAE",
+      "ConfigDescription": null,
+      "MaxThrust": 15.57,
+      "MinThrust": 15.57,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": true,
+      "IspVacuum": 311.0,
+      "IspSeaLevel": 100.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.1
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 0,
+        "IgnitionReliabilityStart": 0.0,
+        "IgnitionReliabilityEnd": 0.0,
+        "CycleReliabilityStart": 0.0,
+        "CycleReliabilityEnd": 0.0
+      }
+    }
+  }
+}

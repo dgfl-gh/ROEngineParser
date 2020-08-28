@@ -1,0 +1,105 @@
+{
+  "Title": "LE-7 Series",
+  "Manufacturer": "Mitsubishi Heavy Industries",
+  "Description": "1990s medium TWR, atmospheric and vacuum use. Fuel-rich staged combustion engines used on the core stage of H-II series launchers. The original LE-7 was replaced by the LE-7A, which sacrificed some performance in favor of reduced cost and better reliability.",
+  "OriginalMass": 1.72,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 0,
+  "DefaultConfig": "LE-7",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 7.0
+  },
+  "EngineConfigs": {
+    "LE-7": {
+      "Propellants": {
+        "LqdHydrogen": 0.729,
+        "LqdOxygen": 0.271
+      },
+      "ConfigName": "LE-7",
+      "ConfigDescription": "Developed as a first stage engine for the Japanese H-II.",
+      "MaxThrust": 1078.0,
+      "MinThrust": 1078.0,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 446.0,
+      "IspSeaLevel": 349.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 350,
+        "IgnitionReliabilityStart": 0.857143,
+        "IgnitionReliabilityEnd": 0.971429,
+        "CycleReliabilityStart": 0.857143,
+        "CycleReliabilityEnd": 0.971429
+      }
+    },
+    "LE-7A": {
+      "Propellants": {
+        "LqdHydrogen": 0.732,
+        "LqdOxygen": 0.268
+      },
+      "ConfigName": "LE-7A",
+      "ConfigDescription": "Simplified design for the H-IIA. Lower cost and better reliability, at the cost of lower performance. Intended to have a nozzle extension, but it had to be removed due to unexpected combustion instability issues.",
+      "MaxThrust": 1074.0,
+      "MinThrust": 773.0,
+      "MassMult": 0.99709,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 429.0,
+      "IspSeaLevel": 326.0,
+      "MinThrottle": 0.7197393,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 400,
+        "IgnitionReliabilityStart": 0.97619,
+        "IgnitionReliabilityEnd": 0.995238,
+        "CycleReliabilityStart": 0.97619,
+        "CycleReliabilityEnd": 0.995238
+      }
+    },
+    "LE-7A-2": {
+      "Propellants": {
+        "LqdHydrogen": 0.732,
+        "LqdOxygen": 0.268
+      },
+      "ConfigName": "LE-7A-2",
+      "ConfigDescription": "A Redesigned nozzle extension allowed for the LE-7A to achieve its intended performance, at the cost of slightly more weight.",
+      "MaxThrust": 1098.0,
+      "MinThrust": 790.0,
+      "MassMult": 1.06512,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 440.0,
+      "IspSeaLevel": 338.0,
+      "MinThrottle": 0.71949,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 400,
+        "IgnitionReliabilityStart": 0.947368,
+        "IgnitionReliabilityEnd": 0.989474,
+        "CycleReliabilityStart": 0.947368,
+        "CycleReliabilityEnd": 0.989474
+      }
+    }
+  }
+}

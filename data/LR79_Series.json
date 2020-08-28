@@ -1,0 +1,170 @@
+{
+  "Title": "LR79 Series",
+  "Manufacturer": "Rocketdyne",
+  "Description": "Long-lasting US Kerolox gas-generator booster engine. The same components and broadly the same performance as the LR89, the LR79 (also known as S-3D in Jupiter / Juno II) powered Jupiter, Thor, and Thor-Delta (Delta) rockets.",
+  "OriginalMass": 0.945,
+  "LiteralZeroIgnitions": true,
+  "EngineType": 0,
+  "DefaultConfig": "S-3",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 8.0
+  },
+  "EngineConfigs": {
+    "S-3": {
+      "Propellants": {
+        "Kerosene": 0.3929,
+        "LqdOxygen": 0.6071
+      },
+      "ConfigName": "S-3",
+      "ConfigDescription": "Main R&D engine for the early Thor DM-18 variant",
+      "MaxThrust": 696.6,
+      "MinThrust": 696.6,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 288.0,
+      "IspSeaLevel": 248.0,
+      "MinThrottle": 1.0,
+      "AirLightable": true,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 182,
+        "IgnitionReliabilityStart": 0.833333,
+        "IgnitionReliabilityEnd": 0.966667,
+        "CycleReliabilityStart": 0.833333,
+        "CycleReliabilityEnd": 0.966667
+      }
+    },
+    "S-3D": {
+      "Propellants": {
+        "Kerosene": 0.3929,
+        "LqdOxygen": 0.6071
+      },
+      "ConfigName": "S-3D",
+      "ConfigDescription": "Main engine for the Jupiter / Juno II launch vehicle",
+      "MaxThrust": 766.34,
+      "MinThrust": 766.34,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 288.0,
+      "IspSeaLevel": 248.0,
+      "MinThrottle": 1.0,
+      "AirLightable": true,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 182,
+        "IgnitionReliabilityStart": 0.882353,
+        "IgnitionReliabilityEnd": 0.976471,
+        "CycleReliabilityStart": 0.882353,
+        "CycleReliabilityEnd": 0.976471
+      }
+    },
+    "LR79-NA-9": {
+      "Propellants": {
+        "Kerosene": 0.3929,
+        "LqdOxygen": 0.6071
+      },
+      "ConfigName": "LR79-NA-9",
+      "ConfigDescription": "Main engine for MB-3-I propulsion system",
+      "MaxThrust": 783.0,
+      "MinThrust": 783.0,
+      "MassMult": 0.988,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 284.0,
+      "IspSeaLevel": 245.0,
+      "MinThrottle": 1.0,
+      "AirLightable": true,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 165,
+        "IgnitionReliabilityStart": 0.789773,
+        "IgnitionReliabilityEnd": 0.957955,
+        "CycleReliabilityStart": 0.789773,
+        "CycleReliabilityEnd": 0.957955
+      }
+    },
+    "LR79-NA-11": {
+      "Propellants": {
+        "Kerosene": 0.3929,
+        "LqdOxygen": 0.6071
+      },
+      "ConfigName": "LR79-NA-11",
+      "ConfigDescription": "Main engine for MB-3-II propulsion system",
+      "MaxThrust": 850.0,
+      "MinThrust": 850.0,
+      "MassMult": 0.977,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 286.2,
+      "IspSeaLevel": 248.3,
+      "MinThrottle": 1.0,
+      "AirLightable": true,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 165,
+        "IgnitionReliabilityStart": 0.936364,
+        "IgnitionReliabilityEnd": 0.987273,
+        "CycleReliabilityStart": 0.936364,
+        "CycleReliabilityEnd": 0.987273
+      }
+    },
+    "LR79-NA-13": {
+      "Propellants": {
+        "Kerosene": 0.3929,
+        "LqdOxygen": 0.6071
+      },
+      "ConfigName": "LR79-NA-13",
+      "ConfigDescription": "Main engine for MB-3-III propulsion system",
+      "MaxThrust": 873.0,
+      "MinThrust": 873.0,
+      "MassMult": 0.965,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 290.93,
+      "IspSeaLevel": 252.4,
+      "MinThrottle": 1.0,
+      "AirLightable": true,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 260,
+        "IgnitionReliabilityStart": 0.964646,
+        "IgnitionReliabilityEnd": 0.992929,
+        "CycleReliabilityStart": 0.964646,
+        "CycleReliabilityEnd": 0.992929
+      }
+    }
+  }
+}

@@ -1,0 +1,335 @@
+{
+  "Title": "RD-108 Series",
+  "Manufacturer": "NPO Energomash [Glushko]",
+  "Description": "Core engine for the R-7 Semyorka and its derivatives, including the Sputnik, Luna, Voskhod, Vostok, Soyuz, and Molniya launch vehicles.\tDiffers from the booster engine series (RD-107) with a lower chamber pressure, thrust, and a wider vernier layout.\tPowers the R-7 family core through a very long (roughly) five minute burn that starts on the pad alongside the boosters.",
+  "OriginalMass": 1.278,
+  "LiteralZeroIgnitions": true,
+  "EngineType": 0,
+  "DefaultConfig": "RD-108-8D75",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 4.5
+  },
+  "EngineConfigs": {
+    "RD-108-8D75": {
+      "Propellants": {
+        "Kerosene": 0.368,
+        "LqdOxygen": 0.632,
+        "HTP": 0.0195
+      },
+      "ConfigName": "RD-108-8D75",
+      "ConfigDescription": "Used on R-7 8K71",
+      "MaxThrust": 941.44,
+      "MinThrust": 941.44,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 314.68,
+      "IspSeaLevel": 247.71,
+      "MinThrottle": 1.0,
+      "AirLightable": true,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 340,
+        "IgnitionReliabilityStart": 0.915385,
+        "IgnitionReliabilityEnd": 0.983077,
+        "CycleReliabilityStart": 0.915385,
+        "CycleReliabilityEnd": 0.983077
+      }
+    },
+    "RD-108-8D75PS": {
+      "Propellants": {
+        "Kerosene": 0.368,
+        "LqdOxygen": 0.632,
+        "HTP": 0.0195
+      },
+      "ConfigName": "RD-108-8D75PS",
+      "ConfigDescription": "Used on Sputnik 8K71PS",
+      "MaxThrust": 918.3,
+      "MinThrust": 918.3,
+      "MassMult": 0.9774,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 308.0,
+      "IspSeaLevel": 241.0,
+      "MinThrottle": 1.0,
+      "AirLightable": true,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 340,
+        "IgnitionReliabilityStart": 0.909091,
+        "IgnitionReliabilityEnd": 0.981818,
+        "CycleReliabilityStart": 0.909091,
+        "CycleReliabilityEnd": 0.981818
+      }
+    },
+    "RD-108-8D77": {
+      "Propellants": {
+        "Kerosene": 0.368,
+        "LqdOxygen": 0.632,
+        "HTP": 0.0195
+      },
+      "ConfigName": "RD-108-8D77",
+      "ConfigDescription": "Used on Sputnik 8A91",
+      "MaxThrust": 803.2,
+      "MinThrust": 803.2,
+      "MassMult": 0.9774,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 315.0,
+      "IspSeaLevel": 246.0,
+      "MinThrottle": 1.0,
+      "AirLightable": true,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 340,
+        "IgnitionReliabilityStart": 0.9,
+        "IgnitionReliabilityEnd": 0.98,
+        "CycleReliabilityStart": 0.9,
+        "CycleReliabilityEnd": 0.98
+      }
+    },
+    "RD-108-8D75-1958": {
+      "Propellants": {
+        "Kerosene": 0.368,
+        "LqdOxygen": 0.632,
+        "HTP": 0.0195
+      },
+      "ConfigName": "RD-108-8D75-1958",
+      "ConfigDescription": "Used on Luna 8K72",
+      "MaxThrust": 945.4,
+      "MinThrust": 945.4,
+      "MassMult": 0.9774,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 315.0,
+      "IspSeaLevel": 246.0,
+      "MinThrottle": 1.0,
+      "AirLightable": true,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 340,
+        "IgnitionReliabilityStart": 0.938462,
+        "IgnitionReliabilityEnd": 0.987692,
+        "CycleReliabilityStart": 0.938462,
+        "CycleReliabilityEnd": 0.987692
+      }
+    },
+    "RD-108-8D75-1959": {
+      "Propellants": {
+        "Kerosene": 0.368,
+        "LqdOxygen": 0.632,
+        "HTP": 0.0195
+      },
+      "ConfigName": "RD-108-8D75-1959",
+      "ConfigDescription": "Used on Vostok 8K72K",
+      "MaxThrust": 941.0,
+      "MinThrust": 941.0,
+      "MassMult": 0.9774,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 315.0,
+      "IspSeaLevel": 248.0,
+      "MinThrottle": 1.0,
+      "AirLightable": true,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 340,
+        "IgnitionReliabilityStart": 0.984848,
+        "IgnitionReliabilityEnd": 0.99697,
+        "CycleReliabilityStart": 0.984848,
+        "CycleReliabilityEnd": 0.99697
+      }
+    },
+    "RD-108-8D75K": {
+      "Propellants": {
+        "Kerosene": 0.368,
+        "LqdOxygen": 0.632,
+        "HTP": 0.0195
+      },
+      "ConfigName": "RD-108-8D75K",
+      "ConfigDescription": "Used on Molniya 8K78 and Voskhod 11A57-1",
+      "MaxThrust": 941.47,
+      "MinThrust": 941.47,
+      "MassMult": 0.979,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 315.0,
+      "IspSeaLevel": 248.1,
+      "MinThrottle": 1.0,
+      "AirLightable": true,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 340,
+        "IgnitionReliabilityStart": 0.99941,
+        "IgnitionReliabilityEnd": 0.999882,
+        "CycleReliabilityStart": 0.99941,
+        "CycleReliabilityEnd": 0.999882
+      }
+    },
+    "RD-108-8D727": {
+      "Propellants": {
+        "Kerosene": 0.368,
+        "LqdOxygen": 0.632,
+        "HTP": 0.0195
+      },
+      "ConfigName": "RD-108-8D727",
+      "ConfigDescription": "Used on Molniya-M 8K78M and Soyuz 11A511",
+      "MaxThrust": 973.8,
+      "MinThrust": 973.8,
+      "MassMult": 0.9612,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 315.81,
+      "IspSeaLevel": 252.79,
+      "MinThrottle": 1.0,
+      "AirLightable": true,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 340,
+        "IgnitionReliabilityStart": 0.999286,
+        "IgnitionReliabilityEnd": 0.999857,
+        "CycleReliabilityStart": 0.999286,
+        "CycleReliabilityEnd": 0.999857
+      }
+    },
+    "RD-108-11D512": {
+      "Propellants": {
+        "Kerosene": 0.368,
+        "LqdOxygen": 0.632,
+        "HTP": 0.0195
+      },
+      "ConfigName": "RD-108-11D512",
+      "ConfigDescription": "Used on Soyuz-U 11A511U (also known as RD-118)",
+      "MaxThrust": 999.3,
+      "MinThrust": 999.3,
+      "MassMult": 1.0985,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 314.58,
+      "IspSeaLevel": 256.87,
+      "MinThrottle": 1.0,
+      "AirLightable": true,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 340,
+        "IgnitionReliabilityStart": 0.999227,
+        "IgnitionReliabilityEnd": 0.999845,
+        "CycleReliabilityStart": 0.999227,
+        "CycleReliabilityEnd": 0.999845
+      }
+    },
+    "RD-108-11D512P": {
+      "Propellants": {
+        "Syntin": 0.3594,
+        "LqdOxygen": 0.6406,
+        "HTP": 0.0195
+      },
+      "ConfigName": "RD-108-11D512P",
+      "ConfigDescription": "Used on Soyuz-U2 11A511U2 (also known as RD-118P)",
+      "MaxThrust": 1011.0,
+      "MinThrust": 1011.0,
+      "MassMult": 1.0985,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 319.0,
+      "IspSeaLevel": 263.5,
+      "MinThrottle": 1.0,
+      "AirLightable": true,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 340,
+        "IgnitionReliabilityStart": 0.99723,
+        "IgnitionReliabilityEnd": 0.999446,
+        "CycleReliabilityStart": 0.99723,
+        "CycleReliabilityEnd": 0.999446
+      }
+    },
+    "RD-108A-14D21": {
+      "Propellants": {
+        "Kerosene": 0.368,
+        "LqdOxygen": 0.632,
+        "HTP": 0.0195
+      },
+      "ConfigName": "RD-108A-14D21",
+      "ConfigDescription": "Used on Soyuz-FG",
+      "MaxThrust": 990.47,
+      "MinThrust": 990.47,
+      "MassMult": 0.836,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 320.39,
+      "IspSeaLevel": 257.48,
+      "MinThrottle": 1.0,
+      "AirLightable": true,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 340,
+        "IgnitionReliabilityStart": 0.997732,
+        "IgnitionReliabilityEnd": 0.999546,
+        "CycleReliabilityStart": 0.997732,
+        "CycleReliabilityEnd": 0.999546
+      }
+    }
+  }
+}

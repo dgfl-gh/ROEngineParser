@@ -1,0 +1,43 @@
+{
+  "Title": "NERVA II",
+  "Manufacturer": "Aerojet",
+  "Description": "A later 70s atomic engine. Relatively low TWR but high ISP and power generation of 4200 MW. Derived from the Phoebus 2A ground demonstrator, tested in 1968.",
+  "OriginalMass": 12.94,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 0,
+  "DefaultConfig": "NERVA-II",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 3.0
+  },
+  "EngineConfigs": {
+    "NERVA-II": {
+      "Propellants": {
+        "LqdHydrogen": 1.0,
+        "EnrichedUranium": 1E-11
+      },
+      "ConfigName": "NERVA-II",
+      "ConfigDescription": null,
+      "MaxThrust": 867.0,
+      "MinThrust": 750.0,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 850.0,
+      "IspSeaLevel": 380.0,
+      "MinThrottle": 0.8650519,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 60,
+        "resources": {}
+      },
+      "Reliability": {
+        "RatedBurnTime": 36000,
+        "IgnitionReliabilityStart": 0.99,
+        "IgnitionReliabilityEnd": 0.999997,
+        "CycleReliabilityStart": 0.999,
+        "CycleReliabilityEnd": 0.999997
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "Title": "STAR 17",
+  "Manufacturer": "Thiokol",
+  "Description": "Small apogee kick motor for satellites, introduced in 1968 on Delta 57. Max thrust 12.34kN, burn time 18 seconds.",
+  "OriginalMass": 0.00853,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 1,
+  "DefaultConfig": "STAR-17",
+  "Gimbal": null,
+  "EngineConfigs": {
+    "STAR-17": {
+      "Propellants": {
+        "HTPB": 1.0
+      },
+      "ConfigName": "STAR-17",
+      "ConfigDescription": null,
+      "MaxThrust": 12.343,
+      "MinThrust": 12.343,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 286.2,
+      "IspSeaLevel": 140.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {}
+      },
+      "Reliability": {
+        "RatedBurnTime": 0,
+        "IgnitionReliabilityStart": 0.0,
+        "IgnitionReliabilityEnd": 0.0,
+        "CycleReliabilityStart": 0.0,
+        "CycleReliabilityEnd": 0.0
+      }
+    },
+    "Star-17": {
+      "Propellants": {},
+      "ConfigName": null,
+      "ConfigDescription": null,
+      "MaxThrust": 0.0,
+      "MinThrust": 0.0,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 0.0,
+      "IspSeaLevel": 0.0,
+      "MinThrottle": "NaN",
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Reliability": {
+        "RatedBurnTime": 0,
+        "IgnitionReliabilityStart": 0.0,
+        "IgnitionReliabilityEnd": 0.0,
+        "CycleReliabilityStart": 0.0,
+        "CycleReliabilityEnd": 0.0
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "Title": "YF-77",
+  "Manufacturer": "AALPT",
+  "Description": "A Hydrolox engine used on the Long March 5 Rocket.",
+  "OriginalMass": 1.375,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 0,
+  "DefaultConfig": "YF-77",
+  "Gimbal": null,
+  "EngineConfigs": {
+    "YF-77": {
+      "Propellants": {
+        "LqdHydrogen": 0.8459,
+        "LqdOxygen": 0.1541
+      },
+      "ConfigName": "YF-77",
+      "ConfigDescription": null,
+      "MaxThrust": 700.0,
+      "MinThrust": 700.0,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 426.0,
+      "IspSeaLevel": 310.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Reliability": {
+        "RatedBurnTime": 485,
+        "IgnitionReliabilityStart": 0.875,
+        "IgnitionReliabilityEnd": 0.975,
+        "CycleReliabilityStart": 0.875,
+        "CycleReliabilityEnd": 0.975
+      }
+    }
+  }
+}

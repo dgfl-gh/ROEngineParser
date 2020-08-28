@@ -1,0 +1,75 @@
+{
+  "Title": "Vulcain Series",
+  "Manufacturer": "Snecma",
+  "Description": "1990s high TWR, atmospheric and vacuum use. Vulcain is a gas-generator sustainer engine used on Ariane 5 and intended to be used on Ariane 6.",
+  "OriginalMass": 1.8,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 0,
+  "DefaultConfig": "Vulcain",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 6.0
+  },
+  "EngineConfigs": {
+    "Vulcain": {
+      "Propellants": {
+        "LqdHydrogen": 0.732,
+        "LqdOxygen": 0.268
+      },
+      "ConfigName": "Vulcain",
+      "ConfigDescription": null,
+      "MaxThrust": 1113.0,
+      "MinThrust": 1113.0,
+      "MassMult": 0.72,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 439.0,
+      "IspSeaLevel": 315.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 580,
+        "IgnitionReliabilityStart": 0.961538,
+        "IgnitionReliabilityEnd": 0.992308,
+        "CycleReliabilityStart": 0.961538,
+        "CycleReliabilityEnd": 0.992308
+      }
+    },
+    "Vulcain-2": {
+      "Propellants": {
+        "LqdHydrogen": 0.706,
+        "LqdOxygen": 0.294
+      },
+      "ConfigName": "Vulcain-2",
+      "ConfigDescription": "Upgrade, utilizing flim cooling and new turbopumps for higher thrust.",
+      "MaxThrust": 1359.0,
+      "MinThrust": 1359.0,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 429.0,
+      "IspSeaLevel": 320.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 580,
+        "IgnitionReliabilityStart": 0.987952,
+        "IgnitionReliabilityEnd": 0.99759,
+        "CycleReliabilityStart": 0.987952,
+        "CycleReliabilityEnd": 0.99759
+      }
+    }
+  }
+}

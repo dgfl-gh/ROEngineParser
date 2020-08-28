@@ -1,0 +1,42 @@
+{
+  "Title": "Castor 30XL",
+  "Manufacturer": "Northrop Grumman",
+  "Description": "The CASTOR 30XL is more than a stretched version of the CASTOR 30. The motor is 235.8 inches long and nominally designed as an upper stage that can function as a second or third stage depending on the vehicle configuration. The nozzle is 8 feet long with a submerged design with a high-performance expansion ratio (55.9:1) and a dual density exit cone well suited for high altitude operation. It features an electro-mechanical TVA system with actuators, thermal battery and electronic controller.",
+  "OriginalMass": 2.3,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 1,
+  "DefaultConfig": "Castor-30XL",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 3.5
+  },
+  "EngineConfigs": {
+    "Castor-30XL": {
+      "Propellants": {
+        "HTPB": 1.0
+      },
+      "ConfigName": "Castor-30XL",
+      "ConfigDescription": null,
+      "MaxThrust": 533.3418,
+      "MinThrust": 533.3418,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 294.4,
+      "IspSeaLevel": 200.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Reliability": {
+        "RatedBurnTime": 156,
+        "IgnitionReliabilityStart": 0.99,
+        "IgnitionReliabilityEnd": 0.999,
+        "CycleReliabilityStart": 0.99,
+        "CycleReliabilityEnd": 0.9999
+      }
+    }
+  }
+}

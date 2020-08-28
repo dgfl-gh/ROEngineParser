@@ -1,0 +1,325 @@
+{
+  "Title": "Merlin 1 Series",
+  "Manufacturer": "SpaceX",
+  "Description": "The whole family of Merlin 1 rocket engines, made by SpaceX.",
+  "OriginalMass": 0.76,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 0,
+  "DefaultConfig": "Merlin1A",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 5.0
+  },
+  "EngineConfigs": {
+    "Merlin1A": {
+      "Propellants": {
+        "Kerosene": 0.3907,
+        "LqdOxygen": 0.6093
+      },
+      "ConfigName": "Merlin1A",
+      "ConfigDescription": "Used on Falcon 1 first stage",
+      "MaxThrust": 369.2,
+      "MinThrust": 369.2,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 288.5,
+      "IspSeaLevel": 253.7,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 4.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 300,
+        "IgnitionReliabilityStart": 0.8,
+        "IgnitionReliabilityEnd": 0.96,
+        "CycleReliabilityStart": 0.8,
+        "CycleReliabilityEnd": 0.96
+      }
+    },
+    "Merlin1B": {
+      "Propellants": {
+        "Kerosene": 0.3907,
+        "LqdOxygen": 0.6093
+      },
+      "ConfigName": "Merlin1B",
+      "ConfigDescription": null,
+      "MaxThrust": 394.6,
+      "MinThrust": 394.6,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 302.3,
+      "IspSeaLevel": 260.8,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 4.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 300,
+        "IgnitionReliabilityStart": 0.98,
+        "IgnitionReliabilityEnd": 0.995,
+        "CycleReliabilityStart": 0.98,
+        "CycleReliabilityEnd": 0.995
+      }
+    },
+    "Merlin1BVac": {
+      "Propellants": {
+        "Kerosene": 0.3907,
+        "LqdOxygen": 0.6093
+      },
+      "ConfigName": "Merlin1BVac",
+      "ConfigDescription": null,
+      "MaxThrust": 421.6,
+      "MinThrust": 421.6,
+      "MassMult": 1.2,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 332.1,
+      "IspSeaLevel": 195.5,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 4.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 345,
+        "IgnitionReliabilityStart": 0.98,
+        "IgnitionReliabilityEnd": 0.995,
+        "CycleReliabilityStart": 0.98,
+        "CycleReliabilityEnd": 0.995
+      }
+    },
+    "Merlin1C": {
+      "Propellants": {
+        "Kerosene": 0.3907,
+        "LqdOxygen": 0.6093
+      },
+      "ConfigName": "Merlin1C",
+      "ConfigDescription": "Used on Falcon 9 Block 1 (v1.0)",
+      "MaxThrust": 482.63,
+      "MinThrust": 482.63,
+      "MassMult": 0.829,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 304.8,
+      "IspSeaLevel": 267.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 4.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 300,
+        "IgnitionReliabilityStart": 0.977778,
+        "IgnitionReliabilityEnd": 0.995556,
+        "CycleReliabilityStart": 0.977778,
+        "CycleReliabilityEnd": 0.995556
+      }
+    },
+    "Merlin1CVac": {
+      "Propellants": {
+        "Kerosene": 0.3907,
+        "LqdOxygen": 0.6093
+      },
+      "ConfigName": "Merlin1CVac",
+      "ConfigDescription": "Used on Falcon 9 Block 1 (v1.0)",
+      "MaxThrust": 524.9,
+      "MinThrust": 314.94,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 336.0,
+      "IspSeaLevel": 173.0,
+      "MinThrottle": 0.59999996,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 4,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 345,
+        "IgnitionReliabilityStart": 0.833333,
+        "IgnitionReliabilityEnd": 0.966667,
+        "CycleReliabilityStart": 0.833333,
+        "CycleReliabilityEnd": 0.966667
+      }
+    },
+    "Merlin1D": {
+      "Propellants": {
+        "Kerosene": 0.3729,
+        "LqdOxygen": 0.6271
+      },
+      "ConfigName": "Merlin1D",
+      "ConfigDescription": "Used on Falcon 9 v1.1",
+      "MaxThrust": 742.4,
+      "MinThrust": 290.0,
+      "MassMult": 0.6184,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 311.0,
+      "IspSeaLevel": 282.0,
+      "MinThrottle": 0.390625,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 4,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 350,
+        "IgnitionReliabilityStart": 0.993711,
+        "IgnitionReliabilityEnd": 0.998742,
+        "CycleReliabilityStart": 0.992593,
+        "CycleReliabilityEnd": 0.998519
+      }
+    },
+    "Merlin1D+": {
+      "Propellants": {
+        "Kerosene": 0.3729,
+        "LqdOxygen": 0.6271
+      },
+      "ConfigName": "Merlin1D+",
+      "ConfigDescription": "Used on Falcon 9 v1.2 (Full Thrust)",
+      "MaxThrust": 825.0,
+      "MinThrust": 330.0,
+      "MassMult": 0.6184,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 311.0,
+      "IspSeaLevel": 282.0,
+      "MinThrottle": 0.4,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 4,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 350,
+        "IgnitionReliabilityStart": 0.997481,
+        "IgnitionReliabilityEnd": 0.999496,
+        "CycleReliabilityStart": 0.996923,
+        "CycleReliabilityEnd": 0.999385
+      }
+    },
+    "Merlin1D++": {
+      "Propellants": {
+        "Kerosene": 0.3729,
+        "LqdOxygen": 0.6271
+      },
+      "ConfigName": "Merlin1D++",
+      "ConfigDescription": "Used on Falcon 9 Block 5",
+      "MaxThrust": 914.12,
+      "MinThrust": 330.0,
+      "MassMult": 0.6184,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 311.0,
+      "IspSeaLevel": 288.5,
+      "MinThrottle": 0.36100292,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 4,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 350,
+        "IgnitionReliabilityStart": 0.998689,
+        "IgnitionReliabilityEnd": 0.999738,
+        "CycleReliabilityStart": 0.998316,
+        "CycleReliabilityEnd": 0.999663
+      }
+    },
+    "Merlin1DVac": {
+      "Propellants": {
+        "Kerosene": 0.3709,
+        "LqdOxygen": 0.6291
+      },
+      "ConfigName": "Merlin1DVac",
+      "ConfigDescription": "Used on Falcon 9 v1.1",
+      "MaxThrust": 805.0,
+      "MinThrust": 360.0,
+      "MassMult": 0.6447,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 345.0,
+      "IspSeaLevel": 200.0,
+      "MinThrottle": 0.44720498,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 4,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 375,
+        "IgnitionReliabilityStart": 0.965517,
+        "IgnitionReliabilityEnd": 0.993103,
+        "CycleReliabilityStart": 0.933333,
+        "CycleReliabilityEnd": 0.986667
+      }
+    },
+    "Merlin1DVac+": {
+      "Propellants": {
+        "Kerosene": 0.3709,
+        "LqdOxygen": 0.6291
+      },
+      "ConfigName": "Merlin1DVac+",
+      "ConfigDescription": "Used on Falcon 9 v1.2 (Full Thrust and Block 5)",
+      "MaxThrust": 934.12,
+      "MinThrust": 360.0,
+      "MassMult": 0.6447,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 348.0,
+      "IspSeaLevel": 200.0,
+      "MinThrottle": 0.38538945,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 4,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 400,
+        "IgnitionReliabilityStart": 0.992481,
+        "IgnitionReliabilityEnd": 0.998496,
+        "CycleReliabilityStart": 0.985075,
+        "CycleReliabilityEnd": 0.997015
+      }
+    }
+  }
+}

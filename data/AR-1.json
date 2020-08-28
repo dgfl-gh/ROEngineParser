@@ -1,0 +1,46 @@
+{
+  "Title": "AR-1",
+  "Manufacturer": "Aerojet Rocketdyne",
+  "Description": "The AR-1 is a 2,200-kilonewton-class (500,000 lbf) thrust RP-1/LOX advanced oxidizer-rich staged combustion cycle engine. Two of those were proposed to replace the Russian made RD-180 on the Atlas V rocket. Development of this engine was halted, because Aerojet Rocketdyne wasn't willing to do it within its own budget.",
+  "OriginalMass": 2.85,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 0,
+  "DefaultConfig": "AR-1",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 8.0
+  },
+  "EngineConfigs": {
+    "AR-1": {
+      "Propellants": {
+        "Kerosene": 0.349,
+        "LqdOxygen": 0.651
+      },
+      "ConfigName": "AR-1",
+      "ConfigDescription": null,
+      "MaxThrust": 2487.0,
+      "MinThrust": 1244.0,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 337.0,
+      "IspSeaLevel": 305.0,
+      "MinThrottle": 0.50020105,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 450,
+        "IgnitionReliabilityStart": 0.983,
+        "IgnitionReliabilityEnd": 0.9975,
+        "CycleReliabilityStart": 0.983,
+        "CycleReliabilityEnd": 0.9975
+      }
+    }
+  }
+}

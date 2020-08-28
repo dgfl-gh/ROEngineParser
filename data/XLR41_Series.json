@@ -1,0 +1,46 @@
+{
+  "Title": "XLR41 Series",
+  "Manufacturer": "North American Aviation (NAA)",
+  "Description": "Americanized version of the V-2 Model 39 (A-4). It was very similar to its predecessor, but was built using American SAE components rather than Metric components, and featured several minor upgrades.",
+  "OriginalMass": 0.791,
+  "LiteralZeroIgnitions": true,
+  "EngineType": 0,
+  "DefaultConfig": "XLR41",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 2.0
+  },
+  "EngineConfigs": {
+    "XLR41-NA-1": {
+      "Propellants": {
+        "Ethanol75": 0.51263,
+        "LqdOxygen": 0.48737,
+        "HTP": 0.01
+      },
+      "ConfigName": "XLR41-NA-1",
+      "ConfigDescription": null,
+      "MaxThrust": 333.0,
+      "MinThrust": 333.0,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 239.0,
+      "IspSeaLevel": 203.0,
+      "MinThrottle": 1.0,
+      "AirLightable": true,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 70,
+        "IgnitionReliabilityStart": 0.89,
+        "IgnitionReliabilityEnd": 0.97,
+        "CycleReliabilityStart": 0.75,
+        "CycleReliabilityEnd": 0.95
+      }
+    }
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "Title": "AJ10 Transtar",
+  "Manufacturer": "Aerojet",
+  "Description": "Proposed pump-fed upgrade for the AJ10. Developed in the 1980s as a high performance upper stage and tug. Based heavily on shuttle OMS, using the same nozzle and combustion chamber, with turbomachinery installed in place of pressure-fed system. Tested, but never flew, as program was cancelled following the Challenger disaster.",
+  "OriginalMass": 0.125,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 0,
+  "DefaultConfig": "AJ10-151-OMS",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 10.0
+  },
+  "EngineConfigs": {
+    "AJ10-151-OMS": {
+      "Propellants": {
+        "MMH": 0.4558,
+        "MON3": 0.5442
+      },
+      "ConfigName": "AJ10-151-OMS",
+      "ConfigDescription": "Planned upgrade for space shuttle OMS, cancelled after Challenger disaster",
+      "MaxThrust": 26.7,
+      "MinThrust": 26.7,
+      "MassMult": 2.58,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 334.0,
+      "IspSeaLevel": 100.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 500,
+        "resources": {
+          "ElectricCharge": 0.1
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 54000,
+        "IgnitionReliabilityStart": 0.98,
+        "IgnitionReliabilityEnd": 0.995,
+        "CycleReliabilityStart": 0.98,
+        "CycleReliabilityEnd": 0.995
+      }
+    },
+    "AJ10-153": {
+      "Propellants": {
+        "MMH": 0.4733,
+        "MON3": 0.5267
+      },
+      "ConfigName": "AJ10-153",
+      "ConfigDescription": "Engine for Transtar I, a high performance upper stage",
+      "MaxThrust": 16.7,
+      "MinThrust": 16.7,
+      "MassMult": 1.02,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 328.0,
+      "IspSeaLevel": 100.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 15,
+        "resources": {
+          "ElectricCharge": 0.1
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 3600,
+        "IgnitionReliabilityStart": 0.9625,
+        "IgnitionReliabilityEnd": 0.995,
+        "CycleReliabilityStart": 0.9625,
+        "CycleReliabilityEnd": 0.995
+      }
+    },
+    "AJ10-154": {
+      "Propellants": {
+        "LqdHydrogen": 0.7286,
+        "LqdOxygen": 0.2714
+      },
+      "ConfigName": "AJ10-154",
+      "ConfigDescription": "Hydrolox engine, for high performance reusable space shuttle upper stages",
+      "MaxThrust": 13.3,
+      "MinThrust": 13.3,
+      "MassMult": 0.72,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 483.0,
+      "IspSeaLevel": 200.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 500,
+        "resources": {
+          "ElectricCharge": 0.1
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 72000,
+        "IgnitionReliabilityStart": 0.9625,
+        "IgnitionReliabilityEnd": 0.995,
+        "CycleReliabilityStart": 0.9625,
+        "CycleReliabilityEnd": 0.995
+      }
+    },
+    "AJ10-156": {
+      "Propellants": {
+        "MMH": 0.435,
+        "MON3": 0.565
+      },
+      "ConfigName": "AJ10-156",
+      "ConfigDescription": "Engine for Transtar III, reusable upgrade of Transtar I",
+      "MaxThrust": 16.7,
+      "MinThrust": 16.7,
+      "MassMult": 0.83,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 343.0,
+      "IspSeaLevel": 200.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 16,
+        "resources": {
+          "ElectricCharge": 0.1
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 54000,
+        "IgnitionReliabilityStart": 0.9625,
+        "IgnitionReliabilityEnd": 0.995,
+        "CycleReliabilityStart": 0.9625,
+        "CycleReliabilityEnd": 0.9999
+      }
+    }
+  }
+}

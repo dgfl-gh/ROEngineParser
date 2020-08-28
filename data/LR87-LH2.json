@@ -1,0 +1,127 @@
+{
+  "Title": "LR87-LH2",
+  "Manufacturer": "Aerojet",
+  "Description": "Aerojet developed the LR87 engine (used for the Titan series) into a liquid hydrogen/oxygen engine for prospective USAF contracts in the 1958-1960 period, at the same time Aerojet was converting the LR87 to burn Aerozine and NTO. Aerojet also proposed this engine for Saturn upper stage duties, but NASA selected the J-2 over the LR87-LH2, however, and it was canceled in 1961.",
+  "OriginalMass": 0.74,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 0,
+  "DefaultConfig": "LR87-LH2-TitanC",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 6.0
+  },
+  "EngineConfigs": {
+    "LR87-LH2-TitanC": {
+      "Propellants": {
+        "LqdHydrogen": 0.745,
+        "LqdOxygen": 0.255
+      },
+      "ConfigName": "LR87-LH2-TitanC",
+      "ConfigDescription": "Developed for Titan C",
+      "MaxThrust": 667.0,
+      "MinThrust": 667.0,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 403.0,
+      "IspSeaLevel": 350.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {}
+      },
+      "Reliability": {
+        "RatedBurnTime": 300,
+        "IgnitionReliabilityStart": 0.9,
+        "IgnitionReliabilityEnd": 0.95,
+        "CycleReliabilityStart": 0.892,
+        "CycleReliabilityEnd": 0.973
+      }
+    },
+    "LR87-LH2-Vacuum": {
+      "Propellants": {
+        "LqdHydrogen": 0.745,
+        "LqdOxygen": 0.255
+      },
+      "ConfigName": "LR87-LH2-Vacuum",
+      "ConfigDescription": "Developed as Aerojets proposal for the Saturn V upper stage engines. It could be ready much earlier than its competition, but the J-2 was chosen due to its higher performance.",
+      "MaxThrust": 778.0,
+      "MinThrust": 778.0,
+      "MassMult": 1.14865,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 419.0,
+      "IspSeaLevel": 312.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 2,
+        "resources": {}
+      },
+      "Reliability": {
+        "RatedBurnTime": 360,
+        "IgnitionReliabilityStart": 0.92,
+        "IgnitionReliabilityEnd": 0.975,
+        "CycleReliabilityStart": 0.93,
+        "CycleReliabilityEnd": 0.98
+      }
+    },
+    "LR87-LH2-SustainerUpgrade": {
+      "Propellants": {
+        "LqdHydrogen": 0.745,
+        "LqdOxygen": 0.255
+      },
+      "ConfigName": "LR87-LH2-SustainerUpgrade",
+      "ConfigDescription": "Speculative upgrade for Titan C",
+      "MaxThrust": 801.0,
+      "MinThrust": 801.0,
+      "MassMult": 1.08109,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 409.0,
+      "IspSeaLevel": 358.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 2,
+        "resources": {}
+      },
+      "Reliability": {
+        "RatedBurnTime": 480,
+        "IgnitionReliabilityStart": 0.95,
+        "IgnitionReliabilityEnd": 0.99,
+        "CycleReliabilityStart": 0.95,
+        "CycleReliabilityEnd": 0.995
+      }
+    },
+    "LR87-LH2-VacuumUpgrade": {
+      "Propellants": {
+        "LqdHydrogen": 0.745,
+        "LqdOxygen": 0.255
+      },
+      "ConfigName": "LR87-LH2-VacuumUpgrade",
+      "ConfigDescription": "Speculative upgrade for use on later Saturn V missions",
+      "MaxThrust": 889.0,
+      "MinThrust": 889.0,
+      "MassMult": 1.18,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 434.0,
+      "IspSeaLevel": 233.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 3,
+        "resources": {}
+      },
+      "Reliability": {
+        "RatedBurnTime": 480,
+        "IgnitionReliabilityStart": 0.95,
+        "IgnitionReliabilityEnd": 0.99,
+        "CycleReliabilityStart": 0.96,
+        "CycleReliabilityEnd": 0.998
+      }
+    }
+  }
+}

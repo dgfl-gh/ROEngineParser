@@ -1,0 +1,39 @@
+{
+  "Title": "Nike M5E1",
+  "Manufacturer": "ABL",
+  "Description": "First stage solid rocket motor used on many sounding rockets including Nike-Deacon, Nike-Cajun, Nike-Apache, Nike-Aerobee170, Nike-Aerobee350, and more.",
+  "OriginalMass": 1.0,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 1,
+  "DefaultConfig": "Nike-M5E1",
+  "Gimbal": null,
+  "EngineConfigs": {
+    "Nike-M5E1": {
+      "Propellants": {
+        "NGNC": 1.0
+      },
+      "ConfigName": "Nike-M5E1",
+      "ConfigDescription": null,
+      "MaxThrust": 195.6,
+      "MinThrust": 195.6,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 195.0,
+      "IspSeaLevel": 195.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Reliability": {
+        "RatedBurnTime": 0,
+        "IgnitionReliabilityStart": 0.0,
+        "IgnitionReliabilityEnd": 0.0,
+        "CycleReliabilityStart": 0.0,
+        "CycleReliabilityEnd": 0.0
+      }
+    }
+  }
+}

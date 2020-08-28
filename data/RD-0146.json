@@ -1,0 +1,75 @@
+{
+  "Title": "RD-0146",
+  "Manufacturer": "KB Khimavtomatika",
+  "Description": "The first expander cycle engine to be developed in Russia. It was developed in collaboration with Pratt & Whitney, as a high performance upper stage for Proton. It was heavily inspired by the RL10, and some of its design elements were integrated into the RL10.",
+  "OriginalMass": 0.242,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 0,
+  "DefaultConfig": "RD-0146",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 4.0
+  },
+  "EngineConfigs": {
+    "RD-0146": {
+      "Propellants": {
+        "LqdHydrogen": 0.7319,
+        "LqdOxygen": 0.2681
+      },
+      "ConfigName": "RD-0146",
+      "ConfigDescription": "High performance upper stage engine for Proton. Tested extensively by KB Khimavtomatika and P&W, but never flew.",
+      "MaxThrust": 98.1,
+      "MinThrust": 98.1,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 463.0,
+      "IspSeaLevel": 200.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 5,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 1100,
+        "IgnitionReliabilityStart": 0.98,
+        "IgnitionReliabilityEnd": 0.9995,
+        "CycleReliabilityStart": 0.94968,
+        "CycleReliabilityEnd": 0.9852
+      }
+    },
+    "RD-0146D": {
+      "Propellants": {
+        "LqdHydrogen": 0.7319,
+        "LqdOxygen": 0.2681
+      },
+      "ConfigName": "RD-0146D",
+      "ConfigDescription": "Upgrade, intended for Angara.",
+      "MaxThrust": 73.5,
+      "MinThrust": 73.5,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 470.0,
+      "IspSeaLevel": 100.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 5,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 1100,
+        "IgnitionReliabilityStart": 0.98,
+        "IgnitionReliabilityEnd": 0.9995,
+        "CycleReliabilityStart": 0.94968,
+        "CycleReliabilityEnd": 0.9852
+      }
+    }
+  }
+}

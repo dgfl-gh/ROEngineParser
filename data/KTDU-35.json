@@ -1,0 +1,97 @@
+{
+  "Title": "KTDU-35",
+  "Manufacturer": "Isayev Design Bureau",
+  "Description": "The KTDU-35 is a gas generator hypergolic propulsion system, capable of multiple ignitions and used on the first generation Soyuz and Progress spacecrafts (the 7K series). It consists of the single nozzle S5.60 main engine and the dual nozzle S5.35 backup engine. In the case of a failure of the main engine, the backup one assumes it's position.",
+  "OriginalMass": 1.0,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 0,
+  "DefaultConfig": "S5_35",
+  "Gimbal": null,
+  "EngineConfigs": {
+    "S5_60": {
+      "Propellants": {
+        "UDMH": 0.5052,
+        "AK27": 0.4948
+      },
+      "ConfigName": "S5_60",
+      "ConfigDescription": null,
+      "MaxThrust": 4.09,
+      "MinThrust": 4.09,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 278.0,
+      "IspSeaLevel": 100.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 25,
+        "resources": {
+          "ElectricCharge": 0.25
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 0,
+        "IgnitionReliabilityStart": 0.0,
+        "IgnitionReliabilityEnd": 0.0,
+        "CycleReliabilityStart": 0.0,
+        "CycleReliabilityEnd": 0.0
+      }
+    },
+    "S5_35": {
+      "Propellants": {
+        "UDMH": 0.5052,
+        "AK27": 0.4948
+      },
+      "ConfigName": "S5_35",
+      "ConfigDescription": null,
+      "MaxThrust": 4.03,
+      "MinThrust": 4.03,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 270.0,
+      "IspSeaLevel": 100.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 25,
+        "resources": {
+          "ElectricCharge": 0.25
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 0,
+        "IgnitionReliabilityStart": 0.0,
+        "IgnitionReliabilityEnd": 0.0,
+        "CycleReliabilityStart": 0.0,
+        "CycleReliabilityEnd": 0.0
+      }
+    },
+    "KTDU-35": {
+      "Propellants": {},
+      "ConfigName": null,
+      "ConfigDescription": null,
+      "MaxThrust": 0.0,
+      "MinThrust": 0.0,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 0.0,
+      "IspSeaLevel": 0.0,
+      "MinThrottle": "NaN",
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Reliability": {
+        "RatedBurnTime": 0,
+        "IgnitionReliabilityStart": 0.0,
+        "IgnitionReliabilityEnd": 0.0,
+        "CycleReliabilityStart": 0.0,
+        "CycleReliabilityEnd": 0.0
+      }
+    }
+  }
+}

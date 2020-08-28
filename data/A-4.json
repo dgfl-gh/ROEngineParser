@@ -1,0 +1,77 @@
+{
+  "Title": "A-4",
+  "Manufacturer": "Thiel",
+  "Description": "Thiel Lox/Alcohol rocket engine. Used on V-2 missile. Work began June 1936. Interim design, but went into production. Used 18 x 1.5 tonne thrust chambers, feeding common mixing chamber. Tested from 1939, mass production 1943-1945.",
+  "OriginalMass": 0.931,
+  "LiteralZeroIgnitions": true,
+  "EngineType": 0,
+  "DefaultConfig": "A-4",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 3.0
+  },
+  "EngineConfigs": {
+    "A-4": {
+      "Propellants": {
+        "Ethanol75": 0.51263,
+        "LqdOxygen": 0.48737,
+        "HTP": 0.01
+      },
+      "ConfigName": "A-4",
+      "ConfigDescription": null,
+      "MaxThrust": 311.8,
+      "MinThrust": 311.8,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 239.0,
+      "IspSeaLevel": 203.0,
+      "MinThrottle": 1.0,
+      "AirLightable": true,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.2
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 70,
+        "IgnitionReliabilityStart": 0.89,
+        "IgnitionReliabilityEnd": 0.97,
+        "CycleReliabilityStart": 0.75,
+        "CycleReliabilityEnd": 0.95
+      }
+    },
+    "A-9": {
+      "Propellants": {
+        "Hydyne": 0.435,
+        "LqdOxygen": 0.565,
+        "HTP": 0.01
+      },
+      "ConfigName": "A-9",
+      "ConfigDescription": null,
+      "MaxThrust": 288.68,
+      "MinThrust": 288.68,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 255.0,
+      "IspSeaLevel": 220.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.2
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 115,
+        "IgnitionReliabilityStart": 0.8,
+        "IgnitionReliabilityEnd": 0.9,
+        "CycleReliabilityStart": 0.73,
+        "CycleReliabilityEnd": 0.9
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "Title": "ORM-65",
+  "Manufacturer": "NPO Energomash",
+  "Description": "Very early Soviet rocket engine, designed by Glushko in 1936 for use on the KR-212 cruise missile, and modified for the rocket aircraft RP-318. It was the first reliable, regenerativley cooled rocket.",
+  "OriginalMass": 0.0143,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 0,
+  "DefaultConfig": "ORM-65",
+  "Gimbal": null,
+  "EngineConfigs": {
+    "ORM-65": {
+      "Propellants": {
+        "Kerosene": 0.3205,
+        "AK20": 0.6795
+      },
+      "ConfigName": "ORM-65",
+      "ConfigDescription": null,
+      "MaxThrust": 1.785,
+      "MinThrust": 0.51,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": true,
+      "IspVacuum": 215.0,
+      "IspSeaLevel": 210.0,
+      "MinThrottle": 0.2857143,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {}
+      },
+      "Reliability": {
+        "RatedBurnTime": 80,
+        "IgnitionReliabilityStart": 0.9,
+        "IgnitionReliabilityEnd": 0.96,
+        "CycleReliabilityStart": 0.7,
+        "CycleReliabilityEnd": 0.9
+      }
+    },
+    "RDA-1-150": {
+      "Propellants": {
+        "Kerosene": 0.3205,
+        "AK20": 0.6795
+      },
+      "ConfigName": "RDA-1-150",
+      "ConfigDescription": "Simplified ORM-65 for the RP-318 rocket planes",
+      "MaxThrust": 1.46,
+      "MinThrust": 0.499,
+      "MassMult": 0.86,
+      "Ullage": true,
+      "PressureFed": true,
+      "IspVacuum": 215.0,
+      "IspSeaLevel": 210.0,
+      "MinThrottle": 0.3417808,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 2,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 200,
+        "IgnitionReliabilityStart": 0.95,
+        "IgnitionReliabilityEnd": 0.98,
+        "CycleReliabilityStart": 0.95,
+        "CycleReliabilityEnd": 0.99
+      }
+    },
+    "RDA-1-300": {
+      "Propellants": {
+        "Kerosene": 0.3205,
+        "AK20": 0.6795
+      },
+      "ConfigName": "RDA-1-300",
+      "ConfigDescription": "Uprated RDA-1-300, to allow the RP-318 to take off under its own power. Test site was overrun by the German army before it could be tested.",
+      "MaxThrust": 2.942,
+      "MinThrust": 0.499,
+      "MassMult": 0.86,
+      "Ullage": true,
+      "PressureFed": true,
+      "IspVacuum": 215.0,
+      "IspSeaLevel": 210.0,
+      "MinThrottle": 0.16961251,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 2,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 200,
+        "IgnitionReliabilityStart": 0.95,
+        "IgnitionReliabilityEnd": 0.98,
+        "CycleReliabilityStart": 0.95,
+        "CycleReliabilityEnd": 0.99
+      }
+    }
+  }
+}

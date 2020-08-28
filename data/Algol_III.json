@@ -1,0 +1,42 @@
+{
+  "Title": "Algol III",
+  "Manufacturer": "Aerojet Rocketdyne",
+  "Description": "The final development version of the first stage solid rocket motor used on the Scout launch vehicles.",
+  "OriginalMass": 1.391121,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 1,
+  "DefaultConfig": "Algol-III",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 6.0
+  },
+  "EngineConfigs": {
+    "Algol-III": {
+      "Propellants": {
+        "HTPB": 1.0
+      },
+      "ConfigName": "Algol-III",
+      "ConfigDescription": null,
+      "MaxThrust": 530.259,
+      "MinThrust": 530.259,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 230.289,
+      "IspSeaLevel": 238.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {}
+      },
+      "Reliability": {
+        "RatedBurnTime": 75,
+        "IgnitionReliabilityStart": 0.99,
+        "IgnitionReliabilityEnd": 0.9999,
+        "CycleReliabilityStart": 0.972222,
+        "CycleReliabilityEnd": 0.994444
+      }
+    }
+  }
+}

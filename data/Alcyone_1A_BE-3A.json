@@ -1,0 +1,39 @@
+{
+  "Title": "Alcyone 1A BE-3A",
+  "Manufacturer": "Hercules",
+  "Description": "A very small solid kick motor. This was developed for use as the 5th stage on the Scout launch vehicles. It was only ever launched once on a Scout E-1 used for Explorer 52. Maximum thrust 27.5kN, burn time 9 seconds.",
+  "OriginalMass": 0.0111,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 1,
+  "DefaultConfig": "Alcyone",
+  "Gimbal": null,
+  "EngineConfigs": {
+    "Alcyone": {
+      "Propellants": {
+        "PSPC": 1.0
+      },
+      "ConfigName": "Alcyone",
+      "ConfigDescription": null,
+      "MaxThrust": 27.491,
+      "MinThrust": 27.491,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 271.03,
+      "IspSeaLevel": 200.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Reliability": {
+        "RatedBurnTime": 8,
+        "IgnitionReliabilityStart": 0.97,
+        "IgnitionReliabilityEnd": 0.995,
+        "CycleReliabilityStart": 0.97,
+        "CycleReliabilityEnd": 0.995
+      }
+    }
+  }
+}

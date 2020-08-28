@@ -1,0 +1,105 @@
+{
+  "Title": "RD-219 Series",
+  "Manufacturer": "NPO Energomash",
+  "Description": "Soviet dual combustion chamber gas generator upper stage engine. Designed in the late 1950s to use storable propellants for ICBMs, since the current R-7 required cryogenic propellants that could not be stored for long periods, requiring lengthy fuelling before launch. Used on the R-16 and R-36 ICBMs, and Tsiklon-2 and Tsiklon-3 LVs.",
+  "OriginalMass": 0.76,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 0,
+  "DefaultConfig": "RD-219",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 5.0
+  },
+  "EngineConfigs": {
+    "RD-219-8D713": {
+      "Propellants": {
+        "UDMH": 0.4304,
+        "AK27": 0.5696
+      },
+      "ConfigName": "RD-219-8D713",
+      "ConfigDescription": "Used on R-16 8K64",
+      "MaxThrust": 882.6,
+      "MinThrust": 882.6,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 293.0,
+      "IspSeaLevel": 200.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 1.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 125,
+        "IgnitionReliabilityStart": 0.980769,
+        "IgnitionReliabilityEnd": 0.996154,
+        "CycleReliabilityStart": 0.980769,
+        "CycleReliabilityEnd": 0.996154
+      }
+    },
+    "RD-252-8D724": {
+      "Propellants": {
+        "UDMH": 0.4135,
+        "NTO": 0.5865
+      },
+      "ConfigName": "RD-252-8D724",
+      "ConfigDescription": "Used on R-36 and Tsiklon-2 8K67",
+      "MaxThrust": 940.8,
+      "MinThrust": 940.8,
+      "MassMult": 0.941,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 317.6,
+      "IspSeaLevel": 200.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 1.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 160,
+        "IgnitionReliabilityStart": 0.985401,
+        "IgnitionReliabilityEnd": 0.99708,
+        "CycleReliabilityStart": 0.985401,
+        "CycleReliabilityEnd": 0.99708
+      }
+    },
+    "RD-262-11D26": {
+      "Propellants": {
+        "UDMH": 0.4135,
+        "NTO": 0.5865
+      },
+      "ConfigName": "RD-262-11D26",
+      "ConfigDescription": "Used on Tsiklon-2M and Tsiklon-3 11K68",
+      "MaxThrust": 941.4,
+      "MinThrust": 941.4,
+      "MassMult": 0.957,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 318.0,
+      "IspSeaLevel": 200.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 1.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 160,
+        "IgnitionReliabilityStart": 0.991803,
+        "IgnitionReliabilityEnd": 0.998361,
+        "CycleReliabilityStart": 0.991803,
+        "CycleReliabilityEnd": 0.998361
+      }
+    }
+  }
+}

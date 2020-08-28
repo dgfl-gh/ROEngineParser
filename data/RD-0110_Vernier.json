@@ -1,0 +1,45 @@
+{
+  "Title": "RD-0110 Vernier",
+  "Manufacturer": "Voronezh Mechanical Plant (VMZ)",
+  "Description": "The vernier engine for the RD-0110 power plant. Four of them are used on the Block I upper stage of the Soyuz U and FG launch vehicle variants for attitude control.",
+  "OriginalMass": 0.01,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 0,
+  "DefaultConfig": "RD-0110-Vernier",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 25.0
+  },
+  "EngineConfigs": {
+    "RD-0110-Vernier": {
+      "Propellants": {
+        "Kerosene": 0.3853,
+        "LqdOxygen": 0.6147
+      },
+      "ConfigName": "RD-0110-Vernier",
+      "ConfigDescription": null,
+      "MaxThrust": 6.0,
+      "MinThrust": 6.0,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 330.0,
+      "IspSeaLevel": 165.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.005
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 250,
+        "IgnitionReliabilityStart": 0.984362,
+        "IgnitionReliabilityEnd": 0.996872,
+        "CycleReliabilityStart": 0.984362,
+        "CycleReliabilityEnd": 0.996872
+      }
+    }
+  }
+}

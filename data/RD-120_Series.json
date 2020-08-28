@@ -1,0 +1,108 @@
+{
+  "Title": "RD-120 Series",
+  "Manufacturer": "PA Yuzhmash",
+  "Description": "The RD-120 is a staged combustion vacuum kerolox engine, used as the main power plant on the Zenit launch vehicle family second stage.",
+  "OriginalMass": 1.125,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 0,
+  "DefaultConfig": "RD-120",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 6.0
+  },
+  "EngineConfigs": {
+    "RD-120": {
+      "Propellants": {
+        "Kerosene": 0.3486,
+        "LqdOxygen": 0.6514
+      },
+      "ConfigName": "RD-120",
+      "ConfigDescription": null,
+      "MaxThrust": 833.56,
+      "MinThrust": 583.49,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 350.0,
+      "IspSeaLevel": 175.0,
+      "MinThrottle": 0.6999976,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 10,
+        "resources": {
+          "ElectricCharge": 0.015,
+          "TEATEB": 1.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 290,
+        "IgnitionReliabilityStart": 0.986111,
+        "IgnitionReliabilityEnd": 0.997222,
+        "CycleReliabilityStart": 0.888889,
+        "CycleReliabilityEnd": 0.977778
+      }
+    },
+    "RD-120F": {
+      "Propellants": {
+        "Kerosene": 0.3486,
+        "LqdOxygen": 0.6514
+      },
+      "ConfigName": "RD-120F",
+      "ConfigDescription": null,
+      "MaxThrust": 912.02,
+      "MinThrust": 583.49,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 350.0,
+      "IspSeaLevel": 175.0,
+      "MinThrottle": 0.6397776,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 19,
+        "resources": {
+          "ElectricCharge": 0.015,
+          "TEATEB": 0.5263
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 290,
+        "IgnitionReliabilityStart": 0.988764,
+        "IgnitionReliabilityEnd": 0.997753,
+        "CycleReliabilityStart": 0.977273,
+        "CycleReliabilityEnd": 0.995455
+      }
+    },
+    "RD-120K": {
+      "Propellants": {
+        "Kerosene": 0.3486,
+        "LqdOxygen": 0.6514
+      },
+      "ConfigName": "RD-120K",
+      "ConfigDescription": null,
+      "MaxThrust": 853.18,
+      "MinThrust": 416.78,
+      "MassMult": 0.96,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 330.0,
+      "IspSeaLevel": 304.4,
+      "MinThrottle": 0.48850185,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.015,
+          "TEATEB": 10.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 305,
+        "IgnitionReliabilityStart": 0.92,
+        "IgnitionReliabilityEnd": 0.99,
+        "CycleReliabilityStart": 0.92,
+        "CycleReliabilityEnd": 0.99
+      }
+    }
+  }
+}

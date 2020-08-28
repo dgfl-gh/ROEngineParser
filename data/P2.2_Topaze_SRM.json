@@ -1,0 +1,39 @@
+{
+  "Title": "P2.2 Topaze SRM",
+  "Manufacturer": "Aerospatiale",
+  "Description": "Early, French solid rocket engine that was used as the second stage of the Diamant A and B launch vehicles.",
+  "OriginalMass": 0.456,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 1,
+  "DefaultConfig": "Topaze",
+  "Gimbal": null,
+  "EngineConfigs": {
+    "Topaze": {
+      "Propellants": {
+        "HTPB": 1.0
+      },
+      "ConfigName": "Topaze",
+      "ConfigDescription": null,
+      "MaxThrust": 156.0,
+      "MinThrust": 156.0,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 259.0,
+      "IspSeaLevel": 259.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Reliability": {
+        "RatedBurnTime": 0,
+        "IgnitionReliabilityStart": 0.0,
+        "IgnitionReliabilityEnd": 0.0,
+        "CycleReliabilityStart": 0.0,
+        "CycleReliabilityEnd": 0.0
+      }
+    }
+  }
+}

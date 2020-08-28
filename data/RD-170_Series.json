@@ -1,0 +1,139 @@
+{
+  "Title": "RD-170 Series",
+  "Manufacturer": "NPO Energomash",
+  "Description": "1980s to present, High TWR, atmospheric booster engine. The RD-170 is the most powerful liquid rocket engine ever flown. Originally developed for the Energia launcher's boosters, the engine consists of four combustion chambers fed by a single turbopump. A modified version, the RD-171, is used on the first stage of the Zenit launch vehicle.",
+  "OriginalMass": 9.5,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 0,
+  "DefaultConfig": "RD-171",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 6.0
+  },
+  "EngineConfigs": {
+    "RD-170": {
+      "Propellants": {
+        "Kerosene": 0.346,
+        "LqdOxygen": 0.654
+      },
+      "ConfigName": "RD-170",
+      "ConfigDescription": "Used on Energia liquid rocket boosters",
+      "MaxThrust": 7904.0,
+      "MinThrust": 3953.0,
+      "MassMult": 1.02632,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 337.1,
+      "IspSeaLevel": 309.3,
+      "MinThrottle": 0.50012654,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 150,
+        "IgnitionReliabilityStart": 0.888889,
+        "IgnitionReliabilityEnd": 0.977778,
+        "CycleReliabilityStart": 0.888889,
+        "CycleReliabilityEnd": 0.977778
+      }
+    },
+    "RD-171": {
+      "Propellants": {
+        "Kerosene": 0.346,
+        "LqdOxygen": 0.654
+      },
+      "ConfigName": "RD-171",
+      "ConfigDescription": "Used on Zenit, a rocket derived from Energia boosters",
+      "MaxThrust": 7904.0,
+      "MinThrust": 3953.0,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 337.2,
+      "IspSeaLevel": 309.3,
+      "MinThrottle": 0.50012654,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 150,
+        "IgnitionReliabilityStart": 0.944444,
+        "IgnitionReliabilityEnd": 0.988889,
+        "CycleReliabilityStart": 0.944444,
+        "CycleReliabilityEnd": 0.988889
+      }
+    },
+    "RD-172-173": {
+      "Propellants": {
+        "Kerosene": 0.346,
+        "LqdOxygen": 0.654
+      },
+      "ConfigName": "RD-172-173",
+      "ConfigDescription": "Uprated RD-171 for the Vulkan (\"Volcano\"), baseline for the RD-180, RD-191 and it's derivatives.",
+      "MaxThrust": 8316.0,
+      "MinThrust": 3953.0,
+      "MassMult": 1.07947,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 337.4,
+      "IspSeaLevel": 310.9,
+      "MinThrottle": 0.4753487,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 150,
+        "IgnitionReliabilityStart": 0.9625,
+        "IgnitionReliabilityEnd": 0.9999,
+        "CycleReliabilityStart": 0.9384,
+        "CycleReliabilityEnd": 0.9999
+      }
+    },
+    "RD-171M": {
+      "Propellants": {
+        "Kerosene": 0.346,
+        "LqdOxygen": 0.654
+      },
+      "ConfigName": "RD-171M",
+      "ConfigDescription": "Modernized model for use on Zenit",
+      "MaxThrust": 7904.0,
+      "MinThrust": 3953.0,
+      "MassMult": 0.97894,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 337.2,
+      "IspSeaLevel": 309.5,
+      "MinThrottle": 0.50012654,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 150,
+        "IgnitionReliabilityStart": 0.979592,
+        "IgnitionReliabilityEnd": 0.995918,
+        "CycleReliabilityStart": 0.979592,
+        "CycleReliabilityEnd": 0.995918
+      }
+    }
+  }
+}

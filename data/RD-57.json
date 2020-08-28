@@ -1,0 +1,75 @@
+{
+  "Title": "RD-57",
+  "Manufacturer": "KB Saturn (Lyulka)",
+  "Description": "1970s Low TWR Vacuum engine. Staged combustion hydrolox upper stage engine intended for use on the N-1/N-1M. A later version designated RD-57M had am extendable nozzle and was intended for the Vulkan and Energia-M rockets. The engine was marketed by Aerojet in the 1990s under the designation D-57 for use on an SSTO demonstrator.",
+  "OriginalMass": 0.84,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 0,
+  "DefaultConfig": "RD-57",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 2.5
+  },
+  "EngineConfigs": {
+    "RD-57": {
+      "Propellants": {
+        "LqdHydrogen": 0.7352,
+        "LqdOxygen": 0.2648
+      },
+      "ConfigName": "RD-57",
+      "ConfigDescription": null,
+      "MaxThrust": 392.3,
+      "MinThrust": 78.46,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 456.6,
+      "IspSeaLevel": 273.0,
+      "MinThrottle": 0.2,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 11,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 800,
+        "IgnitionReliabilityStart": 0.875,
+        "IgnitionReliabilityEnd": 0.975,
+        "CycleReliabilityStart": 0.5,
+        "CycleReliabilityEnd": 0.9
+      }
+    },
+    "RD-57M": {
+      "Propellants": {
+        "LqdHydrogen": 0.722,
+        "LqdOxygen": 0.278
+      },
+      "ConfigName": "RD-57M",
+      "ConfigDescription": null,
+      "MaxThrust": 397.0,
+      "MinThrust": 79.4,
+      "MassMult": 1.0404762,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 461.0,
+      "IspSeaLevel": 150.0,
+      "MinThrottle": 0.2,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 11,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 800,
+        "IgnitionReliabilityStart": 0.928571,
+        "IgnitionReliabilityEnd": 0.985714,
+        "CycleReliabilityStart": 0.857143,
+        "CycleReliabilityEnd": 0.971429
+      }
+    }
+  }
+}

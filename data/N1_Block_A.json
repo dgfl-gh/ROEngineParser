@@ -1,0 +1,68 @@
+{
+  "Title": "N1 Block A",
+  "Manufacturer": "SNTK Kuznetsov",
+  "Description": "N1 Block A is first stage of N1. Block A has 30x NK-15 or NK-33 engines.",
+  "OriginalMass": 30.0,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 0,
+  "DefaultConfig": "30x_NK-15",
+  "Gimbal": null,
+  "EngineConfigs": {
+    "30x_NK-15": {
+      "Propellants": {
+        "Kerosene": 0.356,
+        "LqdOxygen": 0.644
+      },
+      "ConfigName": "30x_NK-15",
+      "ConfigDescription": null,
+      "MaxThrust": 50308.0,
+      "MinThrust": 10061.0,
+      "MassMult": 1.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 331.0,
+      "IspSeaLevel": 297.0,
+      "MinThrottle": 0.19998807,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Reliability": {
+        "RatedBurnTime": 180,
+        "IgnitionReliabilityStart": 0.6682,
+        "IgnitionReliabilityEnd": 0.97,
+        "CycleReliabilityStart": 0.6303,
+        "CycleReliabilityEnd": 0.96
+      }
+    },
+    "30x_NK-33": {
+      "Propellants": {
+        "Kerosene": 0.347,
+        "LqdOxygen": 0.653
+      },
+      "ConfigName": "30x_NK-33",
+      "ConfigDescription": null,
+      "MaxThrust": 50460.0,
+      "MinThrust": 10092.0,
+      "MassMult": 0.942,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 331.0,
+      "IspSeaLevel": 297.0,
+      "MinThrottle": 0.2,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Reliability": {
+        "RatedBurnTime": 240,
+        "IgnitionReliabilityStart": 0.801,
+        "IgnitionReliabilityEnd": 0.996,
+        "CycleReliabilityStart": 0.7767,
+        "CycleReliabilityEnd": 0.996
+      }
+    }
+  }
+}

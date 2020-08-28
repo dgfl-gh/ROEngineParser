@@ -1,0 +1,108 @@
+{
+  "Title": "STBE-1 Series",
+  "Manufacturer": "Pratt & Whitney",
+  "Description": "Space Transportation Booster Engine, a 1990s proposal forhighly reliable, low cost booster engine for both expendable and reusable launch vehicles. [2.49 m]",
+  "OriginalMass": 3.062,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 0,
+  "DefaultConfig": "STBE-1A",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 8.0
+  },
+  "EngineConfigs": {
+    "STBE-1A": {
+      "Propellants": {
+        "Kerosene": 0.3242,
+        "LqdOxygen": 0.6758
+      },
+      "ConfigName": "STBE-1A",
+      "ConfigDescription": null,
+      "MaxThrust": 3275.0,
+      "MinThrust": 1475.0,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 316.0,
+      "IspSeaLevel": 264.3,
+      "MinThrottle": 0.45038167,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 4,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 300,
+        "IgnitionReliabilityStart": 0.995,
+        "IgnitionReliabilityEnd": 0.99995,
+        "CycleReliabilityStart": 0.995,
+        "CycleReliabilityEnd": 0.99995
+      }
+    },
+    "STBE-1B": {
+      "Propellants": {
+        "Kerosene": 0.3242,
+        "LqdOxygen": 0.6758
+      },
+      "ConfigName": "STBE-1B",
+      "ConfigDescription": null,
+      "MaxThrust": 3273.0,
+      "MinThrust": 1475.0,
+      "MassMult": 1.001,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 318.4,
+      "IspSeaLevel": 273.5,
+      "MinThrottle": 0.4506569,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 4,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 300,
+        "IgnitionReliabilityStart": 0.995,
+        "IgnitionReliabilityEnd": 0.99995,
+        "CycleReliabilityStart": 0.995,
+        "CycleReliabilityEnd": 0.99995
+      }
+    },
+    "STBE-3": {
+      "Propellants": {
+        "LqdMethane": 0.4337,
+        "LqdOxygen": 0.5663
+      },
+      "ConfigName": "STBE-3",
+      "ConfigDescription": null,
+      "MaxThrust": 3172.0,
+      "MinThrust": 1428.0,
+      "MassMult": 0.985,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 341.5,
+      "IspSeaLevel": 302.6,
+      "MinThrottle": 0.45018914,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 4,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 300,
+        "IgnitionReliabilityStart": 0.995,
+        "IgnitionReliabilityEnd": 0.99995,
+        "CycleReliabilityStart": 0.995,
+        "CycleReliabilityEnd": 0.99995
+      }
+    }
+  }
+}

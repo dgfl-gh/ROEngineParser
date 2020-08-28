@@ -1,0 +1,41 @@
+{
+  "Title": "MR-80B (MLE)",
+  "Manufacturer": "Aerojet Rocketdyne",
+  "Description": "The Mars Landing Engine (MLE) is a derivative of the highly successful MR-80 engine used for the two Viking missions to Mars in 1976. Eight of these engines where used on the sky-crane which landed the Curiosity Rover on the martian surface.",
+  "OriginalMass": 0.0085,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 0,
+  "DefaultConfig": "MR-80B",
+  "Gimbal": null,
+  "EngineConfigs": {
+    "MR-80B": {
+      "Propellants": {
+        "Hydrazine": 1.0
+      },
+      "ConfigName": "MR-80B",
+      "ConfigDescription": null,
+      "MaxThrust": 3.603,
+      "MinThrust": 0.031,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": true,
+      "IspVacuum": 223.0,
+      "IspSeaLevel": 204.0,
+      "MinThrottle": 0.008603942,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 500,
+        "resources": {
+          "ElectricCharge": 0.005
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 350,
+        "IgnitionReliabilityStart": 0.99,
+        "IgnitionReliabilityEnd": 0.999,
+        "CycleReliabilityStart": 0.99,
+        "CycleReliabilityEnd": 0.999
+      }
+    }
+  }
+}

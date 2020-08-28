@@ -1,0 +1,39 @@
+{
+  "Title": "Waxwing Kick Motor",
+  "Manufacturer": "Bristol Aerojet / RPE",
+  "Description": "The Waxwing was a small solid kick motor for circularizing payloads in orbit, used as a third stage on the Black Arrow launch vehicle in 1970-71. 29.4kN average thrust.",
+  "OriginalMass": 0.035,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 1,
+  "DefaultConfig": "Waxwing",
+  "Gimbal": null,
+  "EngineConfigs": {
+    "Waxwing": {
+      "Propellants": {
+        "HTPB": 1.0
+      },
+      "ConfigName": "Waxwing",
+      "ConfigDescription": null,
+      "MaxThrust": 34.35,
+      "MinThrust": 34.35,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 278.0,
+      "IspSeaLevel": 245.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Reliability": {
+        "RatedBurnTime": 30,
+        "IgnitionReliabilityStart": 0.97,
+        "IgnitionReliabilityEnd": 0.999,
+        "CycleReliabilityStart": 0.97,
+        "CycleReliabilityEnd": 0.999
+      }
+    }
+  }
+}

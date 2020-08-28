@@ -1,0 +1,45 @@
+{
+  "Title": "AJ10-137 (Service Propulsion System)",
+  "Manufacturer": "Aerojet",
+  "Description": "The Aerojet AJ10-137 was used as the Service Propulsion System (SPS) on the Apollo Service Module. It was designed to operate for up to 750 seconds and could restart 50 times.",
+  "OriginalMass": 0.295,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 0,
+  "DefaultConfig": "AJ10-137",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 4.5
+  },
+  "EngineConfigs": {
+    "AJ10-137": {
+      "Propellants": {
+        "Aerozine50": 0.5017,
+        "NTO": 0.4983
+      },
+      "ConfigName": "AJ10-137",
+      "ConfigDescription": null,
+      "MaxThrust": 90.0,
+      "MinThrust": 90.0,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": true,
+      "IspVacuum": 314.0,
+      "IspSeaLevel": 150.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 50,
+        "resources": {
+          "ElectricCharge": 0.05
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 750,
+        "IgnitionReliabilityStart": 0.987342,
+        "IgnitionReliabilityEnd": 0.997468,
+        "CycleReliabilityStart": 0.944444,
+        "CycleReliabilityEnd": 0.998889
+      }
+    }
+  }
+}

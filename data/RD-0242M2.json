@@ -1,0 +1,42 @@
+{
+  "Title": "RD-0242M2",
+  "Manufacturer": "KB Khimavtomatiki [Kosberg]",
+  "Description": "The RD-0242M2 is a deep - throttle capable derivative of the RD-0242M1 upper stage engine engine. Modified to use Monomethyl Hydrazine (MMH) instead of Unsymmetrical Dimethylhydrazine (UDMH).",
+  "OriginalMass": 0.12,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 0,
+  "DefaultConfig": "RD-0242M2",
+  "Gimbal": null,
+  "EngineConfigs": {
+    "RD-0242M2": {
+      "Propellants": {
+        "MMH": 0.5036,
+        "NTO": 0.4964
+      },
+      "ConfigName": "RD-0242M2",
+      "ConfigDescription": null,
+      "MaxThrust": 50.0,
+      "MinThrust": 30.0,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": true,
+      "IspVacuum": 280.0,
+      "IspSeaLevel": 100.0,
+      "MinThrottle": 0.6,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 6,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 600,
+        "IgnitionReliabilityStart": 0.857,
+        "IgnitionReliabilityEnd": 0.995,
+        "CycleReliabilityStart": 0.857,
+        "CycleReliabilityEnd": 0.992
+      }
+    }
+  }
+}

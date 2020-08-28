@@ -1,0 +1,75 @@
+{
+  "Title": "Aestus Series",
+  "Manufacturer": "EADS Astrium",
+  "Description": "A hypergolic upper stage engine. The baseline Aestus engine is pressure fed and it used on the Ariane 5 G, GS and ES series, while the Aestus II (also known as RS-72) variant is pump-fed and develops a higher overall performance.",
+  "OriginalMass": 0.111,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 0,
+  "DefaultConfig": "Aestus",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 9.5
+  },
+  "EngineConfigs": {
+    "Aestus": {
+      "Propellants": {
+        "MMH": 0.4684,
+        "NTO": 0.5316
+      },
+      "ConfigName": "Aestus",
+      "ConfigDescription": null,
+      "MaxThrust": 30.0,
+      "MinThrust": 30.0,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": true,
+      "IspVacuum": 324.0,
+      "IspSeaLevel": 113.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 20,
+        "resources": {
+          "ElectricCharge": 0.25
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 1100,
+        "IgnitionReliabilityStart": 0.968,
+        "IgnitionReliabilityEnd": 0.99,
+        "CycleReliabilityStart": 0.967742,
+        "CycleReliabilityEnd": 0.993548
+      }
+    },
+    "Aestus-II": {
+      "Propellants": {
+        "MMH": 0.4684,
+        "NTO": 0.5316
+      },
+      "ConfigName": "Aestus-II",
+      "ConfigDescription": "Developed privately in collaboration with Rocketdyne. Turbopump system from XLR-32 added, allowing much higher performance. A.K.A RS-72",
+      "MaxThrust": 55.4,
+      "MinThrust": 55.4,
+      "MassMult": 1.2432,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 340.0,
+      "IspSeaLevel": 150.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 20,
+        "resources": {
+          "ElectricCharge": 0.25
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 2500,
+        "IgnitionReliabilityStart": 0.968,
+        "IgnitionReliabilityEnd": 0.98,
+        "CycleReliabilityStart": 0.97,
+        "CycleReliabilityEnd": 0.985
+      }
+    }
+  }
+}

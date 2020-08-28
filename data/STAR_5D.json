@@ -1,0 +1,39 @@
+{
+  "Title": "STAR 5D",
+  "Manufacturer": "Thiokol",
+  "Description": "The STAR 5D rocket motor was designed and qualified to serve as the rocket-assisted deceleration (RAD) motor on the Mars Pathfinder mission. Three of these motors were fired to slow the Pathfinder spacecraft to near-zero velocity before bouncing on the surface of Mars.",
+  "OriginalMass": 0.00323,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 1,
+  "DefaultConfig": "Star-5D",
+  "Gimbal": null,
+  "EngineConfigs": {
+    "Star-5D": {
+      "Propellants": {
+        "HTPB": 1.0
+      },
+      "ConfigName": "Star-5D",
+      "ConfigDescription": null,
+      "MaxThrust": 6.272,
+      "MinThrust": 6.272,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 256.0,
+      "IspSeaLevel": 245.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {}
+      },
+      "Reliability": {
+        "RatedBurnTime": 4,
+        "IgnitionReliabilityStart": 0.99,
+        "IgnitionReliabilityEnd": 0.9999,
+        "CycleReliabilityStart": 0.99,
+        "CycleReliabilityEnd": 0.9999
+      }
+    }
+  }
+}

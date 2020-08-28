@@ -1,0 +1,103 @@
+{
+  "Title": "Lunar Module Descent Engine (LMDE)",
+  "Manufacturer": "TRW",
+  "Description": "Deeply throttleable pressure-fed vacuum engine used for the descent module of the Apollo lunar lander. Uses storable propellants which are not subject to boiloff, but are far less efficient than hydrolox or even kerolox. The version used on J-class missions had slightly higher specific impulse (this, along with other changes, gave enough payload capacity for the rover, for example). A later variant (TR-201) was used on Delta as an upper stage engine (on Delta P series); this was a low-cost model with more restarts (4 instead of 2) and slightly higher thrust but lower efficiency and no throttling capability.",
+  "OriginalMass": 0.158,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 0,
+  "DefaultConfig": "LMDE-H",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 6.0
+  },
+  "EngineConfigs": {
+    "LMDE-H": {
+      "Propellants": {
+        "Aerozine50": 0.5017,
+        "NTO": 0.4983
+      },
+      "ConfigName": "LMDE-H",
+      "ConfigDescription": "Lunar Module Descent Engine used up to Apollo 15",
+      "MaxThrust": 43.9,
+      "MinThrust": 4.67,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": true,
+      "IspVacuum": 311.0,
+      "IspSeaLevel": 116.0,
+      "MinThrottle": 0.10637813,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 3,
+        "resources": {
+          "ElectricCharge": 0.2
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 960,
+        "IgnitionReliabilityStart": 0.933333,
+        "IgnitionReliabilityEnd": 0.986667,
+        "CycleReliabilityStart": 0.909091,
+        "CycleReliabilityEnd": 0.981818
+      }
+    },
+    "LMDE-J": {
+      "Propellants": {
+        "Aerozine50": 0.5017,
+        "NTO": 0.4983
+      },
+      "ConfigName": "LMDE-J",
+      "ConfigDescription": "LMDE upgraded for J-class missions. Improved performance and more fuel allowed the LEM to carry rovers and extra scientific equipment to the surface.",
+      "MaxThrust": 45.04,
+      "MinThrust": 4.67,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": true,
+      "IspVacuum": 313.5,
+      "IspSeaLevel": 116.0,
+      "MinThrottle": 0.10368561,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 3,
+        "resources": {
+          "ElectricCharge": 0.2
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 960,
+        "IgnitionReliabilityStart": 0.933333,
+        "IgnitionReliabilityEnd": 0.986667,
+        "CycleReliabilityStart": 0.909091,
+        "CycleReliabilityEnd": 0.981818
+      }
+    },
+    "TR-201": {
+      "Propellants": {
+        "Aerozine50": 0.5017,
+        "NTO": 0.4983
+      },
+      "ConfigName": "TR-201",
+      "ConfigDescription": "Simplifed LMDE used on Delta-P as an upper stage engine.",
+      "MaxThrust": 43.8,
+      "MinThrust": 43.8,
+      "MassMult": 0.7151,
+      "Ullage": true,
+      "PressureFed": true,
+      "IspVacuum": 303.0,
+      "IspSeaLevel": 130.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 5,
+        "resources": {}
+      },
+      "Reliability": {
+        "RatedBurnTime": 360,
+        "IgnitionReliabilityStart": 0.98913,
+        "IgnitionReliabilityEnd": 0.997826,
+        "CycleReliabilityStart": 0.983607,
+        "CycleReliabilityEnd": 0.996721
+      }
+    }
+  }
+}

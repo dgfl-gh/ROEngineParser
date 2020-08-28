@@ -1,0 +1,170 @@
+{
+  "Title": "RD-100 Series (Early)",
+  "Manufacturer": "NPO Energomash (OKB-456)",
+  "Description": "The RD-100 engine series were the first large scale Ethalox Russian liquid propellant rocket engines ever developed and fired. The original RD-100 engine was a 1:1 copy of the German Model 39 engine (used on the A-4 ballistic missile), with later variants (RD-101 and RD-103/M) featuring ever increasing performance to satisfy the needs of the larger R-2 and R-5 IRBMs.",
+  "OriginalMass": 0.888,
+  "LiteralZeroIgnitions": true,
+  "EngineType": 0,
+  "DefaultConfig": "RD-100",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 2.0
+  },
+  "EngineConfigs": {
+    "RD-100": {
+      "Propellants": {
+        "Ethanol75": 0.5305,
+        "LqdOxygen": 0.4695,
+        "HTP": 0.01
+      },
+      "ConfigName": "RD-100",
+      "ConfigDescription": null,
+      "MaxThrust": 307.0,
+      "MinThrust": 307.0,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 237.0,
+      "IspSeaLevel": 203.0,
+      "MinThrottle": 1.0,
+      "AirLightable": true,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 70,
+        "IgnitionReliabilityStart": 0.85,
+        "IgnitionReliabilityEnd": 0.95,
+        "CycleReliabilityStart": 0.75,
+        "CycleReliabilityEnd": 0.94
+      }
+    },
+    "RD-101": {
+      "Propellants": {
+        "Ethanol90": 0.4945,
+        "LqdOxygen": 0.5055,
+        "HTP": 0.01
+      },
+      "ConfigName": "RD-101",
+      "ConfigDescription": null,
+      "MaxThrust": 404.0,
+      "MinThrust": 404.0,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 237.0,
+      "IspSeaLevel": 210.0,
+      "MinThrottle": 1.0,
+      "AirLightable": true,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 85,
+        "IgnitionReliabilityStart": 0.86,
+        "IgnitionReliabilityEnd": 0.94,
+        "CycleReliabilityStart": 0.78,
+        "CycleReliabilityEnd": 0.93
+      }
+    },
+    "RD-102": {
+      "Propellants": {
+        "Ethanol90": 0.4945,
+        "LqdOxygen": 0.5055,
+        "HTP": 0.01
+      },
+      "ConfigName": "RD-102",
+      "ConfigDescription": null,
+      "MaxThrust": 428.0,
+      "MinThrust": 428.0,
+      "MassMult": 0.9966,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 235.0,
+      "IspSeaLevel": 214.0,
+      "MinThrottle": 1.0,
+      "AirLightable": true,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 83,
+        "IgnitionReliabilityStart": 0.87,
+        "IgnitionReliabilityEnd": 0.93,
+        "CycleReliabilityStart": 0.8,
+        "CycleReliabilityEnd": 0.92
+      }
+    },
+    "RD-103": {
+      "Propellants": {
+        "Ethanol90": 0.4945,
+        "LqdOxygen": 0.5055,
+        "HTP": 0.01
+      },
+      "ConfigName": "RD-103",
+      "ConfigDescription": null,
+      "MaxThrust": 490.33,
+      "MinThrust": 490.33,
+      "MassMult": 0.9797,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 248.0,
+      "IspSeaLevel": 220.0,
+      "MinThrottle": 1.0,
+      "AirLightable": true,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 130,
+        "IgnitionReliabilityStart": 0.82,
+        "IgnitionReliabilityEnd": 0.93,
+        "CycleReliabilityStart": 0.82,
+        "CycleReliabilityEnd": 0.91
+      }
+    },
+    "RD-103M": {
+      "Propellants": {
+        "Ethanol90": 0.4945,
+        "LqdOxygen": 0.5055,
+        "HTP": 0.01
+      },
+      "ConfigName": "RD-103M",
+      "ConfigDescription": null,
+      "MaxThrust": 500.14,
+      "MinThrust": 500.14,
+      "MassMult": 0.9763,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 248.0,
+      "IspSeaLevel": 220.0,
+      "MinThrottle": 1.0,
+      "AirLightable": true,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 140,
+        "IgnitionReliabilityStart": 0.84,
+        "IgnitionReliabilityEnd": 0.94,
+        "CycleReliabilityStart": 0.84,
+        "CycleReliabilityEnd": 0.92
+      }
+    }
+  }
+}

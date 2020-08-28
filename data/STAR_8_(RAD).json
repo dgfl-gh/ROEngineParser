@@ -1,0 +1,39 @@
+{
+  "Title": "STAR 8 (RAD)",
+  "Manufacturer": "Thiokol",
+  "Description": "The STAR 8 was developed and qualified as the rocket assisted deceleration (RAD) motor for the Mars Exploration Rover (MER) program. The motor is based on the STAR 5D motor technology developed for JPL’s Mars Pathfinder program. The STAR 8 first flew in January 2004 when three motors were used to decelerate each of the Spirit and Opportunity rovers for landing at Gusev Crater and Meridiani Planum on Mars.",
+  "OriginalMass": 0.00508,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 1,
+  "DefaultConfig": "Star-8",
+  "Gimbal": null,
+  "EngineConfigs": {
+    "Star-8": {
+      "Propellants": {
+        "HTPB": 1.0
+      },
+      "ConfigName": "Star-8",
+      "ConfigDescription": null,
+      "MaxThrust": 7.749,
+      "MinThrust": 7.749,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 273.0,
+      "IspSeaLevel": 250.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {}
+      },
+      "Reliability": {
+        "RatedBurnTime": 5,
+        "IgnitionReliabilityStart": 0.98,
+        "IgnitionReliabilityEnd": 0.999,
+        "CycleReliabilityStart": 0.98,
+        "CycleReliabilityEnd": 0.9999
+      }
+    }
+  }
+}

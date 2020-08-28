@@ -1,0 +1,39 @@
+{
+  "Title": "Star 9",
+  "Manufacturer": "ATK",
+  "Description": "The STAR 9 rocket motor was developed in 1993 on independent research and development (IR&D) funds to demonstrate a number of low-cost motor technologies. These included an integral aft polar boss/exit cone, two-dimensional carbon-carbon throat, and caseon-propellant manufacturing technique.",
+  "OriginalMass": 0.00413,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 1,
+  "DefaultConfig": "Star-9",
+  "Gimbal": null,
+  "EngineConfigs": {
+    "Star-9": {
+      "Propellants": {
+        "HTPB": 1.0
+      },
+      "ConfigName": "Star-9",
+      "ConfigDescription": null,
+      "MaxThrust": 5.83,
+      "MinThrust": 5.83,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 289.1,
+      "IspSeaLevel": 150.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Reliability": {
+        "RatedBurnTime": 10,
+        "IgnitionReliabilityStart": 0.98,
+        "IgnitionReliabilityEnd": 0.999,
+        "CycleReliabilityStart": 0.98,
+        "CycleReliabilityEnd": 0.9999
+      }
+    }
+  }
+}

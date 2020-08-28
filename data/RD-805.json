@@ -1,0 +1,46 @@
+{
+  "Title": "RD-805",
+  "Manufacturer": "PA Yuzhmash",
+  "Description": "A single-chamber derivative of the RD-8 engine used on the Zenit second stage. Yuzhnoye Design Office concept, featuring dual-axis gimbal control and restart capability for use as a standalone upper stage engine.",
+  "OriginalMass": 0.04,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 0,
+  "DefaultConfig": "RD-805",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 8.0
+  },
+  "EngineConfigs": {
+    "RD-805": {
+      "Propellants": {
+        "Kerosene": 0.3576,
+        "LqdOxygen": 0.6424
+      },
+      "ConfigName": "RD-805",
+      "ConfigDescription": null,
+      "MaxThrust": 19.6,
+      "MinThrust": 19.6,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 344.0,
+      "IspSeaLevel": 172.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 6,
+        "resources": {
+          "TEATEB": 0.175,
+          "ElectricCharge": 0.015
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 1100,
+        "IgnitionReliabilityStart": 0.995,
+        "IgnitionReliabilityEnd": 0.997,
+        "CycleReliabilityStart": 0.995,
+        "CycleReliabilityEnd": 0.997
+      }
+    }
+  }
+}

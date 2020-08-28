@@ -1,0 +1,105 @@
+{
+  "Title": "LR101 Series",
+  "Manufacturer": "Rocketdyne",
+  "Description": "Pump or pressure-fed kerolox vernier engine. Used for attitude control and final velocity adjustment in the MA-x system (2x LR89 + LR105 + 2x LR101) on Atlas, and MB-x system (LR79 or RS-27 + 2xLR101) on Thor-Able / Thor-Agena / Thor-Delta / Delta.",
+  "OriginalMass": 0.024,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 0,
+  "DefaultConfig": "LR101-NA-3",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 75.0
+  },
+  "EngineConfigs": {
+    "LR101-NA-3": {
+      "Propellants": {
+        "Kerosene": 0.3821,
+        "LqdOxygen": 0.6179
+      },
+      "ConfigName": "LR101-NA-3",
+      "ConfigDescription": "First production version. Used on Thor and Atlas as vernier engines",
+      "MaxThrust": 5.1144,
+      "MinThrust": 5.1144,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 238.0,
+      "IspSeaLevel": 207.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.25
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 360,
+        "IgnitionReliabilityStart": 0.95,
+        "IgnitionReliabilityEnd": 0.995,
+        "CycleReliabilityStart": 0.96,
+        "CycleReliabilityEnd": 0.998
+      }
+    },
+    "LR101-NA-11": {
+      "Propellants": {
+        "Kerosene": 0.3929,
+        "LqdOxygen": 0.6071
+      },
+      "ConfigName": "LR101-NA-11",
+      "ConfigDescription": "Developed for later, larger Thor variants, with improved performance",
+      "MaxThrust": 5.369,
+      "MinThrust": 5.369,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 249.0,
+      "IspSeaLevel": 209.8,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.25
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 360,
+        "IgnitionReliabilityStart": 0.95,
+        "IgnitionReliabilityEnd": 0.995,
+        "CycleReliabilityStart": 0.96,
+        "CycleReliabilityEnd": 0.998
+      }
+    },
+    "LR101-NA-15": {
+      "Propellants": {
+        "Kerosene": 0.38264,
+        "LqdOxygen": 0.61736
+      },
+      "ConfigName": "LR101-NA-15",
+      "ConfigDescription": "Downrated for later Atlas variants when studies showed much lower thrust could be used to maintain control",
+      "MaxThrust": 2.976,
+      "MinThrust": 2.976,
+      "MassMult": 0.8,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 224.3,
+      "IspSeaLevel": 190.5,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.25
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 360,
+        "IgnitionReliabilityStart": 0.95,
+        "IgnitionReliabilityEnd": 0.995,
+        "CycleReliabilityStart": 0.96,
+        "CycleReliabilityEnd": 0.998
+      }
+    }
+  }
+}

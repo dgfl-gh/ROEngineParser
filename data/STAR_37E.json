@@ -1,0 +1,39 @@
+{
+  "Title": "STAR 37E",
+  "Manufacturer": "Morton Thiokol",
+  "Description": "The STAR 37E is an improved version of the venerable STAR 37 solid rocket motor, featuring increased propellant loading, higher efficiency and vacuum thrust. First used on the Delta 1000 launch vehicle family as a third stage kick motor.",
+  "OriginalMass": 0.083,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 1,
+  "DefaultConfig": "STAR-37E",
+  "Gimbal": null,
+  "EngineConfigs": {
+    "STAR-37E": {
+      "Propellants": {
+        "HTPB": 1.0
+      },
+      "ConfigName": "STAR-37E",
+      "ConfigDescription": null,
+      "MaxThrust": 68.8,
+      "MinThrust": 68.8,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 284.0,
+      "IspSeaLevel": 140.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {}
+      },
+      "Reliability": {
+        "RatedBurnTime": 42,
+        "IgnitionReliabilityStart": 0.958,
+        "IgnitionReliabilityEnd": 0.999,
+        "CycleReliabilityStart": 0.958,
+        "CycleReliabilityEnd": 0.9999
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "Title": "RD-1",
+  "Manufacturer": "Glushko",
+  "Description": "Four-chamber nitric acid and kerosene developed by Glushko duting WW2. Used in various rocket powered aircraft proposals, and tested extensivley in the Pe-2RD, a Pe-2 bomber with an RD-1 installed in the fuselage. Abandoned after WW2, as jet engines proved to be more reliable for high performance aircraft.",
+  "OriginalMass": 0.056,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 0,
+  "DefaultConfig": "RD-1",
+  "Gimbal": null,
+  "EngineConfigs": {
+    "RD-1": {
+      "Propellants": {
+        "Kerosene": 0.3205,
+        "AK20": 0.6795,
+        "HTP": 0.01
+      },
+      "ConfigName": "RD-1",
+      "ConfigDescription": "",
+      "MaxThrust": 12.6,
+      "MinThrust": 12.6,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 215.0,
+      "IspSeaLevel": 200.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "Ethane": 1.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 300,
+        "IgnitionReliabilityStart": 0.7,
+        "IgnitionReliabilityEnd": 0.95,
+        "CycleReliabilityStart": 0.8,
+        "CycleReliabilityEnd": 0.867
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "Title": "AJ10-190",
+  "Manufacturer": "Aerojet Rocketdyne",
+  "Description": "Low thrust pressure-fed hypergolic engine. It was used on the Space Shuttle for orbital insertion, maneuvering and deorbiting. Currently used by the Orion MPCV.",
+  "OriginalMass": 0.125,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 0,
+  "DefaultConfig": "AJ10-190-OMS",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 6.0
+  },
+  "EngineConfigs": {
+    "AJ10-190-OMS": {
+      "Propellants": {
+        "MMH": 0.4943,
+        "MON3": 0.5057
+      },
+      "ConfigName": "AJ10-190-OMS",
+      "ConfigDescription": null,
+      "MaxThrust": 26.7,
+      "MinThrust": 26.7,
+      "MassMult": 1.0,
+      "Ullage": false,
+      "PressureFed": true,
+      "IspVacuum": 316.0,
+      "IspSeaLevel": 100.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 500,
+        "resources": {
+          "ElectricCharge": 0.1
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 3600,
+        "IgnitionReliabilityStart": 0.998758,
+        "IgnitionReliabilityEnd": 0.999752,
+        "CycleReliabilityStart": 0.996283,
+        "CycleReliabilityEnd": 0.999257
+      }
+    },
+    "AJ10-190-Orion": {
+      "Propellants": {
+        "MMH": 0.4943,
+        "MON3": 0.5057
+      },
+      "ConfigName": "AJ10-190-Orion",
+      "ConfigDescription": null,
+      "MaxThrust": 33.4,
+      "MinThrust": 33.4,
+      "MassMult": 1.0,
+      "Ullage": false,
+      "PressureFed": true,
+      "IspVacuum": 316.0,
+      "IspSeaLevel": 100.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 500,
+        "resources": {
+          "ElectricCharge": 0.1
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 3600,
+        "IgnitionReliabilityStart": 0.998758,
+        "IgnitionReliabilityEnd": 0.999752,
+        "CycleReliabilityStart": 0.996283,
+        "CycleReliabilityEnd": 0.999257
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "Title": "F-1B",
+  "Manufacturer": "Aerojet Rocketdyne",
+  "Description": "The F-1B engine was designed to power the proposed Pyrios advanced boosters for the Space Launch System. A highly modified version of the original F-1, the F-1B uses modern manufacturing techniques including 3D printing and features a simpler gas generator exhaust arrangment in order to reduce manufacturing costs and increase thrust at a slight cost of efficiency.",
+  "OriginalMass": 9.656,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 0,
+  "DefaultConfig": "F-1B",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 6.0
+  },
+  "EngineConfigs": {
+    "F-1B": {
+      "Propellants": {
+        "Kerosene": 0.38,
+        "LqdOxygen": 0.62
+      },
+      "ConfigName": "F-1B",
+      "ConfigDescription": null,
+      "MaxThrust": 8815.0,
+      "MinThrust": 6390.0,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 299.0,
+      "IspSeaLevel": 272.3,
+      "MinThrottle": 0.7249007,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 315,
+        "IgnitionReliabilityStart": 0.985,
+        "IgnitionReliabilityEnd": 0.998,
+        "CycleReliabilityStart": 0.985,
+        "CycleReliabilityEnd": 0.998
+      }
+    }
+  }
+}

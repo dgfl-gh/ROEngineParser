@@ -1,0 +1,42 @@
+{
+  "Title": "AJ-260 FL Solid Rocket Engine",
+  "Manufacturer": "Aerojet",
+  "Description": "The AJ-260 was the largest rocket motor to ever be tested. This is the Full Length version of the engine that has a gross mass of more than 1600 tons and provides a thrust of 35,391 kN for more than 2 minutes. This version was te be used as an alternative to the Saturn IB and as booster motors for Apollo Applications launch vehicles.",
+  "OriginalMass": 156.126,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 1,
+  "DefaultConfig": "AJ260-FL",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 3.0
+  },
+  "EngineConfigs": {
+    "AJ260-FL": {
+      "Propellants": {
+        "PBAN": 1.0
+      },
+      "ConfigName": "AJ260-FL",
+      "ConfigDescription": null,
+      "MaxThrust": 35391.0,
+      "MinThrust": 35391.0,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 263.0,
+      "IspSeaLevel": 238.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {}
+      },
+      "Reliability": {
+        "RatedBurnTime": 0,
+        "IgnitionReliabilityStart": 0.0,
+        "IgnitionReliabilityEnd": 0.0,
+        "CycleReliabilityStart": 0.0,
+        "CycleReliabilityEnd": 0.0
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "Title": "Kiwi B4E Atomic Rocket Motor",
+  "Manufacturer": "Aerojet & Westinghouse",
+  "Description": null,
+  "OriginalMass": 14.89,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 0,
+  "DefaultConfig": "KIWIB48-Hydrogen",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 3.0
+  },
+  "EngineConfigs": {
+    "KIWIB48-Hydrogen": {
+      "Propellants": {
+        "LqdHydrogen": 1.0,
+        "EnrichedUranium": 1E-11
+      },
+      "ConfigName": "KIWIB48-Hydrogen",
+      "ConfigDescription": null,
+      "MaxThrust": 0.0,
+      "MinThrust": 0.0,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 898.0,
+      "IspSeaLevel": 695.0,
+      "MinThrottle": "NaN",
+      "AirLightable": false,
+      "Ignition": {
+        "number": 4,
+        "resources": {}
+      },
+      "Reliability": {
+        "RatedBurnTime": 750,
+        "IgnitionReliabilityStart": 0.99,
+        "IgnitionReliabilityEnd": 0.999997,
+        "CycleReliabilityStart": 0.999,
+        "CycleReliabilityEnd": 0.999997
+      }
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "Title": "Star 48B",
+  "Manufacturer": "Thiokol",
+  "Description": "Also known as the Payload Assistance Module (PAM) B, this kick motor was used for Delta and STS launches to add extra impulse to the payload. This is the short-nozzle version. Maximum thrust 76.11kN, burn time 85 seconds.",
+  "OriginalMass": 0.1169,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 1,
+  "DefaultConfig": "Star-48B/Long",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 4.0
+  },
+  "EngineConfigs": {
+    "Star-48B/Short": {
+      "Propellants": {
+        "HTPB": 1.0
+      },
+      "ConfigName": "Star-48B/Short",
+      "ConfigDescription": null,
+      "MaxThrust": 76.1,
+      "MinThrust": 76.1,
+      "MassMult": 0.9521,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 286.0,
+      "IspSeaLevel": 200.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Reliability": {
+        "RatedBurnTime": 90,
+        "IgnitionReliabilityStart": 0.9,
+        "IgnitionReliabilityEnd": 0.999,
+        "CycleReliabilityStart": 0.958,
+        "CycleReliabilityEnd": 0.995
+      }
+    },
+    "Star-48B/Long": {
+      "Propellants": {
+        "HTPB": 1.0
+      },
+      "ConfigName": "Star-48B/Long",
+      "ConfigDescription": null,
+      "MaxThrust": 78.0,
+      "MinThrust": 78.0,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 292.1,
+      "IspSeaLevel": 200.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Reliability": {
+        "RatedBurnTime": 90,
+        "IgnitionReliabilityStart": 0.9,
+        "IgnitionReliabilityEnd": 0.999,
+        "CycleReliabilityStart": 0.958,
+        "CycleReliabilityEnd": 0.995
+      }
+    },
+    "Star-48BV": {
+      "Propellants": {
+        "HTPB": 1.0
+      },
+      "ConfigName": "Star-48BV",
+      "ConfigDescription": null,
+      "MaxThrust": 78.0,
+      "MinThrust": 0.0,
+      "MassMult": 1.1856,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 292.1,
+      "IspSeaLevel": 200.0,
+      "MinThrottle": 0.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Reliability": {
+        "RatedBurnTime": 90,
+        "IgnitionReliabilityStart": 0.9,
+        "IgnitionReliabilityEnd": 0.999,
+        "CycleReliabilityStart": 0.958,
+        "CycleReliabilityEnd": 0.995
+      }
+    }
+  }
+}

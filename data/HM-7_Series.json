@@ -1,0 +1,135 @@
+{
+  "Title": "HM-7 Series",
+  "Manufacturer": "Snecma S.A.",
+  "Description": "Hydrolox gas generator upper stage engine. Direct descendant of the HM4 testbed engine. Used on the upper stages of the Ariane launch vehicle family.",
+  "OriginalMass": 0.165,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 0,
+  "DefaultConfig": "HM-7",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 3.0
+  },
+  "EngineConfigs": {
+    "HM-7": {
+      "Propellants": {
+        "LqdHydrogen": 0.7893,
+        "LqdOxygen": 0.2107
+      },
+      "ConfigName": "HM-7",
+      "ConfigDescription": "Developed for Ariane 1",
+      "MaxThrust": 62.4,
+      "MinThrust": 62.4,
+      "MassMult": 0.909,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 440.0,
+      "IspSeaLevel": 308.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.25
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 570,
+        "IgnitionReliabilityStart": 0.82,
+        "IgnitionReliabilityEnd": 0.95,
+        "CycleReliabilityStart": 0.82,
+        "CycleReliabilityEnd": 0.95
+      }
+    },
+    "HM-7B": {
+      "Propellants": {
+        "LqdHydrogen": 0.7812,
+        "LqdOxygen": 0.2188
+      },
+      "ConfigName": "HM-7B",
+      "ConfigDescription": "Improved version of the HM-7 used for Ariane 3 and 4.",
+      "MaxThrust": 64.2,
+      "MinThrust": 64.2,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 442.2,
+      "IspSeaLevel": 310.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.25
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 730,
+        "IgnitionReliabilityStart": 0.966102,
+        "IgnitionReliabilityEnd": 0.99322,
+        "CycleReliabilityStart": 0.982456,
+        "CycleReliabilityEnd": 0.996491
+      }
+    },
+    "HM-7B+": {
+      "Propellants": {
+        "LqdHydrogen": 0.7774,
+        "LqdOxygen": 0.2226
+      },
+      "ConfigName": "HM-7B+",
+      "ConfigDescription": "Upgraded for higher performance on Ariane 4.",
+      "MaxThrust": 64.6,
+      "MinThrust": 64.6,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 444.2,
+      "IspSeaLevel": 310.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.25
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 980,
+        "IgnitionReliabilityStart": 0.986301,
+        "IgnitionReliabilityEnd": 0.99726,
+        "CycleReliabilityStart": 0.986301,
+        "CycleReliabilityEnd": 0.99726
+      }
+    },
+    "HM-7B++": {
+      "Propellants": {
+        "LqdHydrogen": 0.7682,
+        "LqdOxygen": 0.2318
+      },
+      "ConfigName": "HM-7B++",
+      "ConfigDescription": "Upgraded for higher performance for later Ariane 4s and Ariane 5",
+      "MaxThrust": 64.8,
+      "MinThrust": 64.8,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 445.6,
+      "IspSeaLevel": 310.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.25
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 980,
+        "IgnitionReliabilityStart": 0.986667,
+        "IgnitionReliabilityEnd": 0.997333,
+        "CycleReliabilityStart": 0.986667,
+        "CycleReliabilityEnd": 0.997333
+      }
+    }
+  }
+}

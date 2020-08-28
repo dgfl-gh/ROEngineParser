@@ -1,0 +1,42 @@
+{
+  "Title": "Advanced Booster",
+  "Manufacturer": "Orbital ATK",
+  "Description": "A composite solid rocket motor designed as a drop - in replacement for the 5 Segment RSRM used on the Space Launch System (SLS) launch vehicle. It's lower inert mass along with the higher surface thrust will enable the SLS to lift more than 130 metric tonnes into low Earth orbit.",
+  "OriginalMass": 85.5,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 1,
+  "DefaultConfig": "ASRB",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 8.0
+  },
+  "EngineConfigs": {
+    "ASRB": {
+      "Propellants": {
+        "HTPB": 1.0
+      },
+      "ConfigName": "ASRB",
+      "ConfigDescription": null,
+      "MaxThrust": 20337.0,
+      "MinThrust": 0.0,
+      "MassMult": 1.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 265.0,
+      "IspSeaLevel": 234.0,
+      "MinThrottle": 0.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {}
+      },
+      "Reliability": {
+        "RatedBurnTime": 0,
+        "IgnitionReliabilityStart": 0.0,
+        "IgnitionReliabilityEnd": 0.0,
+        "CycleReliabilityStart": 0.0,
+        "CycleReliabilityEnd": 0.0
+      }
+    }
+  }
+}

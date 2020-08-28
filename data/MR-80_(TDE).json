@@ -1,0 +1,44 @@
+{
+  "Title": "MR-80 (TDE)",
+  "Manufacturer": "Aerojet",
+  "Description": "The Viking lander Terminal Descent Engine (TDE). The lander had three such engines, which were used during the final 45 seconds or so of the descent to the surface of Mars. Multiple small exhaust nozzles are used to diffuse the exhaust plume and eliminate a recirculation zone that could contaminate spacecraft instrumentation and avoid potential extensive erosion of the landing site.",
+  "OriginalMass": 0.0089,
+  "LiteralZeroIgnitions": false,
+  "EngineType": 0,
+  "DefaultConfig": "MR-80-TDE",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 4.25
+  },
+  "EngineConfigs": {
+    "MR-80-TDE": {
+      "Propellants": {
+        "Hydrazine": 1.0
+      },
+      "ConfigName": "MR-80-TDE",
+      "ConfigDescription": null,
+      "MaxThrust": 2.811,
+      "MinThrust": 0.276,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": true,
+      "IspVacuum": 210.0,
+      "IspSeaLevel": 179.0,
+      "MinThrottle": 0.098185696,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.005
+        }
+      },
+      "Reliability": {
+        "RatedBurnTime": 215,
+        "IgnitionReliabilityStart": 0.99,
+        "IgnitionReliabilityEnd": 0.999,
+        "CycleReliabilityStart": 0.99,
+        "CycleReliabilityEnd": 0.999
+      }
+    }
+  }
+}
