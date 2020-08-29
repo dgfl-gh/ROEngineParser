@@ -17,7 +17,7 @@ namespace ROEngineParser
         public float IspVacuum { get => ispData.IspVacuum; set => ispData.IspVacuum = value; }
         public float IspSeaLevel { get => ispData.IspSeaLevel; set => ispData.IspSeaLevel = value; }
         public float MinThrottle { get => MinThrust / MaxThrust; }
-        public bool AirLightable { get => Ignition.number <= 0 && (parentEngine?.LiteralZeroIgnitions ?? false); }
+        public bool AirLightable { get => !(Ignition.number == 0 && (parentEngine?.LiteralZeroIgnitions ?? false)); }
         [JsonProperty(Order = 8)]
         public IgnitionData Ignition { get; set; } = new IgnitionData();
         [JsonProperty(Order = 9)]
