@@ -1,10 +1,15 @@
-﻿
-namespace ROEngineParser
+﻿namespace ROEngineParser
 {
     public class GimbalData
     {
-        public bool IsGimbaled { get; set; } = false;
-        public float Range { get; set; } = 0;
+        public bool IsGimbaled { get; set; }
+        public float Range { get; set; }
+
+        public GimbalData()
+        {
+            Range = 0;
+            IsGimbaled = false;
+        }
 
         public GimbalData(ConfigBlock block)
         {
@@ -14,7 +19,7 @@ namespace ROEngineParser
                 Range = 0;
             }
 
-            Range = block.GetFieldValue("gimbalRange").ParseFloat(defVal: 0);
+            Range = block.GetFieldValue("gimbalRange").ParseOrDefaultFloat(defVal: 0);
 
             if (Range > 0)
                 IsGimbaled = true;
@@ -29,7 +34,7 @@ namespace ROEngineParser
                     field = field.RemoveOperator();
 
                     if (field.Contains("gimbalRange"))
-                        Range = value.ParseFloat(defVal: 0);
+                        Range = value.ParseOrDefaultFloat(defVal: 0);
 
                     if (Range > 0)
                         IsGimbaled = true;

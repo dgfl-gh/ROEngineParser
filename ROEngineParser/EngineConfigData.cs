@@ -8,7 +8,7 @@ namespace ROEngineParser
         [JsonIgnore]
         public EngineData parentEngine;
         public string ConfigName { get; set; }
-        public string ConfigDescription { get; set; }
+        public string ConfigDescription { get; set; } = "";
         public float MaxThrust { get; set; }
         public float MinThrust { get; set; }
         public float MassMult { get; set; }
@@ -18,10 +18,12 @@ namespace ROEngineParser
         public float IspSeaLevel { get => ispData.IspSeaLevel; set => ispData.IspSeaLevel = value; }
         public float MinThrottle { get => MinThrust / MaxThrust; }
         public bool AirLightable { get => Ignition.number <= 0 && (parentEngine?.LiteralZeroIgnitions ?? false); }
+        [JsonProperty(Order = 8)]
         public IgnitionData Ignition { get; set; } = new IgnitionData();
-        public ReliabilityData Reliability { get; set; } = new ReliabilityData();
-
+        [JsonProperty(Order = 9)]
         public Dictionary<string, float> Propellants = new Dictionary<string, float>();
+        [JsonProperty(Order = 10)]
+        public ReliabilityData Reliability { get; set; } = new ReliabilityData();
 
         private IspData ispData = new IspData();
 
@@ -48,22 +50,22 @@ namespace ROEngineParser
                             ConfigDescription = value;
                             break;
                         case "minThrust":
-                            MinThrust = value.ParseFloat(defVal: 0);
+                            MinThrust = value.ParseOrDefaultFloat(defVal: 0);
                             break;
                         case "maxThrust":
-                            MaxThrust = value.ParseFloat(defVal: 0);
+                            MaxThrust = value.ParseOrDefaultFloat(defVal: 0);
                             break;
                         case "massMult":
-                            MassMult = value.ParseFloat(defVal: 0);
+                            MassMult = value.ParseOrDefaultFloat(defVal: 0);
                             break;
                         case "ullage":
-                            Ullage = value.ParseBool(defVal: true);
+                            Ullage = value.ParseOrDefaultBool(defVal: true);
                             break;
                         case "pressureFed":
-                            PressureFed = value.ParseBool(defVal: false);
+                            PressureFed = value.ParseOrDefaultBool(defVal: false);
                             break;
                         case "ignitions":
-                            Ignition.number = value.ParseInt(defVal: 0);
+                            Ignition.number = value.ParseOrDefaultInt(defVal: 0);
                             break;
                     }
                 }
@@ -78,7 +80,7 @@ namespace ROEngineParser
                 else if (child.type == BlockType.IgnitorResource)
                 {
                     var resource = child.name;
-                    var amount = child.GetFieldValue("amount").ParseFloat();
+                    var amount = child.GetFieldValue("amount").ParseOrDefaultFloat();
 
                     if(resource != null)
                         Ignition.resources[resource] = amount;
@@ -86,7 +88,7 @@ namespace ROEngineParser
                 else if (child.type == BlockType.Propellant)
                 {
                     var resource = child.name;
-                    var ratio = child.GetFieldValue("ratio").ParseFloat();
+                    var ratio = child.GetFieldValue("ratio").ParseOrDefaultFloat();
 
                     Propellants[resource] = ratio;
                 }

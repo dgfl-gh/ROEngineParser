@@ -1,8 +1,7 @@
 {
   "profiles": {
     "ROEngineParser": {
-      "commandName": "Project",
-      "commandLineArgs": "\"E:\\GitHub\\realismoverhaul\\GameData\\RealismOverhaul\\Engine_Configs\" \"E:\\GitHub\\ROEngineParser\\data\""
+      "commandName": "Project"
     }
   }
 }

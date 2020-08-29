@@ -3,14 +3,16 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Linq.Expressions;
+using System.Security.Cryptography.X509Certificates;
 
 namespace ROEngineParser
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             List<EngineData> engines = new List<EngineData>();
+
             string inputPath = null;
             string outputPath = null;
             string BaseFileName = "ROEngineData";
@@ -26,53 +28,60 @@ namespace ROEngineParser
 
             if(string.IsNullOrEmpty(inputPath))
             {
-                Console.Write("Input engine configs input folder path: ");
+                Console.Write("Enter engine configs input folder path: ");
                 inputPath = Console.ReadLine();
             }
 
             if (string.IsNullOrEmpty(outputPath))
             {
-                Console.Write("Input json output folder path: ");
+                Console.Write("Enter json output folder path: ");
                 outputPath = Console.ReadLine();
             }
 
-            while (engines.Count == 0)
+            while (engines.Count == 0 && !LoadAllFiles(inputPath, ref engines))
             {
-                Console.WriteLine($"Parsing Engine configs from {inputPath}...");
-                IEnumerable<string> filePaths = Directory.EnumerateFiles(inputPath, "*.cfg");
-
-                if(filePaths.Count() > 0)
-                {
-                    foreach (string file in filePaths)
-                    {
-                        string contents = File.ReadAllText(file);
-
-                        if (Load(file) is EngineData e)
-                            engines.Add(e);
-                    }
-                }
-                else
-                {
-                    Console.WriteLine("ERROR: No configs found in folder");
-                    Console.Write("Input the path of the folder containing your engine configs: ");
-                    inputPath = Console.ReadLine();
-                }
+                Console.WriteLine("ERROR: No configs found in folder");
+                Console.Write("Enter the path of the folder containing your engine configs: ");
+                inputPath = Console.ReadLine();
             }
 
 
             string fullOutPath = Path.GetFullPath(outputPath);
             Directory.CreateDirectory(fullOutPath);
 
-            for (int i1 = 0; i1 < engines.Count; i1++)
+            foreach (EngineData e in engines)
             {
-                EngineData e = engines[i1];
-                if(e.Title != null)
+                if (e.Title != null)
                 {
-                    string FileName = $"{fullOutPath}/{e.Title.Replace(" ", "_")}.json";
+                    string FileName = $"{fullOutPath}/{e.fileName}.json";
 
                     e.ToJsonFile(FileName, overwrite);
                 }
             }
+            Console.WriteLine($"Successfully created {engines.Count} files in {fullOutPath}");
+        }
+
+        private static bool LoadAllFiles(string folderPath, ref List<EngineData> engines)
+        {
+            Console.WriteLine($"Parsing Engine configs from {folderPath}...");
+            IEnumerable<string> filePaths = Directory.EnumerateFiles(folderPath, "*.cfg");
+
+            if (filePaths.Count() > 0)
+            {
+                foreach (string file in filePaths)
+                {
+                    string name = Path.GetFileNameWithoutExtension(file);
+
+                    if (Load(file) is EngineData e)
+                    {
+                        e.fileName = name;
+                        engines.Add(e);
+                    }
+                }
+                return true;
+            }
+            else
+                return false;
         }
 
         private static EngineData Load(string fileFullName)

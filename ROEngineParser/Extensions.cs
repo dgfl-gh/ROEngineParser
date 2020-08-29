@@ -9,7 +9,7 @@
             return s.TrimStart(operators);
         }
 
-        public static int ParseInt(this string text, int defVal = 0)
+        public static int ParseOrDefaultInt(this string text, int defVal = 0)
         {
             if (int.TryParse(text, out int tmp))
                 return tmp;
@@ -17,7 +17,7 @@
                 return defVal;
         }
 
-        public static float ParseFloat(this string text, float defVal = 0)
+        public static float ParseOrDefaultFloat(this string text, float defVal = 0)
         {
             if (float.TryParse(text, out float tmp))
                 return tmp;
@@ -25,7 +25,7 @@
                 return defVal;
         }
 
-        public static bool ParseBool(this string text, bool defVal = false)
+        public static bool ParseOrDefaultBool(this string text, bool defVal = false)
         {
             if (bool.TryParse(text, out bool tmp))
                 return tmp;

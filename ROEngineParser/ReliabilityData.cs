@@ -10,28 +10,28 @@
 
         public ReliabilityData()
         {
-            RatedBurnTime = 0;
+            RatedBurnTime = -1;
 
-            IgnitionReliabilityStart = 0;
+            IgnitionReliabilityStart = 1;
 
-            IgnitionReliabilityEnd = 0;
+            IgnitionReliabilityEnd = 1;
 
-            CycleReliabilityStart = 0;
+            CycleReliabilityStart = 1;
 
-            CycleReliabilityEnd = 0;
+            CycleReliabilityEnd = 1;
         }
 
         public ReliabilityData(ConfigBlock cfg)
         {
-            RatedBurnTime = cfg.GetFieldValue("ratedBurnTime").ParseInt();
+            RatedBurnTime = cfg.GetFieldValue("ratedBurnTime").ParseOrDefaultInt(-1);
 
-            IgnitionReliabilityStart = cfg.GetFieldValue("ignitionReliabilityStart").ParseFloat();
+            IgnitionReliabilityStart = cfg.GetFieldValue("ignitionReliabilityStart").ParseOrDefaultFloat(1);
 
-            IgnitionReliabilityEnd = cfg.GetFieldValue("ignitionReliabilityEnd").ParseFloat();
+            IgnitionReliabilityEnd = cfg.GetFieldValue("ignitionReliabilityEnd").ParseOrDefaultFloat(1);
 
-            CycleReliabilityStart = cfg.GetFieldValue("cycleReliabilityStart").ParseFloat();
+            CycleReliabilityStart = cfg.GetFieldValue("cycleReliabilityStart").ParseOrDefaultFloat(1);
 
-            CycleReliabilityEnd = cfg.GetFieldValue("cycleReliabilityEnd").ParseFloat();
+            CycleReliabilityEnd = cfg.GetFieldValue("cycleReliabilityEnd").ParseOrDefaultFloat(1);
         }
     }
 }

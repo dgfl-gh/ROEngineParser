@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -16,6 +17,8 @@ namespace ROEngineParser
 
     public class EngineData
     {
+        [JsonIgnore]
+        public string fileName;
         [JsonProperty(Order = 1)]
         public string Title { get; set; }
         [JsonProperty(Order = 2)]
@@ -27,11 +30,12 @@ namespace ROEngineParser
         [JsonProperty(Order = 5)]
         public bool LiteralZeroIgnitions { get; set; }
         [JsonProperty(Order = 6)]
+        [JsonConverter(typeof(StringEnumConverter))]
         public EngineType EngineType { get; set; }
         [JsonProperty(Order = 7)]
         public string DefaultConfig { get; set; }
         [JsonProperty(Order = 8)]
-        public GimbalData Gimbal { get; set; }
+        public GimbalData Gimbal { get; set; } = new GimbalData();
         [JsonProperty(Order = 9)]
         public Dictionary<string, EngineConfigData> EngineConfigs = new Dictionary<string, EngineConfigData>();
 
@@ -141,8 +145,8 @@ namespace ROEngineParser
                     Gimbal = new GimbalData(block);
                     break;
                 case BlockType.ModuleEngineConfigs:
-                    OriginalMass = block.GetFieldValue("origMass").ParseFloat(defVal: 1);
-                    LiteralZeroIgnitions = block.GetFieldValue("literalZeroIgnitions").ParseBool(defVal: false);
+                    OriginalMass = block.GetFieldValue("origMass").ParseOrDefaultFloat(defVal: 1);
+                    LiteralZeroIgnitions = block.GetFieldValue("literalZeroIgnitions").ParseOrDefaultBool(defVal: false);
                     DefaultConfig = block.GetFieldValue("configuration");
 
                     foreach (var config in block.childrenBlocks ?? Enumerable.Empty<ConfigBlock>())
