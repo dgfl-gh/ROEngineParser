@@ -22,7 +22,7 @@
       "IspVacuum": 280.0,
       "IspSeaLevel": 100.0,
       "MinThrottle": 0.6,
-      "AirLightable": false,
+      "AirLightable": true,
       "Ignition": {
         "number": 6,
         "resources": {

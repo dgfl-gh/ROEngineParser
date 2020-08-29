@@ -16,7 +16,7 @@
       "ConfigDescription": "MA-0 and prototype MA-1 Atlas Booster engine. An XLR43 modified to burn kerosene. Used on Convair X12 and Atlas A",
       "MaxThrust": 756.8,
       "MinThrust": 756.8,
-      "MassMult": 0.0,
+      "MassMult": 1.0,
       "Ullage": true,
       "PressureFed": false,
       "IspVacuum": 278.0,
@@ -24,7 +24,7 @@
       "MinThrottle": 1.0,
       "AirLightable": false,
       "Ignition": {
-        "number": 1,
+        "number": 0,
         "resources": {
           "ElectricCharge": 0.5,
           "TEATEB": 1.0
@@ -53,7 +53,7 @@
       "IspVacuum": 282.0,
       "IspSeaLevel": 248.0,
       "MinThrottle": 1.0,
-      "AirLightable": true,
+      "AirLightable": false,
       "Ignition": {
         "number": 0,
         "resources": {
@@ -84,7 +84,7 @@
       "IspVacuum": 290.0,
       "IspSeaLevel": 251.0,
       "MinThrottle": 1.0,
-      "AirLightable": true,
+      "AirLightable": false,
       "Ignition": {
         "number": 0,
         "resources": {
@@ -115,7 +115,7 @@
       "IspVacuum": 290.0,
       "IspSeaLevel": 256.0,
       "MinThrottle": 1.0,
-      "AirLightable": true,
+      "AirLightable": false,
       "Ignition": {
         "number": 0,
         "resources": {
@@ -146,7 +146,7 @@
       "IspVacuum": 292.2,
       "IspSeaLevel": 258.0,
       "MinThrottle": 1.0,
-      "AirLightable": true,
+      "AirLightable": false,
       "Ignition": {
         "number": 0,
         "resources": {
@@ -177,7 +177,7 @@
       "IspVacuum": 293.4,
       "IspSeaLevel": 259.1,
       "MinThrottle": 1.0,
-      "AirLightable": true,
+      "AirLightable": false,
       "Ignition": {
         "number": 0,
         "resources": {
@@ -208,7 +208,7 @@
       "IspVacuum": 296.4,
       "IspSeaLevel": 262.1,
       "MinThrottle": 1.0,
-      "AirLightable": true,
+      "AirLightable": false,
       "Ignition": {
         "number": 0,
         "resources": {

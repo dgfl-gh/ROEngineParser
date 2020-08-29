@@ -22,7 +22,7 @@
       "IspVacuum": 311.0,
       "IspSeaLevel": 100.0,
       "MinThrottle": 1.0,
-      "AirLightable": false,
+      "AirLightable": true,
       "Ignition": {
         "number": 0,
         "resources": {
@@ -34,11 +34,11 @@
         "NTO": 0.4983
       },
       "Reliability": {
-        "RatedBurnTime": -1,
-        "IgnitionReliabilityStart": 1.0,
-        "IgnitionReliabilityEnd": 1.0,
-        "CycleReliabilityStart": 1.0,
-        "CycleReliabilityEnd": 1.0
+        "RatedBurnTime": 560,
+        "IgnitionReliabilityStart": 0.985,
+        "IgnitionReliabilityEnd": 0.995,
+        "CycleReliabilityStart": 0.833333,
+        "CycleReliabilityEnd": 0.966667
       }
     }
   }

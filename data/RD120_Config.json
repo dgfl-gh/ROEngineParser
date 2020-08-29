@@ -22,7 +22,7 @@
       "IspVacuum": 350.0,
       "IspSeaLevel": 175.0,
       "MinThrottle": 0.6999976,
-      "AirLightable": false,
+      "AirLightable": true,
       "Ignition": {
         "number": 10,
         "resources": {
@@ -53,7 +53,7 @@
       "IspVacuum": 350.0,
       "IspSeaLevel": 175.0,
       "MinThrottle": 0.6397776,
-      "AirLightable": false,
+      "AirLightable": true,
       "Ignition": {
         "number": 19,
         "resources": {
@@ -84,7 +84,7 @@
       "IspVacuum": 330.0,
       "IspSeaLevel": 304.4,
       "MinThrottle": 0.48850185,
-      "AirLightable": false,
+      "AirLightable": true,
       "Ignition": {
         "number": 1,
         "resources": {

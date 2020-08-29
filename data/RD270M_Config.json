@@ -22,7 +22,7 @@
       "IspVacuum": 365.0,
       "IspSeaLevel": 340.0,
       "MinThrottle": 0.90000004,
-      "AirLightable": false,
+      "AirLightable": true,
       "Ignition": {
         "number": 1,
         "resources": {
@@ -34,36 +34,11 @@
         "NTO": 0.532
       },
       "Reliability": {
-        "RatedBurnTime": -1,
-        "IgnitionReliabilityStart": 1.0,
-        "IgnitionReliabilityEnd": 1.0,
-        "CycleReliabilityStart": 1.0,
-        "CycleReliabilityEnd": 1.0
-      }
-    },
-    "RD-270": {
-      "ConfigName": null,
-      "ConfigDescription": "",
-      "MaxThrust": 0.0,
-      "MinThrust": 0.0,
-      "MassMult": 0.0,
-      "Ullage": false,
-      "PressureFed": false,
-      "IspVacuum": 0.0,
-      "IspSeaLevel": 0.0,
-      "MinThrottle": "NaN",
-      "AirLightable": false,
-      "Ignition": {
-        "number": 0,
-        "resources": {}
-      },
-      "Propellants": {},
-      "Reliability": {
-        "RatedBurnTime": -1,
-        "IgnitionReliabilityStart": 1.0,
-        "IgnitionReliabilityEnd": 1.0,
-        "CycleReliabilityStart": 1.0,
-        "CycleReliabilityEnd": 1.0
+        "RatedBurnTime": 148,
+        "IgnitionReliabilityStart": 0.995713,
+        "IgnitionReliabilityEnd": 0.999143,
+        "CycleReliabilityStart": 0.995713,
+        "CycleReliabilityEnd": 0.999143
       }
     }
   }

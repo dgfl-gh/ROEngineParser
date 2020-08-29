@@ -2,7 +2,7 @@
   "Title": "Aerobee",
   "Manufacturer": "Aerojet",
   "Description": "Small sustainer for WAC Corporal and Aerobee sounding rockets. Pressure-fed. Used after a small solid booster.",
-  "OriginalMass": 0.008,
+  "OriginalMass": 0.016,
   "LiteralZeroIgnitions": false,
   "EngineType": "Liquid",
   "DefaultConfig": "WAC-Corporal",
@@ -22,7 +22,7 @@
       "IspVacuum": 226.0,
       "IspSeaLevel": 195.0,
       "MinThrottle": 1.0,
-      "AirLightable": false,
+      "AirLightable": true,
       "Ignition": {
         "number": 1,
         "resources": {}
@@ -51,7 +51,7 @@
       "IspVacuum": 235.44,
       "IspSeaLevel": 200.0,
       "MinThrottle": 1.0,
-      "AirLightable": false,
+      "AirLightable": true,
       "Ignition": {
         "number": 1,
         "resources": {}
@@ -80,7 +80,7 @@
       "IspVacuum": 231.0,
       "IspSeaLevel": 198.0,
       "MinThrottle": 1.0,
-      "AirLightable": false,
+      "AirLightable": true,
       "Ignition": {
         "number": 1,
         "resources": {}
