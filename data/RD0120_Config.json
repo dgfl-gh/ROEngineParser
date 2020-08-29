@@ -1,0 +1,75 @@
+{
+  "Title": "RD-0120",
+  "Manufacturer": "KB Khimavtomatika",
+  "Description": "1980s medium TWR, atmospheric and vacuum use. The RD-0120 is a fuel-rich staged combustion engine developed to power the core stage of the Energia launcher.",
+  "OriginalMass": 3.45,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "RD-0120",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 11.0
+  },
+  "EngineConfigs": {
+    "RD-0120": {
+      "ConfigName": "RD-0120",
+      "ConfigDescription": "",
+      "MaxThrust": 1961.0,
+      "MinThrust": 882.45,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 454.5,
+      "IspSeaLevel": 336.0,
+      "MinThrottle": 0.45000002,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Propellants": {
+        "LqdHydrogen": 0.729,
+        "LqdOxygen": 0.271
+      },
+      "Reliability": {
+        "RatedBurnTime": 600,
+        "IgnitionReliabilityStart": 0.888889,
+        "IgnitionReliabilityEnd": 0.977778,
+        "CycleReliabilityStart": 0.888889,
+        "CycleReliabilityEnd": 0.977778
+      }
+    },
+    "RD-0120M": {
+      "ConfigName": "RD-0120M",
+      "ConfigDescription": "",
+      "MaxThrust": 1961.7,
+      "MinThrust": 745.44,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 455.6,
+      "IspSeaLevel": 359.1,
+      "MinThrottle": 0.37999696,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Propellants": {
+        "LqdHydrogen": 0.729,
+        "LqdOxygen": 0.271
+      },
+      "Reliability": {
+        "RatedBurnTime": 600,
+        "IgnitionReliabilityStart": 0.9,
+        "IgnitionReliabilityEnd": 0.98,
+        "CycleReliabilityStart": 0.9,
+        "CycleReliabilityEnd": 0.98
+      }
+    }
+  }
+}

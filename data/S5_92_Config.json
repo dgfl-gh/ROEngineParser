@@ -1,0 +1,125 @@
+{
+  "Title": "S5.92",
+  "Manufacturer": "KB KhIMMASH",
+  "Description": "A gas generator cycle hypergolic vacuum engine. Used on the Fregat upper stage series.",
+  "OriginalMass": 0.075,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "S5.92",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 5.0
+  },
+  "EngineConfigs": {
+    "S5.92": {
+      "ConfigName": "S5.92",
+      "ConfigDescription": "",
+      "MaxThrust": 19.61,
+      "MinThrust": 13.73,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 327.0,
+      "IspSeaLevel": 158.0,
+      "MinThrottle": 0.70015293,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 50,
+        "resources": {
+          "ElectricCharge": 0.01
+        }
+      },
+      "Propellants": {
+        "UDMH": 0.4782,
+        "NTO": 0.5218
+      },
+      "Reliability": {
+        "RatedBurnTime": -1,
+        "IgnitionReliabilityStart": 1.0,
+        "IgnitionReliabilityEnd": 1.0,
+        "CycleReliabilityStart": 1.0,
+        "CycleReliabilityEnd": 1.0
+      }
+    },
+    "S5.92-l.n.": {
+      "ConfigName": "S5.92-l.n.",
+      "ConfigDescription": "",
+      "MaxThrust": 20.01,
+      "MinThrust": 13.96,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 333.2,
+      "IspSeaLevel": 158.0,
+      "MinThrottle": 0.69765115,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 50,
+        "resources": {
+          "ElectricCharge": 0.01
+        }
+      },
+      "Propellants": {
+        "UDMH": 0.4782,
+        "NTO": 0.5218
+      },
+      "Reliability": {
+        "RatedBurnTime": -1,
+        "IgnitionReliabilityStart": 1.0,
+        "IgnitionReliabilityEnd": 1.0,
+        "CycleReliabilityStart": 1.0,
+        "CycleReliabilityEnd": 1.0
+      }
+    },
+    "S5-92": {
+      "ConfigName": null,
+      "ConfigDescription": "",
+      "MaxThrust": 0.0,
+      "MinThrust": 0.0,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 0.0,
+      "IspSeaLevel": 0.0,
+      "MinThrottle": "NaN",
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Propellants": {},
+      "Reliability": {
+        "RatedBurnTime": -1,
+        "IgnitionReliabilityStart": 1.0,
+        "IgnitionReliabilityEnd": 1.0,
+        "CycleReliabilityStart": 1.0,
+        "CycleReliabilityEnd": 1.0
+      }
+    },
+    "S5-92-l.n.": {
+      "ConfigName": null,
+      "ConfigDescription": "",
+      "MaxThrust": 0.0,
+      "MinThrust": 0.0,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 0.0,
+      "IspSeaLevel": 0.0,
+      "MinThrottle": "NaN",
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Propellants": {},
+      "Reliability": {
+        "RatedBurnTime": -1,
+        "IgnitionReliabilityStart": 1.0,
+        "IgnitionReliabilityEnd": 1.0,
+        "CycleReliabilityStart": 1.0,
+        "CycleReliabilityEnd": 1.0
+      }
+    }
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "Title": "NK-9V/21/19/39/31",
+  "Manufacturer": "SNTK Kuznetsov",
+  "Description": "Staged combustion kerolox upper/vacuum engine. Designed by Kuznetsov for the Korolev GR-1 projet. Reused (as NK-19) on the N1, upgraded for the N1F with restart capability as NK-31.",
+  "OriginalMass": 0.64,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "NK-9V",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 5.0
+  },
+  "EngineConfigs": {
+    "NK-9V": {
+      "ConfigName": "NK-9V",
+      "ConfigDescription": "Original vacuum version of NK-9 for the GR-1 rocket.",
+      "MaxThrust": 451.1,
+      "MinThrust": 451.1,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 345.0,
+      "IspSeaLevel": 240.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.3576,
+        "LqdOxygen": 0.6424
+      },
+      "Reliability": {
+        "RatedBurnTime": 240,
+        "IgnitionReliabilityStart": 0.87,
+        "IgnitionReliabilityEnd": 0.97,
+        "CycleReliabilityStart": 0.85,
+        "CycleReliabilityEnd": 0.96
+      }
+    },
+    "NK-21": {
+      "ConfigName": "NK-21",
+      "ConfigDescription": "NK-9V rerated for N1 Block V use. No gimbal, differential throttle.",
+      "MaxThrust": 400.0,
+      "MinThrust": 240.0,
+      "MassMult": 0.9,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 340.0,
+      "IspSeaLevel": 240.0,
+      "MinThrottle": 0.6,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.3576,
+        "LqdOxygen": 0.6424
+      },
+      "Reliability": {
+        "RatedBurnTime": 450,
+        "IgnitionReliabilityStart": 0.9,
+        "IgnitionReliabilityEnd": 0.98,
+        "CycleReliabilityStart": 0.89,
+        "CycleReliabilityEnd": 0.975
+      }
+    },
+    "NK-19": {
+      "ConfigName": "NK-19",
+      "ConfigDescription": "NK-9V rerated for N1 Block G use. Gimbal, throttle.",
+      "MaxThrust": 400.0,
+      "MinThrust": 240.0,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 353.0,
+      "IspSeaLevel": 240.0,
+      "MinThrottle": 0.6,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.3576,
+        "LqdOxygen": 0.6424
+      },
+      "Reliability": {
+        "RatedBurnTime": 450,
+        "IgnitionReliabilityStart": 0.9,
+        "IgnitionReliabilityEnd": 0.98,
+        "CycleReliabilityStart": 0.89,
+        "CycleReliabilityEnd": 0.975
+      }
+    },
+    "NK-39": {
+      "ConfigName": "NK-39",
+      "ConfigDescription": "Improved for N1F Block V. No gimbal, differential throttle.",
+      "MaxThrust": 400.0,
+      "MinThrust": 240.0,
+      "MassMult": 1.09375,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 352.0,
+      "IspSeaLevel": 220.0,
+      "MinThrottle": 0.6,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.3486,
+        "LqdOxygen": 0.6514
+      },
+      "Reliability": {
+        "RatedBurnTime": 600,
+        "IgnitionReliabilityStart": 0.93,
+        "IgnitionReliabilityEnd": 0.99,
+        "CycleReliabilityStart": 0.94,
+        "CycleReliabilityEnd": 0.985
+      }
+    },
+    "NK-31": {
+      "ConfigName": "NK-31",
+      "ConfigDescription": "Improved for N1F Block G. Relightable. Gimbal, throttle.",
+      "MaxThrust": 402.0,
+      "MinThrust": 240.0,
+      "MassMult": 1.128125,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 353.0,
+      "IspSeaLevel": 220.0,
+      "MinThrottle": 0.5970149,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 2,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 0.5
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.3486,
+        "LqdOxygen": 0.6514
+      },
+      "Reliability": {
+        "RatedBurnTime": 600,
+        "IgnitionReliabilityStart": 0.93,
+        "IgnitionReliabilityEnd": 0.99,
+        "CycleReliabilityStart": 0.94,
+        "CycleReliabilityEnd": 0.985
+      }
+    }
+  }
+}

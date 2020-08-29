@@ -1,0 +1,77 @@
+{
+  "Title": "NAA-75-110 A-Series",
+  "Manufacturer": "North American Aviation (NAA)",
+  "Description": "The power plant of the PGM-11 Redstone Short Range Ballistic Missile (SRBM). Originally designed for Ethanol/LOX (A-6) it was later adapted to use Hydyne/LOx (A-7) with approximately 6% higher performance (yet more toxic) for use in Jupiter-C / Juno I. When the Redstone was adapted from Jupiter-C for manned use under the Project Mercury (Mercury-Redstone Launch Vehicle - MRLV), the A-7 was switched back to Ethalox, accepting a slightly lower performance for the lack of toxicity. Thrust Vector Control (TVC) was provided by carbon thrust vanes and additional attitude control was provided by actuating fins placed in the guidance section.",
+  "OriginalMass": 0.67,
+  "LiteralZeroIgnitions": true,
+  "EngineType": "Liquid",
+  "DefaultConfig": "A-6",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 2.0
+  },
+  "EngineConfigs": {
+    "A-6": {
+      "ConfigName": "A-6",
+      "ConfigDescription": "",
+      "MaxThrust": 395.9,
+      "MinThrust": 395.9,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 249.0,
+      "IspSeaLevel": 216.0,
+      "MinThrottle": 1.0,
+      "AirLightable": true,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Propellants": {
+        "Ethanol75": 0.5266,
+        "LqdOxygen": 0.4734,
+        "HTP": 0.0175
+      },
+      "Reliability": {
+        "RatedBurnTime": 145,
+        "IgnitionReliabilityStart": 0.879121,
+        "IgnitionReliabilityEnd": 0.975824,
+        "CycleReliabilityStart": 0.879121,
+        "CycleReliabilityEnd": 0.975824
+      }
+    },
+    "A-7": {
+      "ConfigName": "A-7",
+      "ConfigDescription": "",
+      "MaxThrust": 416.2,
+      "MinThrust": 416.2,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 265.0,
+      "IspSeaLevel": 235.0,
+      "MinThrottle": 1.0,
+      "AirLightable": true,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Propellants": {
+        "Hydyne": 0.5232,
+        "LqdOxygen": 0.4768,
+        "HTP": 0.0175
+      },
+      "Reliability": {
+        "RatedBurnTime": 155,
+        "IgnitionReliabilityStart": 0.888889,
+        "IgnitionReliabilityEnd": 0.977778,
+        "CycleReliabilityStart": 0.888889,
+        "CycleReliabilityEnd": 0.977778
+      }
+    }
+  }
+}

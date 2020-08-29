@@ -1,0 +1,143 @@
+{
+  "Title": "X-405 (XLR50-GE-2)",
+  "Manufacturer": "General Electric (GE)",
+  "Description": "A very early kerolox gas generator booster engine used on the Vanguard launch vehicle.",
+  "OriginalMass": 0.192,
+  "LiteralZeroIgnitions": true,
+  "EngineType": "Liquid",
+  "DefaultConfig": "X-405",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 5.0
+  },
+  "EngineConfigs": {
+    "X-405": {
+      "ConfigName": "X-405",
+      "ConfigDescription": "",
+      "MaxThrust": 135.5,
+      "MinThrust": 135.5,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 278.0,
+      "IspSeaLevel": 254.0,
+      "MinThrottle": 1.0,
+      "AirLightable": true,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.25,
+          "TEATEB": 3.0
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.3874,
+        "LqdOxygen": 0.6126,
+        "HTP": 0.0146
+      },
+      "Reliability": {
+        "RatedBurnTime": 145,
+        "IgnitionReliabilityStart": 0.7,
+        "IgnitionReliabilityEnd": 0.9,
+        "CycleReliabilityStart": 0.86,
+        "CycleReliabilityEnd": 0.94
+      }
+    },
+    "X-405H": {
+      "ConfigName": "X-405H",
+      "ConfigDescription": "Engine for proposed Vega stage for NASA Atlas-Vega LV. Superceded by Atlas-Agena once NASA became aware of the USAF's Agena stage.",
+      "MaxThrust": 156.3,
+      "MinThrust": 156.3,
+      "MassMult": 1.141,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 311.9,
+      "IspSeaLevel": 208.5,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 3,
+        "resources": {
+          "ElectricCharge": 0.25,
+          "TEATEB": 1.0
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.3614,
+        "LqdOxygen": 0.6233,
+        "HTP": 0.0153
+      },
+      "Reliability": {
+        "RatedBurnTime": 245,
+        "IgnitionReliabilityStart": 0.8,
+        "IgnitionReliabilityEnd": 0.94,
+        "CycleReliabilityStart": 0.86,
+        "CycleReliabilityEnd": 0.96
+      }
+    },
+    "X-405H-3": {
+      "ConfigName": "X-405H-3",
+      "ConfigDescription": "Speculative upgrade configuration with increased expansion ratio",
+      "MaxThrust": 161.86,
+      "MinThrust": 161.86,
+      "MassMult": 1.15,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 323.0,
+      "IspSeaLevel": 200.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 3,
+        "resources": {
+          "ElectricCharge": 0.25,
+          "TEATEB": 1.0
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.3614,
+        "LqdOxygen": 0.6233,
+        "HTP": 0.0153
+      },
+      "Reliability": {
+        "RatedBurnTime": 245,
+        "IgnitionReliabilityStart": 0.89,
+        "IgnitionReliabilityEnd": 0.97,
+        "CycleReliabilityStart": 0.93,
+        "CycleReliabilityEnd": 0.988
+      }
+    },
+    "X-405H-4": {
+      "ConfigName": "X-405H-4",
+      "ConfigDescription": "Speculative upgrade configuration with increased chamber pressure and upgrades with late 1960s technology.",
+      "MaxThrust": 186.42,
+      "MinThrust": 186.42,
+      "MassMult": 1.15,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 323.5,
+      "IspSeaLevel": 200.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 3,
+        "resources": {
+          "ElectricCharge": 0.25,
+          "TEATEB": 1.0
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.3614,
+        "LqdOxygen": 0.6233,
+        "HTP": 0.0153
+      },
+      "Reliability": {
+        "RatedBurnTime": 245,
+        "IgnitionReliabilityStart": 0.94,
+        "IgnitionReliabilityEnd": 0.99,
+        "CycleReliabilityStart": 0.95,
+        "CycleReliabilityEnd": 0.994
+      }
+    }
+  }
+}

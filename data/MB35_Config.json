@@ -1,0 +1,45 @@
+{
+  "Title": "MB-35 Engine",
+  "Manufacturer": "Mitsubishi Heavy Industries",
+  "Description": "2000s Low TWR Expander bleed cycle vacuum engine. Mitsubishi and Boeing joint project for an engine for Delta IV cryogenic upper stages.",
+  "OriginalMass": 0.345,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "MB-35",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 4.0
+  },
+  "EngineConfigs": {
+    "MB-35": {
+      "ConfigName": "MB-35",
+      "ConfigDescription": "",
+      "MaxThrust": 155.7,
+      "MinThrust": 155.7,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 468.0,
+      "IspSeaLevel": 100.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 10,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Propellants": {
+        "LqdHydrogen": 0.733,
+        "LqdOxygen": 0.267
+      },
+      "Reliability": {
+        "RatedBurnTime": 1130,
+        "IgnitionReliabilityStart": 0.98,
+        "IgnitionReliabilityEnd": 0.9995,
+        "CycleReliabilityStart": 0.9643,
+        "CycleReliabilityEnd": 0.9979
+      }
+    }
+  }
+}

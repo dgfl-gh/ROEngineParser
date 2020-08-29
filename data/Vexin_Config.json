@@ -1,0 +1,159 @@
+{
+  "Title": "LRBA Vexin/Valois engine",
+  "Manufacturer": "LRBA",
+  "Description": "Early French hypergolic engines that propelled the Diamant series of rockets, first flown in 1965. Early models had low efficiency due to the propellants being nitric acid and turpentine- later versions (called Valois, first flown in 1970) used UDMH and N2O4 and enjoyed the benefits of higher thrust and specific impulse. \"Vesta\" config doesn't gimbal!",
+  "OriginalMass": 0.45,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "Vesta",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 5.0
+  },
+  "EngineConfigs": {
+    "Vesta": {
+      "ConfigName": "Vesta",
+      "ConfigDescription": "Used for the \"Super-Veronique\" Vesta sounding rocket. Has no gimbal",
+      "MaxThrust": 153.7,
+      "MinThrust": 153.7,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": true,
+      "IspVacuum": 202.0,
+      "IspSeaLevel": 189.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "Furfuryl": 1.0
+        }
+      },
+      "Propellants": {
+        "Turpentine": 0.3464,
+        "IWFNA": 0.6536
+      },
+      "Reliability": {
+        "RatedBurnTime": 56,
+        "IgnitionReliabilityStart": 0.8,
+        "IgnitionReliabilityEnd": 0.9,
+        "CycleReliabilityStart": 0.833333,
+        "CycleReliabilityEnd": 0.966667
+      }
+    },
+    "Vexin": {
+      "ConfigName": "Vexin",
+      "ConfigDescription": "First stage engine for the \"precious stones\" series of sounding rockets, culminating in the Diamant Launch Vehicle.",
+      "MaxThrust": 310.1,
+      "MinThrust": 310.1,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": true,
+      "IspVacuum": 230.0,
+      "IspSeaLevel": 203.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "Furfuryl": 1.0
+        }
+      },
+      "Propellants": {
+        "Turpentine": 0.3464,
+        "IWFNA": 0.6536
+      },
+      "Reliability": {
+        "RatedBurnTime": 96,
+        "IgnitionReliabilityStart": 0.85,
+        "IgnitionReliabilityEnd": 0.95,
+        "CycleReliabilityStart": 0.666667,
+        "CycleReliabilityEnd": 0.933333
+      }
+    },
+    "Vexin-A": {
+      "ConfigName": "Vexin-A",
+      "ConfigDescription": "Modified for vaccuum use and converted to UDMH/NTO as the second stage of the Europa Launch Vehicle.",
+      "MaxThrust": 262.0,
+      "MinThrust": 262.0,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": true,
+      "IspVacuum": 281.0,
+      "IspSeaLevel": 150.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {}
+      },
+      "Propellants": {
+        "UDMH": 0.5218,
+        "NTO": 0.4782
+      },
+      "Reliability": {
+        "RatedBurnTime": 96,
+        "IgnitionReliabilityStart": 0.85,
+        "IgnitionReliabilityEnd": 0.95,
+        "CycleReliabilityStart": 0.666667,
+        "CycleReliabilityEnd": 0.933333
+      }
+    },
+    "Valois-A": {
+      "ConfigName": "Valois-A",
+      "ConfigDescription": "Upgraded version of Vexin, used in the first stage of the Amethyste sounding rocket and Diamant-B launch vehicle.",
+      "MaxThrust": 407.7,
+      "MinThrust": 407.7,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": true,
+      "IspVacuum": 259.0,
+      "IspSeaLevel": 221.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {}
+      },
+      "Propellants": {
+        "UDMH": 0.2941,
+        "NTO": 0.7059
+      },
+      "Reliability": {
+        "RatedBurnTime": 110,
+        "IgnitionReliabilityStart": 0.85,
+        "IgnitionReliabilityEnd": 0.95,
+        "CycleReliabilityStart": 0.833333,
+        "CycleReliabilityEnd": 0.966667
+      }
+    },
+    "Valois-B": {
+      "ConfigName": "Valois-B",
+      "ConfigDescription": "Engine for the Diamant-BP first stage",
+      "MaxThrust": 373.5,
+      "MinThrust": 373.5,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": true,
+      "IspVacuum": 250.0,
+      "IspSeaLevel": 212.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {}
+      },
+      "Propellants": {
+        "UDMH": 0.2941,
+        "NTO": 0.7059
+      },
+      "Reliability": {
+        "RatedBurnTime": 110,
+        "IgnitionReliabilityStart": 0.85,
+        "IgnitionReliabilityEnd": 0.95,
+        "CycleReliabilityStart": 0.75,
+        "CycleReliabilityEnd": 0.95
+      }
+    }
+  }
+}

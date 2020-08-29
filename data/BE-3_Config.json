@@ -1,0 +1,70 @@
+{
+  "Title": "BE-3",
+  "Manufacturer": "Blue Origin",
+  "Description": "The BE-3 (Blue Engine 3) is a LH2/LOX rocket engine developed by Blue Origin. The BE-3 uses a combustion tap-off cycle engine design which takes a small amount of combustion gases from the main combustion chamber in order to power the engine turbopumps.",
+  "OriginalMass": 0.48,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "BE3",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 4.0
+  },
+  "EngineConfigs": {
+    "BE3": {
+      "ConfigName": "BE3",
+      "ConfigDescription": "",
+      "MaxThrust": 490.0,
+      "MinThrust": 89.0,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 360.0,
+      "IspSeaLevel": 310.0,
+      "MinThrottle": 0.18163265,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 5,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Propellants": {
+        "LqdHydrogen": 0.7,
+        "LqdOxygen": 0.3
+      },
+      "Reliability": {
+        "RatedBurnTime": -1,
+        "IgnitionReliabilityStart": 1.0,
+        "IgnitionReliabilityEnd": 1.0,
+        "CycleReliabilityStart": 1.0,
+        "CycleReliabilityEnd": 1.0
+      }
+    },
+    "BE-3": {
+      "ConfigName": null,
+      "ConfigDescription": "",
+      "MaxThrust": 0.0,
+      "MinThrust": 0.0,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 0.0,
+      "IspSeaLevel": 0.0,
+      "MinThrottle": "NaN",
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Propellants": {},
+      "Reliability": {
+        "RatedBurnTime": -1,
+        "IgnitionReliabilityStart": 1.0,
+        "IgnitionReliabilityEnd": 1.0,
+        "CycleReliabilityStart": 1.0,
+        "CycleReliabilityEnd": 1.0
+      }
+    }
+  }
+}

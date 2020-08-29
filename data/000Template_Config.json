@@ -1,0 +1,75 @@
+{
+  "Title": "???",
+  "Manufacturer": "???",
+  "Description": "???",
+  "OriginalMass": 0.09,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "Config_Name_1",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 1.0
+  },
+  "EngineConfigs": {
+    "Config_Name_1": {
+      "ConfigName": "Config_Name_1",
+      "ConfigDescription": "???",
+      "MaxThrust": 1.0,
+      "MinThrust": 1.0,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": true,
+      "IspVacuum": 1.0,
+      "IspSeaLevel": 1.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.2
+        }
+      },
+      "Propellants": {
+        "Fuel": 0.5,
+        "Oxidizer": 0.5
+      },
+      "Reliability": {
+        "RatedBurnTime": 1,
+        "IgnitionReliabilityStart": 0.9,
+        "IgnitionReliabilityEnd": 0.99,
+        "CycleReliabilityStart": 0.9,
+        "CycleReliabilityEnd": 0.99
+      }
+    },
+    "Config_Name_2": {
+      "ConfigName": "Config_Name_2",
+      "ConfigDescription": "???",
+      "MaxThrust": 35.2,
+      "MinThrust": 35.2,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": true,
+      "IspVacuum": 0.0,
+      "IspSeaLevel": 0.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.2
+        }
+      },
+      "Propellants": {
+        "Fuel": 0.5,
+        "Oxidizer": 0.5
+      },
+      "Reliability": {
+        "RatedBurnTime": 1,
+        "IgnitionReliabilityStart": 0.9,
+        "IgnitionReliabilityEnd": 0.99,
+        "CycleReliabilityStart": 0.9,
+        "CycleReliabilityEnd": 0.99
+      }
+    }
+  }
+}

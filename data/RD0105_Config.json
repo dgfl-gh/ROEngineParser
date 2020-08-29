@@ -1,0 +1,77 @@
+{
+  "Title": "RD-0105/0109 Series",
+  "Manufacturer": "KB Khimavtomatiki (Kosberg)",
+  "Description": "Kerolox gas generator vacuum engine which served in R-7 upper stages (Luna, Vostok). The RD-0105 was designed for Luna launches; it was the first upper stage for the R-7 series and was reused for uncrewed Vostok tests. An enhanced version, the RD-0109, was used for crewed Vostok launches.",
+  "OriginalMass": 0.125,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "RD-0105",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 6.0
+  },
+  "EngineConfigs": {
+    "RD-0105": {
+      "ConfigName": "RD-0105",
+      "ConfigDescription": "Modified RD-107 vernier for use as an independent upper stage for the R-7. Used on Luna and early Vostok rockets",
+      "MaxThrust": 49.4,
+      "MinThrust": 49.4,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 316.0,
+      "IspSeaLevel": 257.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.3594,
+        "LqdOxygen": 0.6406
+      },
+      "Reliability": {
+        "RatedBurnTime": 440,
+        "IgnitionReliabilityStart": 0.888889,
+        "IgnitionReliabilityEnd": 0.977778,
+        "CycleReliabilityStart": 0.75,
+        "CycleReliabilityEnd": 0.95
+      }
+    },
+    "RD-0109": {
+      "ConfigName": "RD-0109",
+      "ConfigDescription": "RD-0105 upgraded with increase reliability and performance for manned flight. Used on Vostok",
+      "MaxThrust": 54.5,
+      "MinThrust": 54.5,
+      "MassMult": 0.9307,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 323.5,
+      "IspSeaLevel": 264.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.3594,
+        "LqdOxygen": 0.6406
+      },
+      "Reliability": {
+        "RatedBurnTime": 440,
+        "IgnitionReliabilityStart": 0.966216,
+        "IgnitionReliabilityEnd": 0.993243,
+        "CycleReliabilityStart": 0.966216,
+        "CycleReliabilityEnd": 0.993243
+      }
+    }
+  }
+}

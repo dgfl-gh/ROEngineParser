@@ -1,0 +1,42 @@
+{
+  "Title": "Altair III FW-4S",
+  "Manufacturer": "United Technology Center",
+  "Description": "A small solid kick motor. Developed from the Altair, this final version was used on later Scout B launch vehicles. Used to circularize at apogee or perform final payload kick. Maximum thrust 25.6kN, burn time 31 seconds.",
+  "OriginalMass": 0.0232,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Solid",
+  "DefaultConfig": "Altair-III",
+  "Gimbal": {
+    "IsGimbaled": false,
+    "Range": 0.0
+  },
+  "EngineConfigs": {
+    "Altair-III": {
+      "ConfigName": "Altair-III",
+      "ConfigDescription": "",
+      "MaxThrust": 31.0,
+      "MinThrust": 31.0,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 284.5,
+      "IspSeaLevel": 200.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Propellants": {
+        "PSPC": 1.0
+      },
+      "Reliability": {
+        "RatedBurnTime": 31,
+        "IgnitionReliabilityStart": 0.972973,
+        "IgnitionReliabilityEnd": 0.994595,
+        "CycleReliabilityStart": 0.972973,
+        "CycleReliabilityEnd": 0.994595
+      }
+    }
+  }
+}

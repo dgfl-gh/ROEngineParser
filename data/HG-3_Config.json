@@ -1,0 +1,255 @@
+{
+  "Title": "HG-3 Series",
+  "Manufacturer": "Rocketdyne",
+  "Description": "Rocketdyne HG-3 engine, which served as a stepping stone between the J-2 and RS-25. Ensure you enable roll capability or disable gimbal as required for your application.",
+  "OriginalMass": 1.78,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "HG-3",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 7.5
+  },
+  "EngineConfigs": {
+    "HG-3": {
+      "ConfigName": "HG-3",
+      "ConfigDescription": "",
+      "MaxThrust": 1400.7,
+      "MinThrust": 938.469,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 451.0,
+      "IspSeaLevel": 280.0,
+      "MinThrottle": 0.67,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 2,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Propellants": {
+        "LqdHydrogen": 0.7454,
+        "LqdOxygen": 0.2546
+      },
+      "Reliability": {
+        "RatedBurnTime": 600,
+        "IgnitionReliabilityStart": 0.87,
+        "IgnitionReliabilityEnd": 0.97,
+        "CycleReliabilityStart": 0.85,
+        "CycleReliabilityEnd": 0.96
+      }
+    },
+    "HG-3-SL": {
+      "ConfigName": "HG-3-SL",
+      "ConfigDescription": "",
+      "MaxThrust": 1382.07,
+      "MinThrust": 925.987,
+      "MassMult": 0.9735744,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 445.0,
+      "IspSeaLevel": 340.0,
+      "MinThrottle": 0.6700001,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Propellants": {
+        "LqdHydrogen": 0.7454,
+        "LqdOxygen": 0.2546
+      },
+      "Reliability": {
+        "RatedBurnTime": 600,
+        "IgnitionReliabilityStart": 0.87,
+        "IgnitionReliabilityEnd": 0.97,
+        "CycleReliabilityStart": 0.85,
+        "CycleReliabilityEnd": 0.96
+      }
+    },
+    "HG-3A": {
+      "ConfigName": "HG-3A",
+      "ConfigDescription": "Speculative upgrade, using lessons learned from experience with HG-3 in service and development of RS-25 to improve reliability.",
+      "MaxThrust": 1400.7,
+      "MinThrust": 938.469,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 451.0,
+      "IspSeaLevel": 280.0,
+      "MinThrottle": 0.67,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 5,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Propellants": {
+        "LqdHydrogen": 0.7454,
+        "LqdOxygen": 0.2546
+      },
+      "Reliability": {
+        "RatedBurnTime": 600,
+        "IgnitionReliabilityStart": 0.902,
+        "IgnitionReliabilityEnd": 0.97,
+        "CycleReliabilityStart": 0.91,
+        "CycleReliabilityEnd": 0.98
+      }
+    },
+    "HG-3A-SL": {
+      "ConfigName": "HG-3A-SL",
+      "ConfigDescription": "Sea-level variant of HG-3A upgrade",
+      "MaxThrust": 1382.07,
+      "MinThrust": 925.987,
+      "MassMult": 0.9735744,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 445.0,
+      "IspSeaLevel": 340.0,
+      "MinThrottle": 0.6700001,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 2,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Propellants": {
+        "LqdHydrogen": 0.7454,
+        "LqdOxygen": 0.2546
+      },
+      "Reliability": {
+        "RatedBurnTime": 600,
+        "IgnitionReliabilityStart": 0.902,
+        "IgnitionReliabilityEnd": 0.97,
+        "CycleReliabilityStart": 0.91,
+        "CycleReliabilityEnd": 0.98
+      }
+    },
+    "HG-3B": {
+      "ConfigName": "HG-3B",
+      "ConfigDescription": "Further refinement of the HG-3 engine, taking into account developements with the RL-10 and RS-25. Run time and reliability are extended compared to original models, although turbopump throughput is decreased to reduce strain on engine components.",
+      "MaxThrust": 1400.7,
+      "MinThrust": 938.469,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 458.0,
+      "IspSeaLevel": 285.0,
+      "MinThrottle": 0.67,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 5,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Propellants": {
+        "LqdHydrogen": 0.7454,
+        "LqdOxygen": 0.2546
+      },
+      "Reliability": {
+        "RatedBurnTime": 750,
+        "IgnitionReliabilityStart": 0.902,
+        "IgnitionReliabilityEnd": 0.99,
+        "CycleReliabilityStart": 0.91488,
+        "CycleReliabilityEnd": 0.99
+      }
+    },
+    "HG-3B-SL": {
+      "ConfigName": "HG-3B-SL",
+      "ConfigDescription": "Sea-level variant of HG-3B upgrade. Increased specific impulse compared to other sea-level variants prior to B version development results in slightly higher thrust for the same level of turbopump throughput as the HG-3B vacuum engine.",
+      "MaxThrust": 1382.35,
+      "MinThrust": 926.174,
+      "MassMult": 0.9735744,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 452.0,
+      "IspSeaLevel": 352.0,
+      "MinThrottle": 0.66999966,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 2,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Propellants": {
+        "LqdHydrogen": 0.7454,
+        "LqdOxygen": 0.2546
+      },
+      "Reliability": {
+        "RatedBurnTime": 750,
+        "IgnitionReliabilityStart": 0.902,
+        "IgnitionReliabilityEnd": 0.99,
+        "CycleReliabilityStart": 0.91488,
+        "CycleReliabilityEnd": 0.99
+      }
+    },
+    "HG-3B-2": {
+      "ConfigName": "HG-3B-2",
+      "ConfigDescription": "Modified version of HG-3B, running the turbopumps harder to generate the same level of mass flow as in previous models. This results in improved thrust compared to the normal B model, at the cost of slightly less reliability in comparison.",
+      "MaxThrust": 1422.44,
+      "MinThrust": 950.035,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 458.0,
+      "IspSeaLevel": 285.0,
+      "MinThrottle": 0.6678911,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 5,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Propellants": {
+        "LqdHydrogen": 0.7454,
+        "LqdOxygen": 0.2546
+      },
+      "Reliability": {
+        "RatedBurnTime": 750,
+        "IgnitionReliabilityStart": 0.902,
+        "IgnitionReliabilityEnd": 0.97,
+        "CycleReliabilityStart": 0.9,
+        "CycleReliabilityEnd": 0.988
+      }
+    },
+    "HG-3B-SL-2": {
+      "ConfigName": "HG-3B-SL-2",
+      "ConfigDescription": "Sea-level version of HG-3B-2 upgrade and modification. The improved specific impulse now means that this version produces more vacuum thrust than previous vacuum versions of the engine.",
+      "MaxThrust": 1403.81,
+      "MinThrust": 940.553,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 452.0,
+      "IspSeaLevel": 352.0,
+      "MinThrottle": 0.6700002,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 2,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Propellants": {
+        "LqdHydrogen": 0.7454,
+        "LqdOxygen": 0.2546
+      },
+      "Reliability": {
+        "RatedBurnTime": 750,
+        "IgnitionReliabilityStart": 0.902,
+        "IgnitionReliabilityEnd": 0.97,
+        "CycleReliabilityStart": 0.9,
+        "CycleReliabilityEnd": 0.988
+      }
+    }
+  }
+}

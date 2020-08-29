@@ -1,0 +1,42 @@
+{
+  "Title": "STAR 15G",
+  "Manufacturer": "Thiokol",
+  "Description": "Single STAR 15G motor, used in a variety of applications. This has a straight nozzle.",
+  "OriginalMass": 0.01284,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Solid",
+  "DefaultConfig": "Star-15G",
+  "Gimbal": {
+    "IsGimbaled": false,
+    "Range": 0.0
+  },
+  "EngineConfigs": {
+    "Star-15G": {
+      "ConfigName": "Star-15G",
+      "ConfigDescription": "",
+      "MaxThrust": 12.5,
+      "MinThrust": 12.5,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 281.8,
+      "IspSeaLevel": 200.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Propellants": {
+        "HTPB": 1.0
+      },
+      "Reliability": {
+        "RatedBurnTime": 36,
+        "IgnitionReliabilityStart": 0.98,
+        "IgnitionReliabilityEnd": 0.999,
+        "CycleReliabilityStart": 0.98,
+        "CycleReliabilityEnd": 0.9999
+      }
+    }
+  }
+}

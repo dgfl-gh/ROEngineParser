@@ -1,0 +1,43 @@
+{
+  "Title": "Phoebus 2A Atomic Rocket Motor",
+  "Manufacturer": "Aerojet & Westinghouse",
+  "Description": null,
+  "OriginalMass": 16.97,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "Phoebus2N100-Hydrogen",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 3.0
+  },
+  "EngineConfigs": {
+    "Phoebus2N100-Hydrogen": {
+      "ConfigName": "Phoebus2N100-Hydrogen",
+      "ConfigDescription": "",
+      "MaxThrust": 0.0,
+      "MinThrust": 0.0,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 846.0,
+      "IspSeaLevel": 632.0,
+      "MinThrottle": "NaN",
+      "AirLightable": false,
+      "Ignition": {
+        "number": 8,
+        "resources": {}
+      },
+      "Propellants": {
+        "LqdHydrogen": 1.0,
+        "EnrichedUranium": 1E-11
+      },
+      "Reliability": {
+        "RatedBurnTime": 2700,
+        "IgnitionReliabilityStart": 0.99,
+        "IgnitionReliabilityEnd": 0.999997,
+        "CycleReliabilityStart": 0.999,
+        "CycleReliabilityEnd": 0.999997
+      }
+    }
+  }
+}

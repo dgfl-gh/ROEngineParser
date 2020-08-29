@@ -1,0 +1,255 @@
+{
+  "Title": "S1.5400/RD-58 Series",
+  "Manufacturer": "RKK Energiya",
+  "Description": "World's first closed-cycle kerolox vacuum engine. The S1.5400 served as an R-7 upper stage and the RD-58 (an upgrade) as upper stage / OMS for many Soviet and Russian launchers and spacecraft (Proton, N1, Zenit, Buran...). The S1.5400 was designed for the Blok L stage which was the final stage for the Molniya configuration of the R-7, used to launch communication satellites and interplanetary probes. Unlike prior upper stages, it was restartable (this was needed to perform apogee kick to place Molniya satellites in their final orbits). It was given the industry designation 11D33. An upgraded version, termed 11D33M, had slightly improved performance. The RD-58 is a derivative of the 11D33M engine with higher performance (industry designation 11D58); it has been used on many Russian launchers and is still in use today on Proton and Zenit. In comparison to hydrolox upper stages, kerolox ones do not suffer boiloff as badly and need far less volume (kerosene being far denser than liquid hydrogen), but have much lower specific impulse.",
+  "OriginalMass": 0.15,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "S1_5400",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 7.0
+  },
+  "EngineConfigs": {
+    "S1_5400": {
+      "ConfigName": "S1_5400",
+      "ConfigDescription": "Used on Molnyia (Blok L)",
+      "MaxThrust": 63.7,
+      "MinThrust": 63.7,
+      "MassMult": 1.02,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 338.6,
+      "IspSeaLevel": 100.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 5,
+        "resources": {
+          "TEATEB": 0.5
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.359,
+        "LqdOxygen": 0.641
+      },
+      "Reliability": {
+        "RatedBurnTime": 250,
+        "IgnitionReliabilityStart": 0.952381,
+        "IgnitionReliabilityEnd": 0.990476,
+        "CycleReliabilityStart": 0.866667,
+        "CycleReliabilityEnd": 0.973333
+      }
+    },
+    "11D33": {
+      "ConfigName": "11D33",
+      "ConfigDescription": "Developed version of S1.5400 engine for the Blok ML and Blok MVL stage of the Molniya-M launch vehicle. Slightly better performance.",
+      "MaxThrust": 66.7,
+      "MinThrust": 66.7,
+      "MassMult": 1.02,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 340.0,
+      "IspSeaLevel": 100.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 5,
+        "resources": {
+          "TEATEB": 0.5
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.359,
+        "LqdOxygen": 0.641
+      },
+      "Reliability": {
+        "RatedBurnTime": 270,
+        "IgnitionReliabilityStart": 0.982405,
+        "IgnitionReliabilityEnd": 0.996481,
+        "CycleReliabilityStart": 0.994152,
+        "CycleReliabilityEnd": 0.99883
+      }
+    },
+    "11D33M": {
+      "ConfigName": "11D33M",
+      "ConfigDescription": "The S1.5400A engine, as used on Block 2BLM of the Molniya launch vehicle. Further performance improvements.",
+      "MaxThrust": 67.3,
+      "MinThrust": 67.3,
+      "MassMult": 0.9867,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 342.2,
+      "IspSeaLevel": 100.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 5,
+        "resources": {
+          "TEATEB": 0.5
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.359,
+        "LqdOxygen": 0.641
+      },
+      "Reliability": {
+        "RatedBurnTime": 300,
+        "IgnitionReliabilityStart": 0.984848,
+        "IgnitionReliabilityEnd": 0.99697,
+        "CycleReliabilityStart": 0.99,
+        "CycleReliabilityEnd": 0.998
+      }
+    },
+    "RD-58": {
+      "ConfigName": "RD-58",
+      "ConfigDescription": "Upgrade developed for use on the Blok D stage of the N-1, and later used on Proton. Significant upgrade over the S1.5400",
+      "MaxThrust": 83.36,
+      "MinThrust": 83.36,
+      "MassMult": 1.534,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 349.0,
+      "IspSeaLevel": 105.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 7,
+        "resources": {
+          "TEATEB": 0.3571428
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.359,
+        "LqdOxygen": 0.641
+      },
+      "Reliability": {
+        "RatedBurnTime": 600,
+        "IgnitionReliabilityStart": 0.954545,
+        "IgnitionReliabilityEnd": 0.990909,
+        "CycleReliabilityStart": 0.941176,
+        "CycleReliabilityEnd": 0.988235
+      }
+    },
+    "RD-58M": {
+      "ConfigName": "RD-58M",
+      "ConfigDescription": "Modification of the RD-58 for use on Proton Blok DM, after the N-1 was cancelled.",
+      "MaxThrust": 83.36,
+      "MinThrust": 83.36,
+      "MassMult": 1.534,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 356.0,
+      "IspSeaLevel": 105.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 7,
+        "resources": {
+          "TEATEB": 0.3571428
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.359,
+        "LqdOxygen": 0.641
+      },
+      "Reliability": {
+        "RatedBurnTime": 720,
+        "IgnitionReliabilityStart": 0.984733,
+        "IgnitionReliabilityEnd": 0.996947,
+        "CycleReliabilityStart": 0.994924,
+        "CycleReliabilityEnd": 0.998985
+      }
+    },
+    "RD-58S": {
+      "ConfigName": "RD-58S",
+      "ConfigDescription": "Modification of the RD-58 burning Syntin instead of Kerosene. Used on Proton (Blok DM-2M)",
+      "MaxThrust": 86.3,
+      "MinThrust": 86.3,
+      "MassMult": 1.534,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 361.0,
+      "IspSeaLevel": 107.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 5,
+        "resources": {
+          "TEATEB": 0.5
+        }
+      },
+      "Propellants": {
+        "Syntin": 0.35652,
+        "LqdOxygen": 0.64348
+      },
+      "Reliability": {
+        "RatedBurnTime": 680,
+        "IgnitionReliabilityStart": 0.97561,
+        "IgnitionReliabilityEnd": 0.995122,
+        "CycleReliabilityStart": 0.97619,
+        "CycleReliabilityEnd": 0.995238
+      }
+    },
+    "RD-58M-CCN": {
+      "ConfigName": "RD-58M-CCN",
+      "ConfigDescription": "Modification of the RD-58M with a Carbon Composite Nozzle extension for better vacuum performance. Used on Zenit Blok DM-SL.",
+      "MaxThrust": 85.0,
+      "MinThrust": 85.0,
+      "MassMult": 1.6824,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 361.0,
+      "IspSeaLevel": 107.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 7,
+        "resources": {
+          "TEATEB": 0.357
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.359,
+        "LqdOxygen": 0.641
+      },
+      "Reliability": {
+        "RatedBurnTime": 1200,
+        "IgnitionReliabilityStart": 0.987654,
+        "IgnitionReliabilityEnd": 0.997531,
+        "CycleReliabilityStart": 0.975,
+        "CycleReliabilityEnd": 0.995
+      }
+    },
+    "17D12": {
+      "ConfigName": "17D12",
+      "ConfigDescription": "OMS engine for the Buran orbiter",
+      "MaxThrust": 86.24,
+      "MinThrust": 86.24,
+      "MassMult": 1.5333,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 362.0,
+      "IspSeaLevel": 107.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 15,
+        "resources": {
+          "TEATEB": 0.1666
+        }
+      },
+      "Propellants": {
+        "Syntin": 0.35652,
+        "LqdOxygen": 0.64348
+      },
+      "Reliability": {
+        "RatedBurnTime": 680,
+        "IgnitionReliabilityStart": 0.9,
+        "IgnitionReliabilityEnd": 0.998,
+        "CycleReliabilityStart": 0.875,
+        "CycleReliabilityEnd": 0.998
+      }
+    }
+  }
+}

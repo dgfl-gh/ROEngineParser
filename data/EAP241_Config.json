@@ -1,0 +1,69 @@
+{
+  "Title": "P241/A EAP",
+  "Manufacturer": "Avio/Regulus/SABCA",
+  "Description": "A steel casing solid rocket motor used in pairs by the Ariane 5 launch vehicle for the initial phases of the flight.",
+  "OriginalMass": 37.8,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Solid",
+  "DefaultConfig": "MPS-241",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 6.0
+  },
+  "EngineConfigs": {
+    "MPS-241": {
+      "ConfigName": "MPS-241",
+      "ConfigDescription": "",
+      "MaxThrust": 7040.0,
+      "MinThrust": 7040.0,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 277.0,
+      "IspSeaLevel": 253.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {}
+      },
+      "Propellants": {
+        "HTPB": 1.0
+      },
+      "Reliability": {
+        "RatedBurnTime": 130,
+        "IgnitionReliabilityStart": 0.99,
+        "IgnitionReliabilityEnd": 0.999,
+        "CycleReliabilityStart": 0.995392,
+        "CycleReliabilityEnd": 0.999078
+      }
+    },
+    "MPS-241A": {
+      "ConfigName": "MPS-241A",
+      "ConfigDescription": "",
+      "MaxThrust": 7040.0,
+      "MinThrust": 7040.0,
+      "MassMult": 0.9524,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 277.0,
+      "IspSeaLevel": 253.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {}
+      },
+      "Propellants": {
+        "HTPB": 1.0
+      },
+      "Reliability": {
+        "RatedBurnTime": 130,
+        "IgnitionReliabilityStart": 0.99,
+        "IgnitionReliabilityEnd": 0.999,
+        "CycleReliabilityStart": 0.995392,
+        "CycleReliabilityEnd": 0.999078
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "Title": "RD-856 (Radial)",
+  "Manufacturer": "KB Yuzhnoye",
+  "Description": "A pump-fed hypergolic vernier thruster used on the second stage of the R-36 ICBM and the Tsyklon (Cyclone) launch vehicle series for attitude control.",
+  "OriginalMass": 0.028,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "RD-856",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 30.0
+  },
+  "EngineConfigs": {
+    "RD-856": {
+      "ConfigName": "RD-856",
+      "ConfigDescription": "",
+      "MaxThrust": 13.55,
+      "MinThrust": 13.55,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 280.0,
+      "IspSeaLevel": 84.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.25
+        }
+      },
+      "Propellants": {
+        "UDMH": 0.4807,
+        "NTO": 0.5193
+      },
+      "Reliability": {
+        "RatedBurnTime": 163,
+        "IgnitionReliabilityStart": 0.985401,
+        "IgnitionReliabilityEnd": 0.99708,
+        "CycleReliabilityStart": 0.985401,
+        "CycleReliabilityEnd": 0.99708
+      }
+    }
+  }
+}

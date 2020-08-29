@@ -1,0 +1,46 @@
+{
+  "Title": "Kestrel-1B",
+  "Manufacturer": "SpaceX",
+  "Description": "A Methalox derivative of the original pressure - fed Kestrel engine that was used on the upper stage of the Falcon 1 launch vehicle. Features a multi - ignition capability and a limited throttling range.",
+  "OriginalMass": 0.06,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "Kestrel-1B",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 3.0
+  },
+  "EngineConfigs": {
+    "Kestrel-1B": {
+      "ConfigName": "Kestrel-1B",
+      "ConfigDescription": "",
+      "MaxThrust": 30.7,
+      "MinThrust": 23.1,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": true,
+      "IspVacuum": 331.0,
+      "IspSeaLevel": 160.0,
+      "MinThrottle": 0.752443,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 4,
+        "resources": {
+          "ElectricCharge": 0.05,
+          "TEATEB": 0.5
+        }
+      },
+      "Propellants": {
+        "LqdMethane": 0.4935,
+        "LqdOxygen": 0.5064
+      },
+      "Reliability": {
+        "RatedBurnTime": -1,
+        "IgnitionReliabilityStart": 1.0,
+        "IgnitionReliabilityEnd": 1.0,
+        "CycleReliabilityStart": 1.0,
+        "CycleReliabilityEnd": 1.0
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "Title": "GCRC 33-KS-2800",
+  "Manufacturer": "Grand Central Rocket Company",
+  "Description": "A small solid kick motor, used as the third stage on all but the last Vanguard launch. Burn time 33 seconds.",
+  "OriginalMass": 0.0217,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Solid",
+  "DefaultConfig": "GCRC",
+  "Gimbal": {
+    "IsGimbaled": false,
+    "Range": 0.0
+  },
+  "EngineConfigs": {
+    "GCRC": {
+      "ConfigName": "GCRC",
+      "ConfigDescription": "",
+      "MaxThrust": 17.3,
+      "MinThrust": 17.3,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 237.46,
+      "IspSeaLevel": 100.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Propellants": {
+        "PSPC": 1.0
+      },
+      "Reliability": {
+        "RatedBurnTime": 33,
+        "IgnitionReliabilityStart": 0.95,
+        "IgnitionReliabilityEnd": 0.99,
+        "CycleReliabilityStart": 0.95,
+        "CycleReliabilityEnd": 0.99
+      }
+    }
+  }
+}

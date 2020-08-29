@@ -1,0 +1,69 @@
+{
+  "Title": "Tiny Tim Booster",
+  "Manufacturer": "CalTech",
+  "Description": "Small solid fueled booster originally used to power anti-shipping missiles during WW2. Used as the kick stage on the WAC Corporal, the USA's first sounding rocket, and reused in modified form for the Aerobee line of sounding rockets.",
+  "OriginalMass": 0.181437,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Solid",
+  "DefaultConfig": "30Klbf",
+  "Gimbal": {
+    "IsGimbaled": false,
+    "Range": 0.0
+  },
+  "EngineConfigs": {
+    "30Klbf": {
+      "ConfigName": "30Klbf",
+      "ConfigDescription": "30 Klbf (133.4 kN) peak thrust version used by the military and some WAC launches.",
+      "MaxThrust": 146.6,
+      "MinThrust": 146.6,
+      "MassMult": 1.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 222.0,
+      "IspSeaLevel": 202.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {}
+      },
+      "Propellants": {
+        "NGNC": 1.0
+      },
+      "Reliability": {
+        "RatedBurnTime": -1,
+        "IgnitionReliabilityStart": 1.0,
+        "IgnitionReliabilityEnd": 1.0,
+        "CycleReliabilityStart": 1.0,
+        "CycleReliabilityEnd": 1.0
+      }
+    },
+    "50Klbf": {
+      "ConfigName": "50Klbf",
+      "ConfigDescription": "50 Klbf (222.4 kN) peak thrust version used by later WAC launches.",
+      "MaxThrust": 244.4,
+      "MinThrust": 244.4,
+      "MassMult": 1.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 222.0,
+      "IspSeaLevel": 202.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {}
+      },
+      "Propellants": {
+        "NGNC": 1.0
+      },
+      "Reliability": {
+        "RatedBurnTime": -1,
+        "IgnitionReliabilityStart": 1.0,
+        "IgnitionReliabilityEnd": 1.0,
+        "CycleReliabilityStart": 1.0,
+        "CycleReliabilityEnd": 1.0
+      }
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "Title": "Castor 1",
+  "Manufacturer": "Thiokol",
+  "Description": "The Castor 1 was first used for a successful suborbital launch of a Scout X-1 rocket on September 2, 1960. Castor 1 stages were also used as strap-on boosters for launch vehicles using Thor first stages, including the Delta-D.",
+  "OriginalMass": 0.651,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Solid",
+  "DefaultConfig": "XM-20",
+  "Gimbal": {
+    "IsGimbaled": false,
+    "Range": 0.0
+  },
+  "EngineConfigs": {
+    "XM-20": {
+      "ConfigName": "XM-20",
+      "ConfigDescription": "",
+      "MaxThrust": 304.3,
+      "MinThrust": 304.3,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 214.5,
+      "IspSeaLevel": 191.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Propellants": {
+        "PSPC": 1.0
+      },
+      "Reliability": {
+        "RatedBurnTime": 38,
+        "IgnitionReliabilityStart": 0.9,
+        "IgnitionReliabilityEnd": 0.99,
+        "CycleReliabilityStart": 0.93,
+        "CycleReliabilityEnd": 0.995
+      }
+    },
+    "Castor-1-SL": {
+      "ConfigName": "Castor-1-SL",
+      "ConfigDescription": "",
+      "MaxThrust": 324.6,
+      "MinThrust": 324.6,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 247.0,
+      "IspSeaLevel": 220.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Propellants": {
+        "PSPC": 1.0
+      },
+      "Reliability": {
+        "RatedBurnTime": 41,
+        "IgnitionReliabilityStart": 0.99,
+        "IgnitionReliabilityEnd": 0.9999,
+        "CycleReliabilityStart": 0.996997,
+        "CycleReliabilityEnd": 0.999399
+      }
+    },
+    "Castor-1-Vac": {
+      "ConfigName": "Castor-1-Vac",
+      "ConfigDescription": "",
+      "MaxThrust": 349.3,
+      "MinThrust": 349.3,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 273.21,
+      "IspSeaLevel": 200.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Propellants": {
+        "PSPC": 1.0
+      },
+      "Reliability": {
+        "RatedBurnTime": 43,
+        "IgnitionReliabilityStart": 0.95,
+        "IgnitionReliabilityEnd": 0.994,
+        "CycleReliabilityStart": 0.965909,
+        "CycleReliabilityEnd": 0.993182
+      }
+    }
+  }
+}

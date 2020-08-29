@@ -1,0 +1,42 @@
+{
+  "Title": "UA1207",
+  "Manufacturer": "United Technologies",
+  "Description": "The UA1207 was used on the Titan IVA, which was developed to launch payloads that had been designed to fly on the Shuttle from Vandenberg. It was a 7-segment modification of the 5-segment UA1205 used on the Titan 3. Burn time 130 seconds.",
+  "OriginalMass": 40.782,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Solid",
+  "DefaultConfig": "UA1207",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 5.0
+  },
+  "EngineConfigs": {
+    "UA1207": {
+      "ConfigName": "UA1207",
+      "ConfigDescription": "",
+      "MaxThrust": 7450.0,
+      "MinThrust": 7450.0,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 269.5,
+      "IspSeaLevel": 245.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Propellants": {
+        "PBAN": 1.0
+      },
+      "Reliability": {
+        "RatedBurnTime": 135,
+        "IgnitionReliabilityStart": 0.999,
+        "IgnitionReliabilityEnd": 1.0,
+        "CycleReliabilityStart": 0.994737,
+        "CycleReliabilityEnd": 0.998947
+      }
+    }
+  }
+}

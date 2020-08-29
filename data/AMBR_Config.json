@@ -1,0 +1,255 @@
+{
+  "Title": "AMBR",
+  "Manufacturer": "Aerojet",
+  "Description": "The Advanced Material Bi-propellant Rocket engine is a high performance, higher thrust, radiation cooled, storable bi-propellant space engine of the same physical envelope as the High Performance Apogee Thruster. Diameter: [0.37 m].",
+  "OriginalMass": 0.00544,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "AMBR-623N",
+  "Gimbal": {
+    "IsGimbaled": false,
+    "Range": 0.0
+  },
+  "EngineConfigs": {
+    "AMBR-623N": {
+      "ConfigName": "AMBR-623N",
+      "ConfigDescription": "",
+      "MaxThrust": 0.623,
+      "MinThrust": 0.445,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": true,
+      "IspVacuum": 327.0,
+      "IspSeaLevel": 150.0,
+      "MinThrottle": 0.7142857,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.0046
+        }
+      },
+      "Propellants": {
+        "MMH": 0.622,
+        "NTO": 0.378
+      },
+      "Reliability": {
+        "RatedBurnTime": 3600,
+        "IgnitionReliabilityStart": 0.98,
+        "IgnitionReliabilityEnd": 0.995,
+        "CycleReliabilityStart": 0.98,
+        "CycleReliabilityEnd": 0.995
+      }
+    },
+    "AMBR-623N-MON3": {
+      "ConfigName": "AMBR-623N-MON3",
+      "ConfigDescription": "",
+      "MaxThrust": 0.623,
+      "MinThrust": 0.445,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": true,
+      "IspVacuum": 327.0,
+      "IspSeaLevel": 150.0,
+      "MinThrottle": 0.7142857,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.0046
+        }
+      },
+      "Propellants": {
+        "MMH": 0.618,
+        "MON3": 0.382
+      },
+      "Reliability": {
+        "RatedBurnTime": -1,
+        "IgnitionReliabilityStart": 1.0,
+        "IgnitionReliabilityEnd": 1.0,
+        "CycleReliabilityStart": 1.0,
+        "CycleReliabilityEnd": 1.0
+      }
+    },
+    "AMBR-Dual-Mode-623N": {
+      "ConfigName": "AMBR-Dual-Mode-623N",
+      "ConfigDescription": "",
+      "MaxThrust": 0.623,
+      "MinThrust": 0.445,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": true,
+      "IspVacuum": 333.0,
+      "IspSeaLevel": 150.0,
+      "MinThrottle": 0.7142857,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.0046
+        }
+      },
+      "Propellants": {
+        "Hydrazine": 0.568,
+        "NTO": 0.432
+      },
+      "Reliability": {
+        "RatedBurnTime": -1,
+        "IgnitionReliabilityStart": 1.0,
+        "IgnitionReliabilityEnd": 1.0,
+        "CycleReliabilityStart": 1.0,
+        "CycleReliabilityEnd": 1.0
+      }
+    },
+    "AMBR-Dual-Mode-623N-MON3": {
+      "ConfigName": "AMBR-Dual-Mode-623N-MON3",
+      "ConfigDescription": "",
+      "MaxThrust": 0.623,
+      "MinThrust": 0.445,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": true,
+      "IspVacuum": 333.0,
+      "IspSeaLevel": 150.0,
+      "MinThrottle": 0.7142857,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.0046
+        }
+      },
+      "Propellants": {
+        "Hydrazine": 0.563,
+        "MON3": 0.437
+      },
+      "Reliability": {
+        "RatedBurnTime": -1,
+        "IgnitionReliabilityStart": 1.0,
+        "IgnitionReliabilityEnd": 1.0,
+        "CycleReliabilityStart": 1.0,
+        "CycleReliabilityEnd": 1.0
+      }
+    },
+    "AMBR-890N": {
+      "ConfigName": "AMBR-890N",
+      "ConfigDescription": "",
+      "MaxThrust": 0.89,
+      "MinThrust": 0.62,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": true,
+      "IspVacuum": 329.0,
+      "IspSeaLevel": 150.0,
+      "MinThrottle": 0.6966292,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.0046
+        }
+      },
+      "Propellants": {
+        "MMH": 0.622,
+        "NTO": 0.378
+      },
+      "Reliability": {
+        "RatedBurnTime": -1,
+        "IgnitionReliabilityStart": 1.0,
+        "IgnitionReliabilityEnd": 1.0,
+        "CycleReliabilityStart": 1.0,
+        "CycleReliabilityEnd": 1.0
+      }
+    },
+    "AMBR-890N-MON3": {
+      "ConfigName": "AMBR-890N-MON3",
+      "ConfigDescription": "",
+      "MaxThrust": 0.89,
+      "MinThrust": 0.62,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": true,
+      "IspVacuum": 329.0,
+      "IspSeaLevel": 150.0,
+      "MinThrottle": 0.6966292,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.0046
+        }
+      },
+      "Propellants": {
+        "MMH": 0.618,
+        "MON3": 0.382
+      },
+      "Reliability": {
+        "RatedBurnTime": -1,
+        "IgnitionReliabilityStart": 1.0,
+        "IgnitionReliabilityEnd": 1.0,
+        "CycleReliabilityStart": 1.0,
+        "CycleReliabilityEnd": 1.0
+      }
+    },
+    "AMBR-Dual-Mode-890N": {
+      "ConfigName": "AMBR-Dual-Mode-890N",
+      "ConfigDescription": "",
+      "MaxThrust": 0.89,
+      "MinThrust": 0.62,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": true,
+      "IspVacuum": 335.0,
+      "IspSeaLevel": 150.0,
+      "MinThrottle": 0.6966292,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.0046
+        }
+      },
+      "Propellants": {
+        "Hydrazine": 0.5362,
+        "NTO": 0.4538
+      },
+      "Reliability": {
+        "RatedBurnTime": -1,
+        "IgnitionReliabilityStart": 1.0,
+        "IgnitionReliabilityEnd": 1.0,
+        "CycleReliabilityStart": 1.0,
+        "CycleReliabilityEnd": 1.0
+      }
+    },
+    "AMBR-Dual-Mode-890N-MON3": {
+      "ConfigName": "AMBR-Dual-Mode-890N-MON3",
+      "ConfigDescription": "",
+      "MaxThrust": 0.89,
+      "MinThrust": 0.62,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": true,
+      "IspVacuum": 335.0,
+      "IspSeaLevel": 150.0,
+      "MinThrottle": 0.6966292,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.0046
+        }
+      },
+      "Propellants": {
+        "Hydrazine": 0.5415,
+        "MON3": 0.4585
+      },
+      "Reliability": {
+        "RatedBurnTime": -1,
+        "IgnitionReliabilityStart": 1.0,
+        "IgnitionReliabilityEnd": 1.0,
+        "CycleReliabilityStart": 1.0,
+        "CycleReliabilityEnd": 1.0
+      }
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "Title": "Aerobee",
+  "Manufacturer": "Aerojet",
+  "Description": "Small sustainer for WAC Corporal and Aerobee sounding rockets. Pressure-fed. Used after a small solid booster.",
+  "OriginalMass": 0.008,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "WAC-Corporal",
+  "Gimbal": {
+    "IsGimbaled": false,
+    "Range": 0.0
+  },
+  "EngineConfigs": {
+    "WAC-Corporal": {
+      "ConfigName": "WAC-Corporal",
+      "ConfigDescription": "A RATO booster modified to be used on the WAC-Corporal for the US Army",
+      "MaxThrust": 7.733,
+      "MinThrust": 7.733,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": true,
+      "IspVacuum": 226.0,
+      "IspSeaLevel": 195.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {}
+      },
+      "Propellants": {
+        "Aniline": 0.326832,
+        "Furfuryl": 0.081708,
+        "IRFNA-III": 0.59146
+      },
+      "Reliability": {
+        "RatedBurnTime": 47,
+        "IgnitionReliabilityStart": 0.9,
+        "IgnitionReliabilityEnd": 0.96,
+        "CycleReliabilityStart": 0.86,
+        "CycleReliabilityEnd": 0.93
+      }
+    },
+    "XASR-1": {
+      "ConfigName": "XASR-1",
+      "ConfigDescription": "Developed for the Aerobee X-8, an improved WAC-Corporal for upper atmosphere research to replace the limited stocks of captured V-2s",
+      "MaxThrust": 13.7628,
+      "MinThrust": 13.7628,
+      "MassMult": 1.3,
+      "Ullage": true,
+      "PressureFed": true,
+      "IspVacuum": 235.44,
+      "IspSeaLevel": 200.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {}
+      },
+      "Propellants": {
+        "Aniline": 0.2467,
+        "Furfuryl": 0.1329,
+        "IRFNA-III": 0.6204
+      },
+      "Reliability": {
+        "RatedBurnTime": 40,
+        "IgnitionReliabilityStart": 0.93,
+        "IgnitionReliabilityEnd": 0.97,
+        "CycleReliabilityStart": 0.91,
+        "CycleReliabilityEnd": 0.955
+      }
+    },
+    "AJ10-27": {
+      "ConfigName": "AJ10-27",
+      "ConfigDescription": "Developed as an upgrade to the XASR-1. Continued to be used until the 1980s for meteorlogical studies.",
+      "MaxThrust": 21.28,
+      "MinThrust": 21.28,
+      "MassMult": 1.5,
+      "Ullage": true,
+      "PressureFed": true,
+      "IspVacuum": 231.0,
+      "IspSeaLevel": 198.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {}
+      },
+      "Propellants": {
+        "Aniline": 0.2467,
+        "Furfuryl": 0.1329,
+        "IRFNA-III": 0.6204
+      },
+      "Reliability": {
+        "RatedBurnTime": 52,
+        "IgnitionReliabilityStart": 0.95,
+        "IgnitionReliabilityEnd": 0.98,
+        "CycleReliabilityStart": 0.95,
+        "CycleReliabilityEnd": 0.96
+      }
+    }
+  }
+}

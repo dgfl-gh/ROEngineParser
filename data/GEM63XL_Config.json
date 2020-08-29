@@ -1,0 +1,42 @@
+{
+  "Title": "GEM 63XL",
+  "Manufacturer": "Orbital ATK",
+  "Description": "In addition to the GEM 63 for Atlas V, Orbital ATK will develop a larger variant, the GEM 63XL, for Vulcan. The boosters will be approximately 1.5 m longer than the GEM 63 and Vulcan will be able to use up to four boosters with a four-meter fairing or six boosters with a five-meter fairing.",
+  "OriginalMass": 5.4,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Solid",
+  "DefaultConfig": "GEM-63XL",
+  "Gimbal": {
+    "IsGimbaled": false,
+    "Range": 0.0
+  },
+  "EngineConfigs": {
+    "GEM-63XL": {
+      "ConfigName": "GEM-63XL",
+      "ConfigDescription": "",
+      "MaxThrust": 2026.0,
+      "MinThrust": 2026.0,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 275.0,
+      "IspSeaLevel": 250.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Propellants": {
+        "HTPB": 1.0
+      },
+      "Reliability": {
+        "RatedBurnTime": 84,
+        "IgnitionReliabilityStart": 0.99,
+        "IgnitionReliabilityEnd": 1.0,
+        "CycleReliabilityStart": 0.99,
+        "CycleReliabilityEnd": 0.9989
+      }
+    }
+  }
+}

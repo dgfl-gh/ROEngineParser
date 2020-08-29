@@ -1,0 +1,67 @@
+{
+  "Title": "P4 Rita I SRM",
+  "Manufacturer": "Aerospatiale",
+  "Description": "French Solid Rocket Engine that was used on the Diamant BP4 Launch Vehicle replacing the Topaze Second Stage.",
+  "OriginalMass": 0.745,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Solid",
+  "DefaultConfig": "Rita",
+  "Gimbal": {
+    "IsGimbaled": false,
+    "Range": 0.0
+  },
+  "EngineConfigs": {
+    "Rita": {
+      "ConfigName": "Rita",
+      "ConfigDescription": "",
+      "MaxThrust": 180.0,
+      "MinThrust": 180.0,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 274.0,
+      "IspSeaLevel": 265.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Propellants": {
+        "HTPB": 1.0
+      },
+      "Reliability": {
+        "RatedBurnTime": -1,
+        "IgnitionReliabilityStart": 1.0,
+        "IgnitionReliabilityEnd": 1.0,
+        "CycleReliabilityStart": 1.0,
+        "CycleReliabilityEnd": 1.0
+      }
+    },
+    "Rita I": {
+      "ConfigName": null,
+      "ConfigDescription": "",
+      "MaxThrust": 0.0,
+      "MinThrust": 0.0,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 0.0,
+      "IspSeaLevel": 0.0,
+      "MinThrottle": "NaN",
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Propellants": {},
+      "Reliability": {
+        "RatedBurnTime": -1,
+        "IgnitionReliabilityStart": 1.0,
+        "IgnitionReliabilityEnd": 1.0,
+        "CycleReliabilityStart": 1.0,
+        "CycleReliabilityEnd": 1.0
+      }
+    }
+  }
+}

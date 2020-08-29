@@ -1,0 +1,46 @@
+{
+  "Title": "RD-0110R",
+  "Manufacturer": "Voronezh Mechanical Plant (VMZ)",
+  "Description": "The RD-0110R is a four-chamber, gas generator, surface kerolox vernier engine. It is used on the first stage of the Soyuz-2-1V launch vehicle family for two-axis attitude control.",
+  "OriginalMass": 0.14,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "RD-0110R",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 42.0
+  },
+  "EngineConfigs": {
+    "RD-0110R": {
+      "ConfigName": "RD-0110R",
+      "ConfigDescription": "",
+      "MaxThrust": 68.3,
+      "MinThrust": 68.3,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 298.0,
+      "IspSeaLevel": 259.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.1,
+          "TEATEB": 1.0
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.3853,
+        "LqdOxygen": 0.6147
+      },
+      "Reliability": {
+        "RatedBurnTime": 250,
+        "IgnitionReliabilityStart": 0.96,
+        "IgnitionReliabilityEnd": 0.992,
+        "CycleReliabilityStart": 0.96,
+        "CycleReliabilityEnd": 0.992
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "Title": "GEM 40",
+  "Manufacturer": "Hercules",
+  "Description": "The Graphite-Epoxy Motor (GEM) replaced the steel case used on earlier Castor-series boosters with a lighter composite case. The 40-inch (1-meter) diameter GEM 40 was used on the Delta II 7000-series in sets of three, four, or nine. When nine boosters were used, six were ignited at liftoff and the remaining three were ignited after burnout and jettison of the first six. Burn time: 58 seconds.",
+  "OriginalMass": 1.196,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Solid",
+  "DefaultConfig": "GEM-40/Ground",
+  "Gimbal": {
+    "IsGimbaled": false,
+    "Range": 0.0
+  },
+  "EngineConfigs": {
+    "GEM-40/Ground": {
+      "ConfigName": "GEM-40/Ground",
+      "ConfigDescription": "",
+      "MaxThrust": 644.0,
+      "MinThrust": 644.0,
+      "MassMult": 1.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 274.0,
+      "IspSeaLevel": 245.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Propellants": {
+        "HTPB": 1.0
+      },
+      "Reliability": {
+        "RatedBurnTime": 63,
+        "IgnitionReliabilityStart": 0.99,
+        "IgnitionReliabilityEnd": 1.0,
+        "CycleReliabilityStart": 0.998932,
+        "CycleReliabilityEnd": 0.999786
+      }
+    },
+    "GEM-40/Air": {
+      "ConfigName": "GEM-40/Air",
+      "ConfigDescription": "",
+      "MaxThrust": 666.0,
+      "MinThrust": 666.0,
+      "MassMult": 1.010708,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 283.4,
+      "IspSeaLevel": 203.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Propellants": {
+        "HTPB": 1.0
+      },
+      "Reliability": {
+        "RatedBurnTime": 63,
+        "IgnitionReliabilityStart": 0.99,
+        "IgnitionReliabilityEnd": 0.999,
+        "CycleReliabilityStart": 0.998932,
+        "CycleReliabilityEnd": 0.999786
+      }
+    }
+  }
+}

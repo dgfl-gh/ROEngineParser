@@ -1,0 +1,175 @@
+{
+  "Title": "RD-211 Series",
+  "Manufacturer": "NPO Energomash",
+  "Description": "An early Soviet four combustion chamber rocket. Developed from the RD-100 for the R-12 IRBM in the mid 1950s, it provided a significant increase in power over earlier Soviet engines. It was later used for the Kosmos-2 launch vehicle.",
+  "OriginalMass": 0.635,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "RD-211",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 10.0
+  },
+  "EngineConfigs": {
+    "RD-211-8D57": {
+      "ConfigName": "RD-211-8D57",
+      "ConfigDescription": "Prototype for the R-12 (8K63)",
+      "MaxThrust": 642.3,
+      "MinThrust": 642.3,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 261.8,
+      "IspSeaLevel": 224.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 1.0,
+          "Tonka250": 1.0
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.3111,
+        "AK20": 0.6889,
+        "HTP": 0.01
+      },
+      "Reliability": {
+        "RatedBurnTime": 122,
+        "IgnitionReliabilityStart": 0.85,
+        "IgnitionReliabilityEnd": 0.94,
+        "CycleReliabilityStart": 0.75,
+        "CycleReliabilityEnd": 0.94
+      }
+    },
+    "RD-212-8D41": {
+      "ConfigName": "RD-212-8D41",
+      "ConfigDescription": "Prototype for Buran cruise missile",
+      "MaxThrust": 622.7,
+      "MinThrust": 437.0,
+      "MassMult": 1.01,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 253.0,
+      "IspSeaLevel": 231.0,
+      "MinThrottle": 0.7017825,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 1.0,
+          "Tonka250": 1.0
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.3146,
+        "AK27": 0.6854,
+        "HTP": 0.01
+      },
+      "Reliability": {
+        "RatedBurnTime": 100,
+        "IgnitionReliabilityStart": 0.87,
+        "IgnitionReliabilityEnd": 0.93,
+        "CycleReliabilityStart": 0.8,
+        "CycleReliabilityEnd": 0.9
+      }
+    },
+    "RD-213-8D13": {
+      "ConfigName": "RD-213-8D13",
+      "ConfigDescription": "Prototype for Buran cruise missile",
+      "MaxThrust": 749.2,
+      "MinThrust": 549.0,
+      "MassMult": 0.984,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 253.0,
+      "IspSeaLevel": 231.0,
+      "MinThrottle": 0.73278165,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 1.0,
+          "Tonka250": 1.0
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.3146,
+        "AK27": 0.6854,
+        "HTP": 0.01
+      },
+      "Reliability": {
+        "RatedBurnTime": 110,
+        "IgnitionReliabilityStart": 0.87,
+        "IgnitionReliabilityEnd": 0.93,
+        "CycleReliabilityStart": 0.8,
+        "CycleReliabilityEnd": 0.9
+      }
+    },
+    "RD-214-8D59": {
+      "ConfigName": "RD-214-8D59",
+      "ConfigDescription": "Engine for the R-12 (8K63)",
+      "MaxThrust": 730.2,
+      "MinThrust": 730.2,
+      "MassMult": 1.03,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 264.0,
+      "IspSeaLevel": 230.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 1.0,
+          "Tonka250": 1.0
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.3146,
+        "AK27": 0.6854,
+        "HTP": 0.01
+      },
+      "Reliability": {
+        "RatedBurnTime": 140,
+        "IgnitionReliabilityStart": 0.942308,
+        "IgnitionReliabilityEnd": 0.988462,
+        "CycleReliabilityStart": 0.942308,
+        "CycleReliabilityEnd": 0.988462
+      }
+    },
+    "RD-214U-8D59U": {
+      "ConfigName": "RD-214U-8D59U",
+      "ConfigDescription": "Engine for the R-12U (8K63S) and Kosmos-2 (11K63)",
+      "MaxThrust": 730.6,
+      "MinThrust": 730.6,
+      "MassMult": 1.03,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 264.0,
+      "IspSeaLevel": 230.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 1.0,
+          "Tonka250": 1.0
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.3146,
+        "AK27": 0.6854,
+        "HTP": 0.01
+      },
+      "Reliability": {
+        "RatedBurnTime": 140,
+        "IgnitionReliabilityStart": 0.945455,
+        "IgnitionReliabilityEnd": 0.989091,
+        "CycleReliabilityStart": 0.945455,
+        "CycleReliabilityEnd": 0.989091
+      }
+    }
+  }
+}

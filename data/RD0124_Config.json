@@ -1,0 +1,46 @@
+{
+  "Title": "RD-0124",
+  "Manufacturer": "KB Khimavtomatika",
+  "Description": "An upper stage Kerosene/LOX engine designed for new versions of the Soyuz-2 launchers. To also be used with the Angara family of launchers.",
+  "OriginalMass": 0.48,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "RD-0124",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 3.5
+  },
+  "EngineConfigs": {
+    "RD-0124": {
+      "ConfigName": "RD-0124",
+      "ConfigDescription": "",
+      "MaxThrust": 294.3,
+      "MinThrust": 294.3,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 359.0,
+      "IspSeaLevel": 245.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.3729,
+        "LqdOxygen": 0.6271
+      },
+      "Reliability": {
+        "RatedBurnTime": 300,
+        "IgnitionReliabilityStart": 0.983607,
+        "IgnitionReliabilityEnd": 0.996721,
+        "CycleReliabilityStart": 0.983607,
+        "CycleReliabilityEnd": 0.996721
+      }
+    }
+  }
+}

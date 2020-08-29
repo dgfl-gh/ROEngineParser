@@ -1,0 +1,42 @@
+{
+  "Title": "Altair II X-258",
+  "Manufacturer": "Allegany Ballistics Laboratory",
+  "Description": "A small solid kick motor. Developed from the Altair, this successor was used on Scout and Delta. Used to circularize at apogee or perform final payload kick. Average thrust 28.48 kN, burn time 22 seconds.",
+  "OriginalMass": 0.0327,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Solid",
+  "DefaultConfig": "Altair-II",
+  "Gimbal": {
+    "IsGimbaled": false,
+    "Range": 0.0
+  },
+  "EngineConfigs": {
+    "Altair-II": {
+      "ConfigName": "Altair-II",
+      "ConfigDescription": "",
+      "MaxThrust": 35.0,
+      "MinThrust": 35.0,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 279.0,
+      "IspSeaLevel": 200.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Propellants": {
+        "PSPC": 1.0
+      },
+      "Reliability": {
+        "RatedBurnTime": 22,
+        "IgnitionReliabilityStart": 0.965517,
+        "IgnitionReliabilityEnd": 0.993103,
+        "CycleReliabilityStart": 0.965517,
+        "CycleReliabilityEnd": 0.993103
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "Title": "Star 30",
+  "Manufacturer": "Thiokol",
+  "Description": "Total flown included in total for Star-30A.",
+  "OriginalMass": 0.03284,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Solid",
+  "DefaultConfig": "Star-30BP",
+  "Gimbal": {
+    "IsGimbaled": false,
+    "Range": 0.0
+  },
+  "EngineConfigs": {
+    "Star-30BP": {
+      "ConfigName": "Star-30BP",
+      "ConfigDescription": "",
+      "MaxThrust": 30.9,
+      "MinThrust": 30.9,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 292.3,
+      "IspSeaLevel": 150.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Propellants": {
+        "HTPB": 1.0
+      },
+      "Reliability": {
+        "RatedBurnTime": 55,
+        "IgnitionReliabilityStart": 0.96,
+        "IgnitionReliabilityEnd": 0.992,
+        "CycleReliabilityStart": 0.96,
+        "CycleReliabilityEnd": 0.992
+      }
+    }
+  }
+}

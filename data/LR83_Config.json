@@ -1,0 +1,45 @@
+{
+  "Title": "LR83 Booster Engine",
+  "Manufacturer": "Rocketdyne",
+  "Description": "LOX/Kerosene rocket engine. Designed for booster applications. Gas generator, pump-fed. Three gimbaled engines would have been used in the Navaho booster.",
+  "OriginalMass": 0.415,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "XLR83-NA-1",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 4.25
+  },
+  "EngineConfigs": {
+    "XLR83-NA-1": {
+      "ConfigName": "XLR83-NA-1",
+      "ConfigDescription": "",
+      "MaxThrust": 2072.0,
+      "MinThrust": 2072.0,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 282.0,
+      "IspSeaLevel": 245.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 1.0
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.382,
+        "LqdOxygen": 0.618
+      },
+      "Reliability": {
+        "RatedBurnTime": 100,
+        "IgnitionReliabilityStart": 0.7,
+        "IgnitionReliabilityEnd": 0.9,
+        "CycleReliabilityStart": 0.8,
+        "CycleReliabilityEnd": 0.9
+      }
+    }
+  }
+}

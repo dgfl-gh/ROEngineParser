@@ -1,26 +1,26 @@
 {
-  "Title": "YF-77",
-  "Manufacturer": "AALPT",
-  "Description": "A Hydrolox engine used on the Long March 5 Rocket.",
-  "OriginalMass": 1.375,
+  "Title": "P 0.68 Dropt SRM",
+  "Manufacturer": "Aerospatiale",
+  "Description": "Small, French Solid Rocket motor that was used as the third stage on the Diamant B and BP4 launch vehicle.",
+  "OriginalMass": 0.067,
   "LiteralZeroIgnitions": false,
-  "EngineType": "Liquid",
-  "DefaultConfig": "YF-77",
+  "EngineType": "Solid",
+  "DefaultConfig": "Dropt",
   "Gimbal": {
     "IsGimbaled": false,
     "Range": 0.0
   },
   "EngineConfigs": {
-    "YF-77": {
-      "ConfigName": "YF-77",
+    "Dropt": {
+      "ConfigName": "Dropt",
       "ConfigDescription": "",
-      "MaxThrust": 700.0,
-      "MinThrust": 700.0,
+      "MaxThrust": 50.0,
+      "MinThrust": 50.0,
       "MassMult": 0.0,
       "Ullage": false,
       "PressureFed": false,
-      "IspVacuum": 426.0,
-      "IspSeaLevel": 310.0,
+      "IspVacuum": 275.0,
+      "IspSeaLevel": 266.0,
       "MinThrottle": 1.0,
       "AirLightable": false,
       "Ignition": {
@@ -28,13 +28,12 @@
         "resources": {}
       },
       "Propellants": {
-        "LqdHydrogen": 0.8459,
-        "LqdOxygen": 0.1541
+        "HTPB": 1.0
       },
       "Reliability": {
-        "RatedBurnTime": 485,
+        "RatedBurnTime": 46,
         "IgnitionReliabilityStart": 0.875,
-        "IgnitionReliabilityEnd": 0.975,
+        "IgnitionReliabilityEnd": 0.99,
         "CycleReliabilityStart": 0.875,
         "CycleReliabilityEnd": 0.975
       }

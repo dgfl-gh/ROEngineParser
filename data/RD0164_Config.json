@@ -1,0 +1,46 @@
+{
+  "Title": "RD-0164 Engine",
+  "Manufacturer": "KB Khimavtomatiki",
+  "Description": "Between 2002 and 2005, KBKhA teamed up with European industry to develop a reusable staged combustion methane engine with a thrust of 200 tons under the Volga project. In 2006, the company started work on a reusable engine designated RD-0162 for the Russian MRKS-1 reusable space booster. RD-0164 is higher thrust variant of that engine.",
+  "OriginalMass": 2.675,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "RD-0164",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 4.25
+  },
+  "EngineConfigs": {
+    "RD-0164": {
+      "ConfigName": "RD-0164",
+      "ConfigDescription": "",
+      "MaxThrust": 3831.0,
+      "MinThrust": 1725.0,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 358.0,
+      "IspSeaLevel": 311.5,
+      "MinThrottle": 0.45027408,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 4,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Propellants": {
+        "LqdMethane": 0.4337,
+        "LqdOxygen": 0.5663
+      },
+      "Reliability": {
+        "RatedBurnTime": 360,
+        "IgnitionReliabilityStart": 0.991,
+        "IgnitionReliabilityEnd": 0.9995,
+        "CycleReliabilityStart": 0.991,
+        "CycleReliabilityEnd": 0.9995
+      }
+    }
+  }
+}

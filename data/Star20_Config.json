@@ -1,0 +1,42 @@
+{
+  "Title": "Star 20",
+  "Manufacturer": "Thiokol",
+  "Description": "The lightweight, external nozzle is a composite of graphite, plastic, and steel. The consumable pyrogen igniter is actuated by two 6-second-delay electrical initiators or two SBASI zero-time-delay initiators.",
+  "OriginalMass": 0.02658,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Solid",
+  "DefaultConfig": "Star-20",
+  "Gimbal": {
+    "IsGimbaled": false,
+    "Range": 0.0
+  },
+  "EngineConfigs": {
+    "Star-20": {
+      "ConfigName": "Star-20",
+      "ConfigDescription": "",
+      "MaxThrust": 28.9,
+      "MinThrust": 28.9,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 286.5,
+      "IspSeaLevel": 150.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Propellants": {
+        "HTPB": 1.0
+      },
+      "Reliability": {
+        "RatedBurnTime": 31,
+        "IgnitionReliabilityStart": 0.972973,
+        "IgnitionReliabilityEnd": 0.994595,
+        "CycleReliabilityStart": 0.972973,
+        "CycleReliabilityEnd": 0.994595
+      }
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "Title": "MR-510 Arcjet",
+  "Manufacturer": "Aerojet",
+  "Description": "Aerojet MR-510 series arcjet engines are currently used on Lockheed Martin A2100 satellites using hydrazine as a propellant.",
+  "OriginalMass": 0.00158,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "MR-510-Hydrazine",
+  "Gimbal": {
+    "IsGimbaled": false,
+    "Range": 0.0
+  },
+  "EngineConfigs": {
+    "MR-510-Hydrazine": {
+      "ConfigName": "MR-510-Hydrazine",
+      "ConfigDescription": "",
+      "MaxThrust": 0.000258,
+      "MinThrust": 0.000258,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 585.0,
+      "IspSeaLevel": 1.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Propellants": {
+        "Hydrazine": 1.0
+      },
+      "Reliability": {
+        "RatedBurnTime": -1,
+        "IgnitionReliabilityStart": 1.0,
+        "IgnitionReliabilityEnd": 1.0,
+        "CycleReliabilityStart": 1.0,
+        "CycleReliabilityEnd": 1.0
+      }
+    },
+    "MR-510-Ammonia": {
+      "ConfigName": "MR-510-Ammonia",
+      "ConfigDescription": "",
+      "MaxThrust": 0.000258,
+      "MinThrust": 0.000258,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 800.0,
+      "IspSeaLevel": 1.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Propellants": {
+        "LqdAmmonia": 1.0
+      },
+      "Reliability": {
+        "RatedBurnTime": -1,
+        "IgnitionReliabilityStart": 1.0,
+        "IgnitionReliabilityEnd": 1.0,
+        "CycleReliabilityStart": 1.0,
+        "CycleReliabilityEnd": 1.0
+      }
+    },
+    "MR-510-Hydrogen": {
+      "ConfigName": "MR-510-Hydrogen",
+      "ConfigDescription": "",
+      "MaxThrust": 0.000258,
+      "MinThrust": 0.000258,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 2000.0,
+      "IspSeaLevel": 1.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Propellants": {
+        "LqdHydrogen": 1.0
+      },
+      "Reliability": {
+        "RatedBurnTime": -1,
+        "IgnitionReliabilityStart": 1.0,
+        "IgnitionReliabilityEnd": 1.0,
+        "CycleReliabilityStart": 1.0,
+        "CycleReliabilityEnd": 1.0
+      }
+    }
+  }
+}

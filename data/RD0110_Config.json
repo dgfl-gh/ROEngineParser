@@ -1,0 +1,77 @@
+{
+  "Title": "RD-0110 Series",
+  "Manufacturer": "KB Khimavtomatika",
+  "Description": "An upper stage Kerosene/LOX engine designed for the Molniya launch vehicle. Also was used with the Voskhod and Soyuz launchers.",
+  "OriginalMass": 0.451,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "RD-0107",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 7.0
+  },
+  "EngineConfigs": {
+    "RD-0107": {
+      "ConfigName": "RD-0107",
+      "ConfigDescription": "Upper stage for the R-7 developed from the RD-0106 booster engine. Used on Vostok and early Molniya rockets.",
+      "MaxThrust": 297.9,
+      "MinThrust": 269.69,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 326.0,
+      "IspSeaLevel": 141.0,
+      "MinThrottle": 0.90530384,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.3853,
+        "LqdOxygen": 0.6147
+      },
+      "Reliability": {
+        "RatedBurnTime": 250,
+        "IgnitionReliabilityStart": 0.93787,
+        "IgnitionReliabilityEnd": 0.987574,
+        "CycleReliabilityStart": 0.93787,
+        "CycleReliabilityEnd": 0.987574
+      }
+    },
+    "RD-0110": {
+      "ConfigName": "RD-0110",
+      "ConfigDescription": "Developed for the upgraded Molniya-M, and later used on Soyuz.",
+      "MaxThrust": 298.2,
+      "MinThrust": 269.69,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 330.4,
+      "IspSeaLevel": 141.0,
+      "MinThrottle": 0.904393,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.3853,
+        "LqdOxygen": 0.6147
+      },
+      "Reliability": {
+        "RatedBurnTime": 250,
+        "IgnitionReliabilityStart": 0.984362,
+        "IgnitionReliabilityEnd": 0.996872,
+        "CycleReliabilityStart": 0.984362,
+        "CycleReliabilityEnd": 0.996872
+      }
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "Title": "E-1",
+  "Manufacturer": "Rocketdyne",
+  "Description": "Pump-fed kerolox open cycle (gas generator) booster engine developed from LR79/89. Backup proposal for the first stage engine on the Titan 1 ICBM, and proposed first stage engine on the Saturn 1 but ultimately never flown (4 E-1s replaced with 8 H-1s).",
+  "OriginalMass": 1.264,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "E-1",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 8.0
+  },
+  "EngineConfigs": {
+    "E-1": {
+      "ConfigName": "E-1",
+      "ConfigDescription": "",
+      "MaxThrust": 1884.59,
+      "MinThrust": 1884.59,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 290.0,
+      "IspSeaLevel": 260.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.3929,
+        "LqdOxygen": 0.6071
+      },
+      "Reliability": {
+        "RatedBurnTime": 165,
+        "IgnitionReliabilityStart": 0.89,
+        "IgnitionReliabilityEnd": 0.97,
+        "CycleReliabilityStart": 0.93,
+        "CycleReliabilityEnd": 0.988
+      }
+    },
+    "E-1-Upgrade": {
+      "ConfigName": "E-1-Upgrade",
+      "ConfigDescription": "Speculative upgrade configuration for the E-1 intended for use with the Dyna Soar project.",
+      "MaxThrust": 2335.3154,
+      "MinThrust": 2335.3154,
+      "MassMult": 1.435,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 291.0,
+      "IspSeaLevel": 256.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.3929,
+        "LqdOxygen": 0.6071
+      },
+      "Reliability": {
+        "RatedBurnTime": 210,
+        "IgnitionReliabilityStart": 0.94,
+        "IgnitionReliabilityEnd": 0.99,
+        "CycleReliabilityStart": 0.95,
+        "CycleReliabilityEnd": 0.994
+      }
+    },
+    "E-1-Upgrade2": {
+      "ConfigName": "E-1-Upgrade2",
+      "ConfigDescription": "Speculative upgrade configuration using late 1960s technology.",
+      "MaxThrust": 2355.0,
+      "MinThrust": 2355.0,
+      "MassMult": 1.5,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 301.0,
+      "IspSeaLevel": 264.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.3929,
+        "LqdOxygen": 0.6071
+      },
+      "Reliability": {
+        "RatedBurnTime": 240,
+        "IgnitionReliabilityStart": 0.94,
+        "IgnitionReliabilityEnd": 0.997,
+        "CycleReliabilityStart": 0.96,
+        "CycleReliabilityEnd": 0.998
+      }
+    }
+  }
+}

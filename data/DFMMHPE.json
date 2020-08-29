@@ -4,7 +4,7 @@
   "Description": "Aerojet Dual Fuel Mixed-Mode High Pressure Engine for SSTO Vehicles. It burned RP-1 and LOX in sea level mode, and then at high altitude would deploy a nozzle extension and switch to burning LH2 and LOX for higher performance.",
   "OriginalMass": 0.0,
   "LiteralZeroIgnitions": false,
-  "EngineType": 3,
+  "EngineType": "Unknown",
   "DefaultConfig": null,
   "Gimbal": {
     "IsGimbaled": true,

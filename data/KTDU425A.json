@@ -1,0 +1,45 @@
+{
+  "Title": "KTDU-425A",
+  "Manufacturer": "Isayev Design Bureau (Khimmash)",
+  "Description": "A gas generator hypergolic vacuum engine. Designed for use in the propulsion systems of the Mars and Venera 3MV, 4MV and 5MV spacecraft buses.",
+  "OriginalMass": 0.07,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "KTDU-425A",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 5.0
+  },
+  "EngineConfigs": {
+    "KTDU-425A": {
+      "ConfigName": "KTDU-425A",
+      "ConfigDescription": "",
+      "MaxThrust": 18.89,
+      "MinThrust": 9.86,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 315.0,
+      "IspSeaLevel": 263.0,
+      "MinThrottle": 0.5219693,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 50,
+        "resources": {
+          "ElectricCharge": 0.01
+        }
+      },
+      "Propellants": {
+        "UDMH": 0.4782,
+        "NTO": 0.5218
+      },
+      "Reliability": {
+        "RatedBurnTime": -1,
+        "IgnitionReliabilityStart": 1.0,
+        "IgnitionReliabilityEnd": 1.0,
+        "CycleReliabilityStart": 1.0,
+        "CycleReliabilityEnd": 1.0
+      }
+    }
+  }
+}

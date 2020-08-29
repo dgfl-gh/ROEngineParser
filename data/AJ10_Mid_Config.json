@@ -1,0 +1,75 @@
+{
+  "Title": "AJ10 Series (Mid)",
+  "Manufacturer": "Aerojet",
+  "Description": "Small pressure-fed hypergolic upper stage engine. Derivative of the first US liquid rocket engine, the AJ10 series is perhaps the longest-lived of any engine series, a part of the US's first satellite launch vehicle, Vanguard, the Apollo CSM, and even one projected Orion service module. This represents mid-period AJ10s with a nozzle extension and restart capability. Used on Thor-Ablestar and Delta E through Delta N.",
+  "OriginalMass": 0.09,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "AJ10-104",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 4.25
+  },
+  "EngineConfigs": {
+    "AJ10-104": {
+      "ConfigName": "AJ10-104",
+      "ConfigDescription": "The AJ10-104 was used on the Thor-Able-Star and it was the first upper stage engine with the ability to restart.",
+      "MaxThrust": 35.1,
+      "MinThrust": 35.1,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": true,
+      "IspVacuum": 278.0,
+      "IspSeaLevel": 215.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.2
+        }
+      },
+      "Propellants": {
+        "UDMH": 0.4281,
+        "IRFNA-III": 0.5719
+      },
+      "Reliability": {
+        "RatedBurnTime": 300,
+        "IgnitionReliabilityStart": 0.967742,
+        "IgnitionReliabilityEnd": 0.993548,
+        "CycleReliabilityStart": 0.833333,
+        "CycleReliabilityEnd": 0.966667
+      }
+    },
+    "AJ10-118E": {
+      "ConfigName": "AJ10-118E",
+      "ConfigDescription": "Upgrade to the AJ10-118 used on the Delta E-N upper stages.",
+      "MaxThrust": 35.2,
+      "MinThrust": 35.2,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": true,
+      "IspVacuum": 278.0,
+      "IspSeaLevel": 215.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.2
+        }
+      },
+      "Propellants": {
+        "UDMH": 0.4281,
+        "IRFNA-III": 0.5719
+      },
+      "Reliability": {
+        "RatedBurnTime": 400,
+        "IgnitionReliabilityStart": 0.986301,
+        "IgnitionReliabilityEnd": 0.99726,
+        "CycleReliabilityStart": 0.979167,
+        "CycleReliabilityEnd": 0.995833
+      }
+    }
+  }
+}

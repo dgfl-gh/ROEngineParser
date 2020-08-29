@@ -1,0 +1,463 @@
+{
+  "Title": "RL10 Series Vacuum Engine",
+  "Manufacturer": "Pratt & Whitney",
+  "Description": "Hydrolox restartable expander-cycle vacuum engine used in multiple upper stages, including Centaur, the Saturn I S-IV, and the Delta Cryogenic Second Stage. It has low thrust, but very high specific impulse and low mass, making it ideal for high energy, beyond-low-Earth-orbit applications like launching satellites to geostationary transfer orbits or to the Moon or other planets. However, like all hydrolox engines, hydrogen boiloff is a serious issue without heat pumps or radiators.",
+  "OriginalMass": 0.167,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "RL10A-1",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 4.0
+  },
+  "EngineConfigs": {
+    "RL10A-1": {
+      "ConfigName": "RL10A-1",
+      "ConfigDescription": "Prototype. Used for Early Atlas-Centaur launches. Very unreliable",
+      "MaxThrust": 65.6,
+      "MinThrust": 65.6,
+      "MassMult": 0.87,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 422.0,
+      "IspSeaLevel": 200.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 10,
+        "resources": {}
+      },
+      "Propellants": {
+        "LqdHydrogen": 0.7631,
+        "LqdOxygen": 0.2369
+      },
+      "Reliability": {
+        "RatedBurnTime": 430,
+        "IgnitionReliabilityStart": 0.833333,
+        "IgnitionReliabilityEnd": 0.966667,
+        "CycleReliabilityStart": 0.833333,
+        "CycleReliabilityEnd": 0.966667
+      }
+    },
+    "RL10A-3-1": {
+      "ConfigName": "RL10A-3-1",
+      "ConfigDescription": "First production model of the RL10. Used for Atlas-Centaur and Saturn 1 launches.",
+      "MaxThrust": 68.05,
+      "MinThrust": 68.05,
+      "MassMult": 0.8324,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 433.0,
+      "IspSeaLevel": 255.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 10,
+        "resources": {}
+      },
+      "Propellants": {
+        "LqdHydrogen": 0.7631,
+        "LqdOxygen": 0.2369
+      },
+      "Reliability": {
+        "RatedBurnTime": 470,
+        "IgnitionReliabilityStart": 0.933333,
+        "IgnitionReliabilityEnd": 0.986667,
+        "CycleReliabilityStart": 0.933333,
+        "CycleReliabilityEnd": 0.986667
+      }
+    },
+    "RL10A-3-3": {
+      "ConfigName": "RL10A-3-3",
+      "ConfigDescription": "Upgraded model with slightly higher performance. Used for the majority of Atlas-Centaur D Launches.",
+      "MaxThrust": 70.05,
+      "MinThrust": 70.05,
+      "MassMult": 0.8179,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 444.0,
+      "IspSeaLevel": 255.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 10,
+        "resources": {}
+      },
+      "Propellants": {
+        "LqdHydrogen": 0.7631,
+        "LqdOxygen": 0.2369
+      },
+      "Reliability": {
+        "RatedBurnTime": 470,
+        "IgnitionReliabilityStart": 0.994681,
+        "IgnitionReliabilityEnd": 0.998936,
+        "CycleReliabilityStart": 0.989474,
+        "CycleReliabilityEnd": 0.997895
+      }
+    },
+    "RL10A-3-3-Lunex": {
+      "ConfigName": "RL10A-3-3-Lunex",
+      "ConfigDescription": "Speculative throttling configuration for the USAF Lunex lander",
+      "MaxThrust": 69.4,
+      "MinThrust": 11.5,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 440.0,
+      "IspSeaLevel": 255.0,
+      "MinThrottle": 0.16570605,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 10,
+        "resources": {}
+      },
+      "Propellants": {
+        "LqdHydrogen": 0.7631,
+        "LqdOxygen": 0.2369
+      },
+      "Reliability": {
+        "RatedBurnTime": 600,
+        "IgnitionReliabilityStart": 0.994681,
+        "IgnitionReliabilityEnd": 0.998936,
+        "CycleReliabilityStart": 0.989474,
+        "CycleReliabilityEnd": 0.997895
+      }
+    },
+    "RL10A-3-3A": {
+      "ConfigName": "RL10A-3-3A",
+      "ConfigDescription": "Heavily reworked turbopumps for higher performance on Atlas-Centaur G and Titan-Centaur.",
+      "MaxThrust": 73.4,
+      "MinThrust": 73.4,
+      "MassMult": 0.818,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 444.0,
+      "IspSeaLevel": 255.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 10,
+        "resources": {}
+      },
+      "Propellants": {
+        "LqdHydrogen": 0.7631,
+        "LqdOxygen": 0.2369
+      },
+      "Reliability": {
+        "RatedBurnTime": 550,
+        "IgnitionReliabilityStart": 0.990826,
+        "IgnitionReliabilityEnd": 0.998165,
+        "CycleReliabilityStart": 0.962963,
+        "CycleReliabilityEnd": 0.992593
+      }
+    },
+    "RL10A-4": {
+      "ConfigName": "RL10A-4",
+      "ConfigDescription": "Reworked turbopumps, nozzle extenstion and electric TVC to improve performance for Atlas II",
+      "MaxThrust": 92.5,
+      "MinThrust": 92.5,
+      "MassMult": 1.006,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 448.9,
+      "IspSeaLevel": 255.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 10,
+        "resources": {}
+      },
+      "Propellants": {
+        "LqdHydrogen": 0.7454,
+        "LqdOxygen": 0.2546
+      },
+      "Reliability": {
+        "RatedBurnTime": 392,
+        "IgnitionReliabilityStart": 0.995305,
+        "IgnitionReliabilityEnd": 0.999061,
+        "CycleReliabilityStart": 0.990654,
+        "CycleReliabilityEnd": 0.998131
+      }
+    },
+    "RL10A-4-1-2": {
+      "ConfigName": "RL10A-4-1-2",
+      "ConfigDescription": "Upgraded for use in a single engine configuration on Atlas IIA",
+      "MaxThrust": 99.2,
+      "MinThrust": 99.2,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 450.5,
+      "IspSeaLevel": 255.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 10,
+        "resources": {}
+      },
+      "Propellants": {
+        "LqdHydrogen": 0.7454,
+        "LqdOxygen": 0.2546
+      },
+      "Reliability": {
+        "RatedBurnTime": 850,
+        "IgnitionReliabilityStart": 0.989899,
+        "IgnitionReliabilityEnd": 0.99798,
+        "CycleReliabilityStart": 0.98,
+        "CycleReliabilityEnd": 0.996
+      }
+    },
+    "RL10A-5": {
+      "ConfigName": "RL10A-5",
+      "ConfigDescription": "Sea level RL10 for use on the Delta Clipper (DC-X) project.",
+      "MaxThrust": 64.75,
+      "MinThrust": 19.4,
+      "MassMult": 0.8563,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 373.0,
+      "IspSeaLevel": 316.0,
+      "MinThrottle": 0.2996139,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 10,
+        "resources": {}
+      },
+      "Propellants": {
+        "LqdHydrogen": 0.7286,
+        "LqdOxygen": 0.2714
+      },
+      "Reliability": {
+        "RatedBurnTime": 430,
+        "IgnitionReliabilityStart": 0.977273,
+        "IgnitionReliabilityEnd": 0.995455,
+        "CycleReliabilityStart": 0.977273,
+        "CycleReliabilityEnd": 0.995455
+      }
+    },
+    "RL10B-2": {
+      "ConfigName": "RL10B-2",
+      "ConfigDescription": "Extremely large nozzle extenstion developed for Delta III, and used on Delta IV",
+      "MaxThrust": 111.2,
+      "MinThrust": 111.2,
+      "MassMult": 1.659,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 465.5,
+      "IspSeaLevel": 235.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 15,
+        "resources": {}
+      },
+      "Propellants": {
+        "LqdHydrogen": 0.7325,
+        "LqdOxygen": 0.2675
+      },
+      "Reliability": {
+        "RatedBurnTime": 1130,
+        "IgnitionReliabilityStart": 0.988235,
+        "IgnitionReliabilityEnd": 0.997647,
+        "CycleReliabilityStart": 0.952381,
+        "CycleReliabilityEnd": 0.990476
+      }
+    },
+    "RL10C-1": {
+      "ConfigName": "RL10C-1",
+      "ConfigDescription": "Cost reduced model with modern production techniques, used in single or double engine configurations on Atlas V.",
+      "MaxThrust": 101.9,
+      "MinThrust": 101.9,
+      "MassMult": 1.1437,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 449.7,
+      "IspSeaLevel": 255.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 10,
+        "resources": {}
+      },
+      "Propellants": {
+        "LqdHydrogen": 0.7454,
+        "LqdOxygen": 0.2546
+      },
+      "Reliability": {
+        "RatedBurnTime": 1130,
+        "IgnitionReliabilityStart": 0.988506,
+        "IgnitionReliabilityEnd": 0.997701,
+        "CycleReliabilityStart": 0.977273,
+        "CycleReliabilityEnd": 0.995455
+      }
+    },
+    "RL10C-1-1": {
+      "ConfigName": "RL10C-1-1",
+      "ConfigDescription": "Planned upgrade of RL10C-1 for use on Vulcan-Centaur, OmegA, and later Atlas V launches",
+      "MaxThrust": 105.9,
+      "MinThrust": 105.9,
+      "MassMult": 1.1272,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 453.8,
+      "IspSeaLevel": 255.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 10,
+        "resources": {}
+      },
+      "Propellants": {
+        "LqdHydrogen": 0.7454,
+        "LqdOxygen": 0.2546
+      },
+      "Reliability": {
+        "RatedBurnTime": 1200,
+        "IgnitionReliabilityStart": 0.988506,
+        "IgnitionReliabilityEnd": 0.997701,
+        "CycleReliabilityStart": 0.977273,
+        "CycleReliabilityEnd": 0.995455
+      }
+    },
+    "RL10C-2-1": {
+      "ConfigName": "RL10C-2-1",
+      "ConfigDescription": "RL10B-2 using RL10C-1 components to reduce cost.",
+      "MaxThrust": 111.2,
+      "MinThrust": 111.2,
+      "MassMult": 1.659,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 465.5,
+      "IspSeaLevel": 235.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 15,
+        "resources": {}
+      },
+      "Propellants": {
+        "LqdHydrogen": 0.7325,
+        "LqdOxygen": 0.2675
+      },
+      "Reliability": {
+        "RatedBurnTime": 1130,
+        "IgnitionReliabilityStart": 0.988506,
+        "IgnitionReliabilityEnd": 0.997701,
+        "CycleReliabilityStart": 0.977273,
+        "CycleReliabilityEnd": 0.995455
+      }
+    },
+    "RL10C-3": {
+      "ConfigName": "RL10C-3",
+      "ConfigDescription": "Man-rated for use on the EUS for Lunar missions.",
+      "MaxThrust": 108.3,
+      "MinThrust": 108.3,
+      "MassMult": 1.377,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 460.1,
+      "IspSeaLevel": 235.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 15,
+        "resources": {}
+      },
+      "Propellants": {
+        "LqdHydrogen": 0.7396,
+        "LqdOxygen": 0.2604
+      },
+      "Reliability": {
+        "RatedBurnTime": 1350,
+        "IgnitionReliabilityStart": 0.988506,
+        "IgnitionReliabilityEnd": 0.997701,
+        "CycleReliabilityStart": 0.977273,
+        "CycleReliabilityEnd": 0.995455
+      }
+    },
+    "CECE-Base": {
+      "ConfigName": "CECE-Base",
+      "ConfigDescription": "Technology demonstrator, with deep throttling capability",
+      "MaxThrust": 67.0,
+      "MinThrust": 4.5,
+      "MassMult": 1.257,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 460.0,
+      "IspSeaLevel": 100.0,
+      "MinThrottle": 0.06716418,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 50,
+        "resources": {}
+      },
+      "Propellants": {
+        "LqdHydrogen": 0.7352,
+        "LqdOxygen": 0.2648
+      },
+      "Reliability": {
+        "RatedBurnTime": 10000,
+        "IgnitionReliabilityStart": 0.99975,
+        "IgnitionReliabilityEnd": 0.99995,
+        "CycleReliabilityStart": 0.99975,
+        "CycleReliabilityEnd": 0.99995
+      }
+    },
+    "CECE-High": {
+      "ConfigName": "CECE-High",
+      "ConfigDescription": "Technology Demonstrator, with extremely high performance turbopumps",
+      "MaxThrust": 110.0,
+      "MinThrust": 110.0,
+      "MassMult": 1.533,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 465.0,
+      "IspSeaLevel": 100.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 50,
+        "resources": {}
+      },
+      "Propellants": {
+        "LqdHydrogen": 0.7325,
+        "LqdOxygen": 0.2675
+      },
+      "Reliability": {
+        "RatedBurnTime": 10000,
+        "IgnitionReliabilityStart": 0.99975,
+        "IgnitionReliabilityEnd": 0.99995,
+        "CycleReliabilityStart": 0.99975,
+        "CycleReliabilityEnd": 0.99995
+      }
+    },
+    "CECE-Methane": {
+      "ConfigName": "CECE-Methane",
+      "ConfigDescription": "Technology demonstrator, modified to burn methane",
+      "MaxThrust": 67.0,
+      "MinThrust": 17.0,
+      "MassMult": 1.257,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 360.0,
+      "IspSeaLevel": 100.0,
+      "MinThrottle": 0.25373134,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 50,
+        "resources": {}
+      },
+      "Propellants": {
+        "LqdMethane": 0.4268,
+        "LqdOxygen": 0.5732
+      },
+      "Reliability": {
+        "RatedBurnTime": 10000,
+        "IgnitionReliabilityStart": 0.99975,
+        "IgnitionReliabilityEnd": 0.99995,
+        "CycleReliabilityStart": 0.99975,
+        "CycleReliabilityEnd": 0.99995
+      }
+    }
+  }
+}

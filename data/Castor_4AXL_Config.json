@@ -1,0 +1,42 @@
+{
+  "Title": "Castor 4AXL",
+  "Manufacturer": "Thiokol",
+  "Description": "Strap-on booster, improvement of Castor 4A, first tested May 1992. Its 30% performance increase would improve performance of Atlas IIAS, H-II, and other vehicles. First flight 2001.",
+  "OriginalMass": 1.723,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Solid",
+  "DefaultConfig": "Castor-4AXL",
+  "Gimbal": {
+    "IsGimbaled": false,
+    "Range": 0.0
+  },
+  "EngineConfigs": {
+    "Castor-4AXL": {
+      "ConfigName": "Castor-4AXL",
+      "ConfigDescription": "",
+      "MaxThrust": 765.0,
+      "MinThrust": 765.0,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 282.4,
+      "IspSeaLevel": 240.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Propellants": {
+        "HTPB": 1.0
+      },
+      "Reliability": {
+        "RatedBurnTime": 60,
+        "IgnitionReliabilityStart": 0.99,
+        "IgnitionReliabilityEnd": 0.999,
+        "CycleReliabilityStart": 0.996721,
+        "CycleReliabilityEnd": 0.999344
+      }
+    }
+  }
+}

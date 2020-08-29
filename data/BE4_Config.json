@@ -1,0 +1,45 @@
+{
+  "Title": "BE-4",
+  "Manufacturer": "Blue Origin",
+  "Description": "The BE-4 is an oxidizer-rich staged combustion Methalox engine. Though initially developed for use on a Blue Origin launch vehicle, in 2014 United Launch Alliance announced that their new Vulcan launch vehicle, the successor to both the Atlas V and Delta IV launch vehicles, will be powered by a pair of BE-4 engines.",
+  "OriginalMass": 2.25,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "BE-4",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 8.0
+  },
+  "EngineConfigs": {
+    "BE-4": {
+      "ConfigName": "BE-4",
+      "ConfigDescription": "",
+      "MaxThrust": 2647.5,
+      "MinThrust": 794.25,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 341.0,
+      "IspSeaLevel": 305.0,
+      "MinThrottle": 0.3,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 4,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Propellants": {
+        "LqdMethane": 0.4286,
+        "LqdOxygen": 0.5714
+      },
+      "Reliability": {
+        "RatedBurnTime": 400,
+        "IgnitionReliabilityStart": 0.98,
+        "IgnitionReliabilityEnd": 0.995,
+        "CycleReliabilityStart": 0.98,
+        "CycleReliabilityEnd": 0.995
+      }
+    }
+  }
+}

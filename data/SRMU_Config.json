@@ -1,0 +1,42 @@
+{
+  "Title": "SRMU",
+  "Manufacturer": "Hercules",
+  "Description": "The Titan IVB Solid Rocket Motor Upgrade (SRMU, also know as the Upgraded Solid Rocket Motor or USRM), was developed with the goal of achieving a 25% increase in capacity over the Titan IVA with the UA1207 SRM. It achieved this through the use of a more energetic propellant and a 3-segment composite case that carried more fuel and weighed less than the UA1207's 7-segment steel case. Burn time 150 seconds.",
+  "OriginalMass": 36.2145,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Solid",
+  "DefaultConfig": "SRMU",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 5.0
+  },
+  "EngineConfigs": {
+    "SRMU": {
+      "ConfigName": "SRMU",
+      "ConfigDescription": "",
+      "MaxThrust": 8233.777,
+      "MinThrust": 8233.777,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 281.0,
+      "IspSeaLevel": 251.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Propellants": {
+        "HTPB": 1.0
+      },
+      "Reliability": {
+        "RatedBurnTime": 145,
+        "IgnitionReliabilityStart": 0.999,
+        "IgnitionReliabilityEnd": 1.0,
+        "CycleReliabilityStart": 0.971429,
+        "CycleReliabilityEnd": 0.994286
+      }
+    }
+  }
+}

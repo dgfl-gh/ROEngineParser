@@ -1,0 +1,135 @@
+{
+  "Title": "RS-25 (SSME)",
+  "Manufacturer": "Rocketdyne",
+  "Description": "The RS-25, also known as the Space Shuttle Main Engine (SSME), is a LH2/LOX fuel-rich staged combustion engine. Though complex and expensive, these engines provide very high performance and are extremely reliable. Three of these engines powered each Shuttle Orbiter and four will be used on the core stage of the SLS.",
+  "OriginalMass": 3.527,
+  "LiteralZeroIgnitions": true,
+  "EngineType": "Liquid",
+  "DefaultConfig": "RS-25",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 8.5
+  },
+  "EngineConfigs": {
+    "RS-25": {
+      "ConfigName": "RS-25",
+      "ConfigDescription": "Phase I SSME",
+      "MaxThrust": 2090.0,
+      "MinThrust": 1358.5,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 453.0,
+      "IspSeaLevel": 363.0,
+      "MinThrottle": 0.65,
+      "AirLightable": true,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Propellants": {
+        "LqdHydrogen": 0.7276,
+        "LqdOxygen": 0.2724
+      },
+      "Reliability": {
+        "RatedBurnTime": 480,
+        "IgnitionReliabilityStart": 0.8491,
+        "IgnitionReliabilityEnd": 0.9091,
+        "CycleReliabilityStart": 0.8875,
+        "CycleReliabilityEnd": 0.9475
+      }
+    },
+    "RS-25A": {
+      "ConfigName": "RS-25A",
+      "ConfigDescription": "Phase II SSME. Rated for sustained operation at 104% thrust.",
+      "MaxThrust": 2173.6,
+      "MinThrust": 1358.5,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 453.0,
+      "IspSeaLevel": 363.0,
+      "MinThrottle": 0.625,
+      "AirLightable": true,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Propellants": {
+        "LqdHydrogen": 0.7276,
+        "LqdOxygen": 0.2724
+      },
+      "Reliability": {
+        "RatedBurnTime": 480,
+        "IgnitionReliabilityStart": 0.902,
+        "IgnitionReliabilityEnd": 0.962,
+        "CycleReliabilityStart": 0.9468,
+        "CycleReliabilityEnd": 0.9995
+      }
+    },
+    "RS-25C": {
+      "ConfigName": "RS-25C",
+      "ConfigDescription": "Block IIA SSME. First major improvement to the engine, rated for sustained operation at 109% thrust.",
+      "MaxThrust": 2278.1,
+      "MinThrust": 1358.5,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 453.0,
+      "IspSeaLevel": 363.0,
+      "MinThrottle": 0.5963302,
+      "AirLightable": true,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Propellants": {
+        "LqdHydrogen": 0.7276,
+        "LqdOxygen": 0.2724
+      },
+      "Reliability": {
+        "RatedBurnTime": 480,
+        "IgnitionReliabilityStart": 0.932,
+        "IgnitionReliabilityEnd": 0.992,
+        "CycleReliabilityStart": 0.872,
+        "CycleReliabilityEnd": 0.932
+      }
+    },
+    "RS-25D-E": {
+      "ConfigName": "RS-25D-E",
+      "ConfigDescription": "Block II SSME. Rated up to 111% thrust in an emergency. To be used on SLS as the RS-25E",
+      "MaxThrust": 2319.9,
+      "MinThrust": 1358.5,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 453.0,
+      "IspSeaLevel": 363.0,
+      "MinThrottle": 0.5855856,
+      "AirLightable": true,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Propellants": {
+        "LqdHydrogen": 0.7276,
+        "LqdOxygen": 0.2724
+      },
+      "Reliability": {
+        "RatedBurnTime": 480,
+        "IgnitionReliabilityStart": 0.9415,
+        "IgnitionReliabilityEnd": 0.9995,
+        "CycleReliabilityStart": 0.9415,
+        "CycleReliabilityEnd": 0.9995
+      }
+    }
+  }
+}

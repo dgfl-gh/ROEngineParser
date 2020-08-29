@@ -1,0 +1,42 @@
+{
+  "Title": "Star 3",
+  "Manufacturer": "ATK",
+  "Description": "The STAR 3 motor was developed and qualified in 2003 as the Transverse Impulse Rocket System (TIRS) for the Mars Exploration Rover (MER) program for the Jet Propulsion Laboratory (JPL) in Pasadena, CA. Three TIRS motors were carried on each of the MER landers. One of the TIRS motors was fired in January 2004 to provide the impulse necessary to reduce lateral velocity of the MER Spirit lander prior to landing on the Martian surface. The motor also has applicability for spin/despin and separation systems.",
+  "OriginalMass": 0.000675,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Solid",
+  "DefaultConfig": "Star-3",
+  "Gimbal": {
+    "IsGimbaled": false,
+    "Range": 0.0
+  },
+  "EngineConfigs": {
+    "Star-3": {
+      "ConfigName": "Star-3",
+      "ConfigDescription": "",
+      "MaxThrust": 2.0,
+      "MinThrust": 2.0,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 266.0,
+      "IspSeaLevel": 100.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Propellants": {
+        "HTPB": 1.0
+      },
+      "Reliability": {
+        "RatedBurnTime": 5,
+        "IgnitionReliabilityStart": 0.98,
+        "IgnitionReliabilityEnd": 0.999,
+        "CycleReliabilityStart": 0.98,
+        "CycleReliabilityEnd": 0.9999
+      }
+    }
+  }
+}

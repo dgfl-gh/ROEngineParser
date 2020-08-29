@@ -4,7 +4,7 @@
   "Description": "The Raptor is an full flow staged combustion engine that burns CH4/LOX. Designed for the Interplanetary Transport System, 42 sea level optimised engines power the first stage. The Mars ship has 3 sea level engines and 6 vacuum engines.",
   "OriginalMass": 1.6,
   "LiteralZeroIgnitions": false,
-  "EngineType": 0,
+  "EngineType": "Liquid",
   "DefaultConfig": "Raptor",
   "Gimbal": {
     "IsGimbaled": true,
@@ -12,12 +12,8 @@
   },
   "EngineConfigs": {
     "Raptor": {
-      "Propellants": {
-        "LqdMethane": 0.4137,
-        "LqdOxygen": 0.5863
-      },
       "ConfigName": "Raptor",
-      "ConfigDescription": null,
+      "ConfigDescription": "",
       "MaxThrust": 1779.29,
       "MinThrust": 355.85,
       "MassMult": 1.0,
@@ -33,21 +29,21 @@
           "ElectricCharge": 0.5
         }
       },
-      "Reliability": {
-        "RatedBurnTime": 0,
-        "IgnitionReliabilityStart": 0.0,
-        "IgnitionReliabilityEnd": 0.0,
-        "CycleReliabilityStart": 0.0,
-        "CycleReliabilityEnd": 0.0
-      }
-    },
-    "Raptor Vacuum": {
       "Propellants": {
         "LqdMethane": 0.4137,
         "LqdOxygen": 0.5863
       },
+      "Reliability": {
+        "RatedBurnTime": -1,
+        "IgnitionReliabilityStart": 1.0,
+        "IgnitionReliabilityEnd": 1.0,
+        "CycleReliabilityStart": 1.0,
+        "CycleReliabilityEnd": 1.0
+      }
+    },
+    "Raptor Vacuum": {
       "ConfigName": "Raptor Vacuum",
-      "ConfigDescription": null,
+      "ConfigDescription": "",
       "MaxThrust": 1957.22,
       "MinThrust": 391.44,
       "MassMult": 1.1,
@@ -63,12 +59,16 @@
           "ElectricCharge": 0.5
         }
       },
+      "Propellants": {
+        "LqdMethane": 0.4137,
+        "LqdOxygen": 0.5863
+      },
       "Reliability": {
-        "RatedBurnTime": 0,
-        "IgnitionReliabilityStart": 0.0,
-        "IgnitionReliabilityEnd": 0.0,
-        "CycleReliabilityStart": 0.0,
-        "CycleReliabilityEnd": 0.0
+        "RatedBurnTime": -1,
+        "IgnitionReliabilityStart": 1.0,
+        "IgnitionReliabilityEnd": 1.0,
+        "CycleReliabilityStart": 1.0,
+        "CycleReliabilityEnd": 1.0
       }
     }
   }

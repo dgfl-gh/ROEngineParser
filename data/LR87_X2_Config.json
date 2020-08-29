@@ -1,0 +1,255 @@
+{
+  "Title": "LR87 Booster",
+  "Manufacturer": "Aerojet",
+  "Description": "Used in the first stage of the Titan rocket family, the LR87 is composed of two engines with separate turbomachinery integrated into one unit. The version used on Titan I burned kerosene and liquid oxygen, while Titan II through Titan IV burned storable propellants. A modified version burning liquid hydrogen was developed for the upper stages of Saturn V and Saturn IB, but the J-2 was selected instead.",
+  "OriginalMass": 0.839,
+  "LiteralZeroIgnitions": true,
+  "EngineType": "Liquid",
+  "DefaultConfig": "LR87-AJ-7",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 6.0
+  },
+  "EngineConfigs": {
+    "LR87-AJ-3": {
+      "ConfigName": "LR87-AJ-3",
+      "ConfigDescription": "First stage engine for the Titan I ICBM",
+      "MaxThrust": 765.95,
+      "MinThrust": 765.95,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 286.0,
+      "IspSeaLevel": 249.5,
+      "MinThrottle": 1.0,
+      "AirLightable": true,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 2.0
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.382,
+        "LqdOxygen": 0.618
+      },
+      "Reliability": {
+        "RatedBurnTime": 137,
+        "IgnitionReliabilityStart": 0.898305,
+        "IgnitionReliabilityEnd": 0.979661,
+        "CycleReliabilityStart": 0.898305,
+        "CycleReliabilityEnd": 0.979661
+      }
+    },
+    "LR87-AJ-5": {
+      "ConfigName": "LR87-AJ-5",
+      "ConfigDescription": "First stage engine of Titan II. Modified to burn Aerozine50 and Nitrogen Tetroxide to allow storage for long periods of time.",
+      "MaxThrust": 1075.5,
+      "MinThrust": 1075.5,
+      "MassMult": 0.8808105,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 289.0,
+      "IspSeaLevel": 257.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 2.0
+        }
+      },
+      "Propellants": {
+        "Aerozine50": 0.455,
+        "NTO": 0.545
+      },
+      "Reliability": {
+        "RatedBurnTime": 150,
+        "IgnitionReliabilityStart": 0.962766,
+        "IgnitionReliabilityEnd": 0.992553,
+        "CycleReliabilityStart": 0.962766,
+        "CycleReliabilityEnd": 0.992553
+      }
+    },
+    "LR87-AJ-7": {
+      "ConfigName": "LR87-AJ-7",
+      "ConfigDescription": "First stage engine of Titan II GLV. Modified for the Gemini program to reduce chances of failure and make the engine safer.",
+      "MaxThrust": 1097.2,
+      "MinThrust": 1097.2,
+      "MassMult": 0.8498212,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 296.0,
+      "IspSeaLevel": 261.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 2.0
+        }
+      },
+      "Propellants": {
+        "Aerozine50": 0.455,
+        "NTO": 0.545
+      },
+      "Reliability": {
+        "RatedBurnTime": 150,
+        "IgnitionReliabilityStart": 0.96,
+        "IgnitionReliabilityEnd": 0.992,
+        "CycleReliabilityStart": 0.96,
+        "CycleReliabilityEnd": 0.992
+      }
+    },
+    "LR87-AJ-9": {
+      "ConfigName": "LR87-AJ-9",
+      "ConfigDescription": "First stage engine for Titan IIIA, IIIB and IIIC. Longer burn time and slightly higher performance for the stretched fuel tank of Titan III.",
+      "MaxThrust": 1130.0,
+      "MinThrust": 1130.0,
+      "MassMult": 0.95,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 298.0,
+      "IspSeaLevel": 262.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 2.0
+        }
+      },
+      "Propellants": {
+        "Aerozine50": 0.455,
+        "NTO": 0.545
+      },
+      "Reliability": {
+        "RatedBurnTime": 150,
+        "IgnitionReliabilityStart": 0.975,
+        "IgnitionReliabilityEnd": 0.995,
+        "CycleReliabilityStart": 0.975,
+        "CycleReliabilityEnd": 0.995
+      }
+    },
+    "LR87-AJ-11": {
+      "ConfigName": "LR87-AJ-11",
+      "ConfigDescription": "First stage engine for Titan 24B, 34B, IIIBS, IIID, 34D, 34D7 and IIIE. Modified to light in midair, since the UA120x boosters used by Titan III could lift Titan without assistance. Ignited just before booster burnout.",
+      "MaxThrust": 1170.0,
+      "MinThrust": 1170.0,
+      "MassMult": 0.9034565,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 302.0,
+      "IspSeaLevel": 254.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 2.0
+        }
+      },
+      "Propellants": {
+        "Aerozine50": 0.455,
+        "NTO": 0.545
+      },
+      "Reliability": {
+        "RatedBurnTime": 300,
+        "IgnitionReliabilityStart": 0.982143,
+        "IgnitionReliabilityEnd": 0.996429,
+        "CycleReliabilityStart": 0.982143,
+        "CycleReliabilityEnd": 0.996429
+      }
+    },
+    "LR87-AJ-11A": {
+      "ConfigName": "LR87-AJ-11A",
+      "ConfigDescription": "First stage engine for Titan IVA and IVB. Equipped with a nozzle extension to improve vacuum performance, since it was not needed at sea level.",
+      "MaxThrust": 1210.9,
+      "MinThrust": 1210.9,
+      "MassMult": 0.9034565,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 303.9,
+      "IspSeaLevel": 252.2,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 2.0
+        }
+      },
+      "Propellants": {
+        "Aerozine50": 0.455,
+        "NTO": 0.545
+      },
+      "Reliability": {
+        "RatedBurnTime": 300,
+        "IgnitionReliabilityStart": 0.988372,
+        "IgnitionReliabilityEnd": 0.997674,
+        "CycleReliabilityStart": 0.988372,
+        "CycleReliabilityEnd": 0.997674
+      }
+    },
+    "LR87-AJ-9-Kero": {
+      "ConfigName": "LR87-AJ-9-Kero",
+      "ConfigDescription": "Speculative config converted back to burning Kerosene and LOX to increase safety and performance, for a purely non-military design",
+      "MaxThrust": 1012.0,
+      "MinThrust": 1012.0,
+      "MassMult": 0.95,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 305.21,
+      "IspSeaLevel": 265.64,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 2.0
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.382,
+        "LqdOxygen": 0.618
+      },
+      "Reliability": {
+        "RatedBurnTime": 150,
+        "IgnitionReliabilityStart": 0.975,
+        "IgnitionReliabilityEnd": 0.995,
+        "CycleReliabilityStart": 0.975,
+        "CycleReliabilityEnd": 0.995
+      }
+    },
+    "LR87-AJ-9-Kero-15AR": {
+      "ConfigName": "LR87-AJ-9-Kero-15AR",
+      "ConfigDescription": "Speculative config converted back to burning Kerosene and LOX to increase safety and performance, for a purely non-military design. Equipped with nozzle extensions to increase vacuum performance",
+      "MaxThrust": 1026.0,
+      "MinThrust": 1026.0,
+      "MassMult": 0.95,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 309.43,
+      "IspSeaLevel": 259.96,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 2.0
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.382,
+        "LqdOxygen": 0.618
+      },
+      "Reliability": {
+        "RatedBurnTime": 150,
+        "IgnitionReliabilityStart": 0.975,
+        "IgnitionReliabilityEnd": 0.995,
+        "CycleReliabilityStart": 0.975,
+        "CycleReliabilityEnd": 0.995
+      }
+    }
+  }
+}

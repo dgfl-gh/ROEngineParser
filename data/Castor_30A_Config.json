@@ -1,0 +1,42 @@
+{
+  "Title": "Castor 30A",
+  "Manufacturer": "Northrop Grumman",
+  "Description": "The CASTOR 30 is a low cost, robust, state-of-the-art upper stage motor. This commercially-developed motor is 144 inches long and nominally designed as an upper stage that can function as a second or third stage depending on the vehicle configuration.",
+  "OriginalMass": 1.224,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Solid",
+  "DefaultConfig": "Castor-30A",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 3.5
+  },
+  "EngineConfigs": {
+    "Castor-30A": {
+      "ConfigName": "Castor-30A",
+      "ConfigDescription": "",
+      "MaxThrust": 330.7653,
+      "MinThrust": 330.7653,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 293.1,
+      "IspSeaLevel": 200.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Propellants": {
+        "HTPB": 1.0
+      },
+      "Reliability": {
+        "RatedBurnTime": 136,
+        "IgnitionReliabilityStart": 0.99,
+        "IgnitionReliabilityEnd": 0.999,
+        "CycleReliabilityStart": 0.99,
+        "CycleReliabilityEnd": 0.9999
+      }
+    }
+  }
+}

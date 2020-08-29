@@ -1,0 +1,75 @@
+{
+  "Title": "RS-88 Series",
+  "Manufacturer": "Rocketdyne",
+  "Description": "High thrust pressure-fed hypergolic engine. Initially designed and built as a part of the NASA Bantam System Technology program, aiming for a low cost, high power propulsion system. It was later modified by Lockheed Martin for use as a launch abort engine. A derivative of the RS-88 is used by the Boeing CST-100 \"Starliner\" spacecraft for launch aborts under the name \"Launch Abort Engine - LAE\".",
+  "OriginalMass": 0.25,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "RS-88",
+  "Gimbal": {
+    "IsGimbaled": false,
+    "Range": 0.0
+  },
+  "EngineConfigs": {
+    "RS-88": {
+      "ConfigName": "RS-88",
+      "ConfigDescription": "",
+      "MaxThrust": 220.0,
+      "MinThrust": 220.0,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": true,
+      "IspVacuum": 324.0,
+      "IspSeaLevel": 273.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.1
+        }
+      },
+      "Propellants": {
+        "Ethanol75": 0.5285,
+        "LqdOxygen": 0.4715
+      },
+      "Reliability": {
+        "RatedBurnTime": -1,
+        "IgnitionReliabilityStart": 1.0,
+        "IgnitionReliabilityEnd": 1.0,
+        "CycleReliabilityStart": 1.0,
+        "CycleReliabilityEnd": 1.0
+      }
+    },
+    "LAE": {
+      "ConfigName": "LAE",
+      "ConfigDescription": "",
+      "MaxThrust": 258.0,
+      "MinThrust": 258.0,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": true,
+      "IspVacuum": 290.0,
+      "IspSeaLevel": 220.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.1
+        }
+      },
+      "Propellants": {
+        "MMH": 0.499,
+        "MON3": 0.501
+      },
+      "Reliability": {
+        "RatedBurnTime": -1,
+        "IgnitionReliabilityStart": 1.0,
+        "IgnitionReliabilityEnd": 1.0,
+        "CycleReliabilityStart": 1.0,
+        "CycleReliabilityEnd": 1.0
+      }
+    }
+  }
+}

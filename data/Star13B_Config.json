@@ -1,0 +1,42 @@
+{
+  "Title": "Star 13B",
+  "Manufacturer": "Thiokol",
+  "Description": "Orbit insertion motor incorporated the lightweight case developed for the STAR 13 with the propellant and nozzle design of the earlier TE-M-516 apogee motor. The motor case was stretched 2.2 inches to provide for increased propellant loading. The motor was used to adjust orbit inclination of a satellite from a Delta launch.",
+  "OriginalMass": 0.00558,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Solid",
+  "DefaultConfig": "Star-13B",
+  "Gimbal": {
+    "IsGimbaled": false,
+    "Range": 0.0
+  },
+  "EngineConfigs": {
+    "Star-13B": {
+      "ConfigName": "Star-13B",
+      "ConfigDescription": "",
+      "MaxThrust": 9.61,
+      "MinThrust": 9.61,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 286.6,
+      "IspSeaLevel": 150.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Propellants": {
+        "HTPB": 1.0
+      },
+      "Reliability": {
+        "RatedBurnTime": 16,
+        "IgnitionReliabilityStart": 0.98,
+        "IgnitionReliabilityEnd": 0.999,
+        "CycleReliabilityStart": 0.98,
+        "CycleReliabilityEnd": 0.9999
+      }
+    }
+  }
+}

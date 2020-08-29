@@ -1,0 +1,43 @@
+{
+  "Title": "NSTAR Ion Thruster",
+  "Manufacturer": "JPL & General Dynamics",
+  "Description": "Small lightweight efficient ion engine. Takes a bit of power though and doesn't provide much thrust.",
+  "OriginalMass": 0.0495,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "NSTAR",
+  "Gimbal": {
+    "IsGimbaled": false,
+    "Range": 0.0
+  },
+  "EngineConfigs": {
+    "NSTAR": {
+      "ConfigName": "NSTAR",
+      "ConfigDescription": "",
+      "MaxThrust": 9.2E-05,
+      "MinThrust": 1.9E-05,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 3100.0,
+      "IspSeaLevel": 1.0,
+      "MinThrottle": 0.20652172,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Propellants": {
+        "XenonGas": 1.0,
+        "ElectricCharge": 4121.09
+      },
+      "Reliability": {
+        "RatedBurnTime": -1,
+        "IgnitionReliabilityStart": 1.0,
+        "IgnitionReliabilityEnd": 1.0,
+        "CycleReliabilityStart": 1.0,
+        "CycleReliabilityEnd": 1.0
+      }
+    }
+  }
+}

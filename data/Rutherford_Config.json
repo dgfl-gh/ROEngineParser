@@ -1,0 +1,46 @@
+{
+  "Title": "Rutherford",
+  "Manufacturer": "RocketLab",
+  "Description": "The Rutherford Engine is the worlds first electric turbo-pumped LOX/RP-1 engine. Rutherford adopts an entirely new propulsion cycle, making use of brushless DC motors and high performance Lithium Polymer batteries to drive its turbo-pumps. The engine is named after the famous New Zealand born physicist Ernest Rutherford.",
+  "OriginalMass": 0.035,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "Rutherford-SL",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 3.8
+  },
+  "EngineConfigs": {
+    "Rutherford-SL": {
+      "ConfigName": "Rutherford-SL",
+      "ConfigDescription": "",
+      "MaxThrust": 22.24,
+      "MinThrust": 16.68,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 317.0,
+      "IspSeaLevel": 301.0,
+      "MinThrottle": 0.75,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 5,
+        "resources": {
+          "ElectricCharge": 0.005
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.36,
+        "LqdOxygen": 0.64,
+        "ElectricCharge": 5.73
+      },
+      "Reliability": {
+        "RatedBurnTime": 150,
+        "IgnitionReliabilityStart": 0.990826,
+        "IgnitionReliabilityEnd": 0.998165,
+        "CycleReliabilityStart": 0.990826,
+        "CycleReliabilityEnd": 0.998165
+      }
+    }
+  }
+}

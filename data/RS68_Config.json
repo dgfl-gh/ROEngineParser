@@ -1,0 +1,125 @@
+{
+  "Title": "RS-68 Series",
+  "Manufacturer": "Aerojet Rocketdyne",
+  "Description": "1990s Medium TWR atmospheric engine. Using technology developed for the Space Shuttle SSME, the RS-68 is a single-use engine, featuring a simplified design with less parts and an easier construction. The RS-68 powers the Delta IV launch vehicle family and is the most powerful LH2/LOX engine ever flown. Exhaust from the gas generator is used for roll control.",
+  "OriginalMass": 5.497,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": null,
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 6.0
+  },
+  "EngineConfigs": {
+    "RS-68": {
+      "ConfigName": null,
+      "ConfigDescription": "",
+      "MaxThrust": 0.0,
+      "MinThrust": 0.0,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 0.0,
+      "IspSeaLevel": 0.0,
+      "MinThrottle": "NaN",
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Propellants": {},
+      "Reliability": {
+        "RatedBurnTime": 330,
+        "IgnitionReliabilityStart": 0.976744,
+        "IgnitionReliabilityEnd": 0.995349,
+        "CycleReliabilityStart": 0.976744,
+        "CycleReliabilityEnd": 0.995349
+      }
+    },
+    "RS-68A": {
+      "ConfigName": null,
+      "ConfigDescription": "",
+      "MaxThrust": 0.0,
+      "MinThrust": 0.0,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 0.0,
+      "IspSeaLevel": 0.0,
+      "MinThrottle": "NaN",
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Propellants": {},
+      "Reliability": {
+        "RatedBurnTime": 330,
+        "IgnitionReliabilityStart": 0.976744,
+        "IgnitionReliabilityEnd": 0.995349,
+        "CycleReliabilityStart": 0.976744,
+        "CycleReliabilityEnd": 0.995349
+      }
+    },
+    "RS-68K": {
+      "ConfigName": "RS-68K",
+      "ConfigDescription": "RS-68 upgrade with regeneratively cooled nozzle, allowing the engine to burn hotter.",
+      "MaxThrust": 3647.0,
+      "MinThrust": 2006.0,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 418.0,
+      "IspSeaLevel": 372.9,
+      "MinThrottle": 0.55004114,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Propellants": {
+        "LqdHydrogen": 0.7285,
+        "LqdOxygen": 0.2715
+      },
+      "Reliability": {
+        "RatedBurnTime": 450,
+        "IgnitionReliabilityStart": 0.98,
+        "IgnitionReliabilityEnd": 0.995,
+        "CycleReliabilityStart": 0.98,
+        "CycleReliabilityEnd": 0.995
+      }
+    },
+    "RS-800": {
+      "ConfigName": "RS-800",
+      "ConfigDescription": "",
+      "MaxThrust": 4110.0,
+      "MinThrust": 2261.0,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 435.0,
+      "IspSeaLevel": 364.0,
+      "MinThrottle": 0.55012167,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Propellants": {
+        "LqdHydrogen": 0.7285,
+        "LqdOxygen": 0.2715
+      },
+      "Reliability": {
+        "RatedBurnTime": 450,
+        "IgnitionReliabilityStart": 0.98,
+        "IgnitionReliabilityEnd": 0.995,
+        "CycleReliabilityStart": 0.98,
+        "CycleReliabilityEnd": 0.995
+      }
+    }
+  }
+}

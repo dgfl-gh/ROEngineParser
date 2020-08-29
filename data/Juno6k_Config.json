@@ -1,0 +1,45 @@
+{
+  "Title": "Juno IV 6k Upper Stage Engine",
+  "Manufacturer": "JPL",
+  "Description": "Early exploration into pressure-fed hypergolic upper stage engines. This was designed by JPL to be the third stage on the Juno IV launch vehicle. After cancellation of the Juno IV, it was then selected to power the Vega upper stage for the Atlas-Vega launcher. Eventually the Vega program was canceled in 1959. The \"6K\" upper stage engine was tested often, but never flew and was ultimately cancelled.",
+  "OriginalMass": 0.083,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "Juno6k",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 4.25
+  },
+  "EngineConfigs": {
+    "Juno6k": {
+      "ConfigName": "Juno6k",
+      "ConfigDescription": "",
+      "MaxThrust": 26.68932,
+      "MinThrust": 26.68932,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": true,
+      "IspVacuum": 300.0,
+      "IspSeaLevel": 258.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 3,
+        "resources": {
+          "ElectricCharge": 0.2
+        }
+      },
+      "Propellants": {
+        "Hydrazine": 0.5,
+        "NTO": 0.5
+      },
+      "Reliability": {
+        "RatedBurnTime": 450,
+        "IgnitionReliabilityStart": 0.85,
+        "IgnitionReliabilityEnd": 0.95,
+        "CycleReliabilityStart": 0.79,
+        "CycleReliabilityEnd": 0.95
+      }
+    }
+  }
+}

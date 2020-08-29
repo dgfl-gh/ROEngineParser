@@ -1,0 +1,130 @@
+{
+  "Title": "XLR11",
+  "Manufacturer": "Reaction Motors",
+  "Description": "While it doesn't look a thing like it, this model represents the Reaction Motors XLR11, the first liquid fueled rocket engine designed for airplanes. Powered the X-1, early X-15s, and X-24B.",
+  "OriginalMass": 0.157,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "XLR11",
+  "Gimbal": {
+    "IsGimbaled": false,
+    "Range": 0.0
+  },
+  "EngineConfigs": {
+    "XLR11-RM-3": {
+      "ConfigName": "XLR11-RM-3",
+      "ConfigDescription": "",
+      "MaxThrust": 28.8,
+      "MinThrust": 7.2,
+      "MassMult": 0.61,
+      "Ullage": false,
+      "PressureFed": true,
+      "IspVacuum": 210.0,
+      "IspSeaLevel": 190.0,
+      "MinThrottle": 0.25,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 4,
+        "resources": {}
+      },
+      "Propellants": {
+        "Ethanol75": 0.4855,
+        "LqdOxygen": 0.5145
+      },
+      "Reliability": {
+        "RatedBurnTime": 150,
+        "IgnitionReliabilityStart": 0.9,
+        "IgnitionReliabilityEnd": 0.987,
+        "CycleReliabilityStart": 0.93,
+        "CycleReliabilityEnd": 0.998
+      }
+    },
+    "XLR11-RM-5": {
+      "ConfigName": "XLR11-RM-5",
+      "ConfigDescription": "",
+      "MaxThrust": 28.8,
+      "MinThrust": 7.2,
+      "MassMult": 1.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 225.0,
+      "IspSeaLevel": 208.0,
+      "MinThrottle": 0.25,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 4,
+        "resources": {}
+      },
+      "Propellants": {
+        "Ethanol75": 0.4855,
+        "LqdOxygen": 0.5145,
+        "HTP": 0.01
+      },
+      "Reliability": {
+        "RatedBurnTime": 360,
+        "IgnitionReliabilityStart": 0.9,
+        "IgnitionReliabilityEnd": 0.987,
+        "CycleReliabilityStart": 0.93,
+        "CycleReliabilityEnd": 0.998
+      }
+    },
+    "XLR11-RM-13-8K": {
+      "ConfigName": "XLR11-RM-13-8K",
+      "ConfigDescription": "",
+      "MaxThrust": 38.45,
+      "MinThrust": 9.6125,
+      "MassMult": 1.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 225.0,
+      "IspSeaLevel": 208.0,
+      "MinThrottle": 0.25,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 4,
+        "resources": {}
+      },
+      "Propellants": {
+        "Ethanol75": 0.4855,
+        "LqdOxygen": 0.5145,
+        "HTP": 0.01
+      },
+      "Reliability": {
+        "RatedBurnTime": 360,
+        "IgnitionReliabilityStart": 0.95,
+        "IgnitionReliabilityEnd": 0.99,
+        "CycleReliabilityStart": 0.95,
+        "CycleReliabilityEnd": 0.998
+      }
+    },
+    "XLR11-RM-13-10K": {
+      "ConfigName": "XLR11-RM-13-10K",
+      "ConfigDescription": "",
+      "MaxThrust": 47.08,
+      "MinThrust": 11.77,
+      "MassMult": 1.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 225.0,
+      "IspSeaLevel": 208.0,
+      "MinThrottle": 0.25,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 4,
+        "resources": {}
+      },
+      "Propellants": {
+        "Ethanol75": 0.4855,
+        "LqdOxygen": 0.5145,
+        "HTP": 0.01
+      },
+      "Reliability": {
+        "RatedBurnTime": 360,
+        "IgnitionReliabilityStart": 0.95,
+        "IgnitionReliabilityEnd": 0.99,
+        "CycleReliabilityStart": 0.95,
+        "CycleReliabilityEnd": 0.998
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "Title": "Altair X-248",
+  "Manufacturer": "Allegany Ballistics Laboratory",
+  "Description": "A small solid kick motor. Developed as alternative Vanguard third stage, reused on many later LVs with Able/Delta upper stage (or simply \"Thor Burner\") to circularize at apogee or perform final payload kick. Burn time 39 seconds.",
+  "OriginalMass": 0.0225,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Solid",
+  "DefaultConfig": "Altair",
+  "Gimbal": {
+    "IsGimbaled": false,
+    "Range": 0.0
+  },
+  "EngineConfigs": {
+    "Altair": {
+      "ConfigName": "Altair",
+      "ConfigDescription": "",
+      "MaxThrust": 16.35,
+      "MinThrust": 16.35,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 255.04,
+      "IspSeaLevel": 200.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Propellants": {
+        "PSPC": 1.0
+      },
+      "Reliability": {
+        "RatedBurnTime": 39,
+        "IgnitionReliabilityStart": 0.99,
+        "IgnitionReliabilityEnd": 0.998,
+        "CycleReliabilityStart": 0.99,
+        "CycleReliabilityEnd": 0.998
+      }
+    }
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "Title": "R-42 Series",
+  "Manufacturer": "Aerojet Rocketdyne",
+  "Description": "A pressure-fed vacuum hypergolic rocket engine, burning either MMH and NTO (R-42) or Hydrazine and NTO (R-42DM). Used as an apogee kick motor for geostationary satellites.",
+  "OriginalMass": 0.0045,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "R-42",
+  "Gimbal": {
+    "IsGimbaled": false,
+    "Range": 0.0
+  },
+  "EngineConfigs": {
+    "R-42": {
+      "ConfigName": "R-42",
+      "ConfigDescription": "",
+      "MaxThrust": 0.89,
+      "MinThrust": 0.89,
+      "MassMult": 1.0,
+      "Ullage": false,
+      "PressureFed": true,
+      "IspVacuum": 303.0,
+      "IspSeaLevel": 150.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 134,
+        "resources": {
+          "ElectricCharge": 0.045
+        }
+      },
+      "Propellants": {
+        "MMH": 0.5066,
+        "MON3": 0.4934
+      },
+      "Reliability": {
+        "RatedBurnTime": -1,
+        "IgnitionReliabilityStart": 1.0,
+        "IgnitionReliabilityEnd": 1.0,
+        "CycleReliabilityStart": 1.0,
+        "CycleReliabilityEnd": 1.0
+      }
+    },
+    "R-42-NTO": {
+      "ConfigName": "R-42-NTO",
+      "ConfigDescription": "NTO variant of the baseline R-42 thruster.",
+      "MaxThrust": 0.89,
+      "MinThrust": 0.89,
+      "MassMult": 1.0,
+      "Ullage": false,
+      "PressureFed": true,
+      "IspVacuum": 303.0,
+      "IspSeaLevel": 150.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 134,
+        "resources": {
+          "ElectricCharge": 0.045
+        }
+      },
+      "Propellants": {
+        "MMH": 0.5113,
+        "NTO": 0.4887
+      },
+      "Reliability": {
+        "RatedBurnTime": -1,
+        "IgnitionReliabilityStart": 1.0,
+        "IgnitionReliabilityEnd": 1.0,
+        "CycleReliabilityStart": 1.0,
+        "CycleReliabilityEnd": 1.0
+      }
+    },
+    "R-42DM": {
+      "ConfigName": "R-42DM",
+      "ConfigDescription": "High performance version of the baseline R-42 thruster.",
+      "MaxThrust": 0.89,
+      "MinThrust": 0.89,
+      "MassMult": 1.611,
+      "Ullage": false,
+      "PressureFed": true,
+      "IspVacuum": 327.0,
+      "IspSeaLevel": 150.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 134,
+        "resources": {
+          "ElectricCharge": 0.045
+        }
+      },
+      "Propellants": {
+        "Hydrazine": 0.5863,
+        "MON3": 0.4137
+      },
+      "Reliability": {
+        "RatedBurnTime": -1,
+        "IgnitionReliabilityStart": 1.0,
+        "IgnitionReliabilityEnd": 1.0,
+        "CycleReliabilityStart": 1.0,
+        "CycleReliabilityEnd": 1.0
+      }
+    },
+    "R-42DM-NTO": {
+      "ConfigName": "R-42DM-NTO",
+      "ConfigDescription": "NTO variant of the baseline R-42DM thruster.",
+      "MaxThrust": 0.89,
+      "MinThrust": 0.89,
+      "MassMult": 1.611,
+      "Ullage": false,
+      "PressureFed": true,
+      "IspVacuum": 327.0,
+      "IspSeaLevel": 150.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 134,
+        "resources": {
+          "ElectricCharge": 0.045
+        }
+      },
+      "Propellants": {
+        "Hydrazine": 0.5908,
+        "NTO": 0.4092
+      },
+      "Reliability": {
+        "RatedBurnTime": -1,
+        "IgnitionReliabilityStart": 1.0,
+        "IgnitionReliabilityEnd": 1.0,
+        "CycleReliabilityStart": 1.0,
+        "CycleReliabilityEnd": 1.0
+      }
+    }
+  }
+}

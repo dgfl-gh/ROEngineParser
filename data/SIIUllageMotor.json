@@ -1,0 +1,42 @@
+{
+  "Title": "S-II Ullage Motor",
+  "Manufacturer": "Thiokol",
+  "Description": "The ullage motor of the Saturn V S-II stage. Attaches to the upper part of the S-II interstage, in sets of 4 to 8.",
+  "OriginalMass": 0.104,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Solid",
+  "DefaultConfig": "S-II-Ullage",
+  "Gimbal": {
+    "IsGimbaled": false,
+    "Range": 0.0
+  },
+  "EngineConfigs": {
+    "S-II-Ullage": {
+      "ConfigName": "S-II-Ullage",
+      "ConfigDescription": "",
+      "MaxThrust": 102.3,
+      "MinThrust": 102.3,
+      "MassMult": 1.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 256.0,
+      "IspSeaLevel": 216.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {}
+      },
+      "Propellants": {
+        "HTPB": 1.0
+      },
+      "Reliability": {
+        "RatedBurnTime": -1,
+        "IgnitionReliabilityStart": 1.0,
+        "IgnitionReliabilityEnd": 1.0,
+        "CycleReliabilityStart": 1.0,
+        "CycleReliabilityEnd": 1.0
+      }
+    }
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "Title": "Viking Series",
+  "Manufacturer": "Snecma S.A.",
+  "Description": "Hypergolic booster engine developed for the European Ariane launch vehicle. Used as both a first stage engine, and second stage when equipped with an extended nozzle, and a booster version was also created for the Ariane 4 strap-on liquid boosters. Average performance compared to its contemporaries, but reliable.",
+  "OriginalMass": 0.776,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "Viking-2",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 5.0
+  },
+  "EngineConfigs": {
+    "Viking-2": {
+      "ConfigName": "Viking-2",
+      "ConfigDescription": "First stage engine for Ariane 1",
+      "MaxThrust": 690.0,
+      "MinThrust": 690.0,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 281.0,
+      "IspSeaLevel": 248.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Propellants": {
+        "UDMH": 0.4964,
+        "NTO": 0.5036,
+        "Water": 0.01
+      },
+      "Reliability": {
+        "RatedBurnTime": 145,
+        "IgnitionReliabilityStart": 0.97,
+        "IgnitionReliabilityEnd": 0.995,
+        "CycleReliabilityStart": 0.976744,
+        "CycleReliabilityEnd": 0.995349
+      }
+    },
+    "Viking-4": {
+      "ConfigName": "Viking-4",
+      "ConfigDescription": "Second stage engine for Ariane 1",
+      "MaxThrust": 713.0,
+      "MinThrust": 713.0,
+      "MassMult": 1.064,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 296.0,
+      "IspSeaLevel": 200.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Propellants": {
+        "UDMH": 0.4964,
+        "NTO": 0.5036,
+        "Water": 0.01
+      },
+      "Reliability": {
+        "RatedBurnTime": 132,
+        "IgnitionReliabilityStart": 0.9,
+        "IgnitionReliabilityEnd": 0.98,
+        "CycleReliabilityStart": 0.9,
+        "CycleReliabilityEnd": 0.98
+      }
+    },
+    "Viking-2B": {
+      "ConfigName": "Viking-2B",
+      "ConfigDescription": "First stage engine for Ariane 2/3. Uses UH25 for extra performance.",
+      "MaxThrust": 720.0,
+      "MinThrust": 720.0,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 278.0,
+      "IspSeaLevel": 248.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Propellants": {
+        "UH25": 0.5071,
+        "NTO": 0.4929,
+        "Water": 0.01
+      },
+      "Reliability": {
+        "RatedBurnTime": 205,
+        "IgnitionReliabilityStart": 0.98,
+        "IgnitionReliabilityEnd": 0.997,
+        "CycleReliabilityStart": 0.985294,
+        "CycleReliabilityEnd": 0.997059
+      }
+    },
+    "Viking-4B": {
+      "ConfigName": "Viking-4B",
+      "ConfigDescription": "Second stage engine for Ariane 2/3/4. Uses UH25 for extra performance.",
+      "MaxThrust": 805.0,
+      "MinThrust": 805.0,
+      "MassMult": 1.064,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 296.0,
+      "IspSeaLevel": 210.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Propellants": {
+        "UH25": 0.5071,
+        "NTO": 0.4929,
+        "Water": 0.01
+      },
+      "Reliability": {
+        "RatedBurnTime": 125,
+        "IgnitionReliabilityStart": 0.99,
+        "IgnitionReliabilityEnd": 0.998,
+        "CycleReliabilityStart": 0.992424,
+        "CycleReliabilityEnd": 0.998485
+      }
+    },
+    "Viking-5C": {
+      "ConfigName": "Viking-5C",
+      "ConfigDescription": "First stage engine for Ariane 4",
+      "MaxThrust": 758.0,
+      "MinThrust": 758.0,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 278.0,
+      "IspSeaLevel": 248.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Propellants": {
+        "UH25": 0.5071,
+        "NTO": 0.4929,
+        "Water": 0.01
+      },
+      "Reliability": {
+        "RatedBurnTime": 205,
+        "IgnitionReliabilityStart": 0.99,
+        "IgnitionReliabilityEnd": 0.999,
+        "CycleReliabilityStart": 0.99784,
+        "CycleReliabilityEnd": 0.999568
+      }
+    },
+    "Viking-6": {
+      "ConfigName": "Viking-6",
+      "ConfigDescription": "Booster engine for Ariane 4",
+      "MaxThrust": 758.0,
+      "MinThrust": 758.0,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 278.0,
+      "IspSeaLevel": 248.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Propellants": {
+        "UH25": 0.5057,
+        "NTO": 0.4943,
+        "Water": 0.01
+      },
+      "Reliability": {
+        "RatedBurnTime": 142,
+        "IgnitionReliabilityStart": 0.99,
+        "IgnitionReliabilityEnd": 0.999,
+        "CycleReliabilityStart": 0.995798,
+        "CycleReliabilityEnd": 0.99916
+      }
+    }
+  }
+}

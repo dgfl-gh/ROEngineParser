@@ -1,0 +1,45 @@
+{
+  "Title": "RD-270",
+  "Manufacturer": "NPO Energomash / V.P. Glushko",
+  "Description": "Largest single-chamber engine ever built in the Soviet Union. Fueled by an NTO/UDMH mixture combined under some of the highest pressures ever encountered in an ignition chamber. Never flown but extensively tested.",
+  "OriginalMass": 4.47,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "RD-270",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 8.0
+  },
+  "EngineConfigs": {
+    "RD-270": {
+      "ConfigName": "RD-270",
+      "ConfigDescription": "",
+      "MaxThrust": 6272.0,
+      "MinThrust": 5644.8,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 322.0,
+      "IspSeaLevel": 301.0,
+      "MinThrottle": 0.9,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Propellants": {
+        "UDMH": 0.468,
+        "NTO": 0.532
+      },
+      "Reliability": {
+        "RatedBurnTime": 148,
+        "IgnitionReliabilityStart": 0.995713,
+        "IgnitionReliabilityEnd": 0.999143,
+        "CycleReliabilityStart": 0.995713,
+        "CycleReliabilityEnd": 0.999143
+      }
+    }
+  }
+}

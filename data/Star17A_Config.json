@@ -1,0 +1,42 @@
+{
+  "Title": "Star 17A",
+  "Manufacturer": "Thiokol",
+  "Description": "Apogee kick motor. Modifications: 175 mm straight section added to the Star 17. The 17A has been used for circularized orbits for the Skynet 1, NATO 1, and IMP-H & J satellites. This motor provides the high case safety factor required for this program. The TE-M-521-7 model used for several Air Force missions provides a typical safety factor with a 1.3 pound weight savings.",
+  "OriginalMass": 0.01202,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Solid",
+  "DefaultConfig": "Star-17A",
+  "Gimbal": {
+    "IsGimbaled": false,
+    "Range": 0.0
+  },
+  "EngineConfigs": {
+    "Star-17A": {
+      "ConfigName": "Star-17A",
+      "ConfigDescription": "",
+      "MaxThrust": 17.4,
+      "MinThrust": 17.4,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 286.7,
+      "IspSeaLevel": 100.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Propellants": {
+        "HTPB": 1.0
+      },
+      "Reliability": {
+        "RatedBurnTime": 25,
+        "IgnitionReliabilityStart": 0.98,
+        "IgnitionReliabilityEnd": 0.999,
+        "CycleReliabilityStart": 0.98,
+        "CycleReliabilityEnd": 0.9999
+      }
+    }
+  }
+}

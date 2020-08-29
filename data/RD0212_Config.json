@@ -1,0 +1,45 @@
+{
+  "Title": "RD-0212",
+  "Manufacturer": "Voronezh Mechanical Plant (VMZ)",
+  "Description": "A gas generator, hypergolic vacuum rocket engine. Used as the power plant on the third stage of Proton launch vehicle family. Features four integrated vernier engines for three-axis attitude control.",
+  "OriginalMass": 0.91,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "RD-0212",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 45.0
+  },
+  "EngineConfigs": {
+    "RD-0212": {
+      "ConfigName": "RD-0212",
+      "ConfigDescription": "",
+      "MaxThrust": 584.77,
+      "MinThrust": 584.77,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 327.0,
+      "IspSeaLevel": 164.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Propellants": {
+        "UDMH": 0.4192,
+        "NTO": 0.5808
+      },
+      "Reliability": {
+        "RatedBurnTime": 250,
+        "IgnitionReliabilityStart": 0.983165,
+        "IgnitionReliabilityEnd": 0.996633,
+        "CycleReliabilityStart": 0.983165,
+        "CycleReliabilityEnd": 0.996633
+      }
+    }
+  }
+}

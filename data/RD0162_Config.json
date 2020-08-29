@@ -1,0 +1,77 @@
+{
+  "Title": "RD-0162 Engine",
+  "Manufacturer": "KB Khimavtomatiki",
+  "Description": "Between 2002 and 2005, KBKhA teamed up with European industry to develop a reusable staged combustion methane engine with a thrust of 200 tons under the Volga project. In 2006, the company started work on a reusable engine designated RD-0162 for the Russian MRKS-1 reusable space booster.",
+  "OriginalMass": 2.1,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "RD-0162",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 8.0
+  },
+  "EngineConfigs": {
+    "RD-0162": {
+      "ConfigName": "RD-0162",
+      "ConfigDescription": "",
+      "MaxThrust": 2210.0,
+      "MinThrust": 995.0,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 356.2,
+      "IspSeaLevel": 321.9,
+      "MinThrottle": 0.45022625,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 25,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Propellants": {
+        "LqdMethane": 0.4337,
+        "LqdOxygen": 0.5663
+      },
+      "Reliability": {
+        "RatedBurnTime": 360,
+        "IgnitionReliabilityStart": 0.991,
+        "IgnitionReliabilityEnd": 0.9995,
+        "CycleReliabilityStart": 0.991,
+        "CycleReliabilityEnd": 0.9995
+      }
+    },
+    "RD-0162A": {
+      "ConfigName": "RD-0162A",
+      "ConfigDescription": "Variant uprated for 136% thrust.",
+      "MaxThrust": 3011.0,
+      "MinThrust": 1355.0,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 364.7,
+      "IspSeaLevel": 338.9,
+      "MinThrottle": 0.45001662,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 25,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Propellants": {
+        "LqdMethane": 0.4337,
+        "LqdOxygen": 0.5663
+      },
+      "Reliability": {
+        "RatedBurnTime": 240,
+        "IgnitionReliabilityStart": 0.991,
+        "IgnitionReliabilityEnd": 0.9995,
+        "CycleReliabilityStart": 0.991,
+        "CycleReliabilityEnd": 0.9995
+      }
+    }
+  }
+}

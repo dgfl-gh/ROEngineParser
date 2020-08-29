@@ -1,0 +1,75 @@
+{
+  "Title": "RD-109/119 Series",
+  "Manufacturer": "NPO Energomash",
+  "Description": "A Soviet high performance semi-cryogenic upper stage engine. Originally developed as an upper stage for the R-7, it was never used due to Korolev's refusal to use toxic propellants. It was later adapted to to Kosmos-2 Launch Vehicle, which needed a high performance upper stage due to the low performance of its R-12 first stage.",
+  "OriginalMass": 0.21,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "RD-109",
+  "Gimbal": {
+    "IsGimbaled": false,
+    "Range": 0.0
+  },
+  "EngineConfigs": {
+    "RD-109-8D711": {
+      "ConfigName": "RD-109-8D711",
+      "ConfigDescription": "Prototype for the R-7 (8K73) project",
+      "MaxThrust": 101.6,
+      "MinThrust": 101.6,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 334.0,
+      "IspSeaLevel": 220.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 1.0
+        }
+      },
+      "Propellants": {
+        "UDMH": 0.4902,
+        "LqdOxygen": 0.5098
+      },
+      "Reliability": {
+        "RatedBurnTime": 330,
+        "IgnitionReliabilityStart": 0.85,
+        "IgnitionReliabilityEnd": 0.95,
+        "CycleReliabilityStart": 0.9,
+        "CycleReliabilityEnd": 0.95
+      }
+    },
+    "RD-119-8D710": {
+      "ConfigName": "RD-119-8D710",
+      "ConfigDescription": "Upper stage for Kosmos-2 (11K63)",
+      "MaxThrust": 105.5,
+      "MinThrust": 105.5,
+      "MassMult": 0.8,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 352.0,
+      "IspSeaLevel": 220.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 2,
+        "resources": {
+          "ElectricCharge": 1.0
+        }
+      },
+      "Propellants": {
+        "UDMH": 0.4902,
+        "LqdOxygen": 0.5098
+      },
+      "Reliability": {
+        "RatedBurnTime": 260,
+        "IgnitionReliabilityStart": 0.952,
+        "IgnitionReliabilityEnd": 0.9904,
+        "CycleReliabilityStart": 0.952,
+        "CycleReliabilityEnd": 0.9904
+      }
+    }
+  }
+}

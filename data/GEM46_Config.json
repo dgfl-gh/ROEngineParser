@@ -1,0 +1,96 @@
+{
+  "Title": "GEM 46",
+  "Manufacturer": "ATK",
+  "Description": "The 46-inch (1.2-meter) diameter GEM 46 was used on the Delta III and Delta II Heavy. On both vehicles they were used in sets of nine, with six ignited at liftoff and three ignited after burnout of the first six. On the Delta III, three ground-lit boosters were equipped with thrust vector control (TVC) while all the remaining boosters used fixed nozzles. The Delta II Heavy used no boosters with TVC. Burn time 75 seconds.",
+  "OriginalMass": 2.0,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Solid",
+  "DefaultConfig": "GEM-46/TVC-Ground",
+  "Gimbal": {
+    "IsGimbaled": false,
+    "Range": 0.0
+  },
+  "EngineConfigs": {
+    "GEM-46/TVC-Ground": {
+      "ConfigName": "GEM-46/TVC-Ground",
+      "ConfigDescription": "",
+      "MaxThrust": 875.0,
+      "MinThrust": 875.0,
+      "MassMult": 1.1375,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 279.8,
+      "IspSeaLevel": 251.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Propellants": {
+        "HTPB": 1.0
+      },
+      "Reliability": {
+        "RatedBurnTime": 77,
+        "IgnitionReliabilityStart": 0.99,
+        "IgnitionReliabilityEnd": 1.0,
+        "CycleReliabilityStart": 0.981818,
+        "CycleReliabilityEnd": 0.996364
+      }
+    },
+    "GEM-46/Fixed-Ground": {
+      "ConfigName": "GEM-46/Fixed-Ground",
+      "ConfigDescription": "",
+      "MaxThrust": 885.0,
+      "MinThrust": 885.0,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 277.8,
+      "IspSeaLevel": 251.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Propellants": {
+        "HTPB": 1.0
+      },
+      "Reliability": {
+        "RatedBurnTime": 77,
+        "IgnitionReliabilityStart": 0.99,
+        "IgnitionReliabilityEnd": 1.0,
+        "CycleReliabilityStart": 0.981818,
+        "CycleReliabilityEnd": 0.996364
+      }
+    },
+    "GEM-46/Fixed-Air": {
+      "ConfigName": "GEM-46/Fixed-Air",
+      "ConfigDescription": "",
+      "MaxThrust": 915.0,
+      "MinThrust": 915.0,
+      "MassMult": 1.102,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 290.7,
+      "IspSeaLevel": 225.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Propellants": {
+        "HTPB": 1.0
+      },
+      "Reliability": {
+        "RatedBurnTime": 77,
+        "IgnitionReliabilityStart": 0.99,
+        "IgnitionReliabilityEnd": 0.999,
+        "CycleReliabilityStart": 0.981818,
+        "CycleReliabilityEnd": 0.996364
+      }
+    }
+  }
+}

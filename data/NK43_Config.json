@@ -1,0 +1,139 @@
+{
+  "Title": "NK-15V/43",
+  "Manufacturer": "SNTK Kuznetsov",
+  "Description": "Originally designed and built for the N1F, the NK-43 is a derivative of the NK-33 with longer bell and restart capability for upper stages.",
+  "OriginalMass": 1.396,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "NK-15V",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 6.0
+  },
+  "EngineConfigs": {
+    "NK-15V": {
+      "ConfigName": "NK-15V",
+      "ConfigDescription": "Developed as the second stage engine of the N-1 moon rocket. Gimbal, differential throttle.",
+      "MaxThrust": 1755.0,
+      "MinThrust": 877.5,
+      "MassMult": 1.15009,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 346.0,
+      "IspSeaLevel": 260.0,
+      "MinThrottle": 0.5,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 3.0
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.3576,
+        "LqdOxygen": 0.6424
+      },
+      "Reliability": {
+        "RatedBurnTime": 240,
+        "IgnitionReliabilityStart": 0.87,
+        "IgnitionReliabilityEnd": 0.974,
+        "CycleReliabilityStart": 0.85,
+        "CycleReliabilityEnd": 0.96
+      }
+    },
+    "NK-15V-Original-NoGimbal": {
+      "ConfigName": "NK-15V-Original-NoGimbal",
+      "ConfigDescription": "Developed as the second stage engine of the N-1 moon rocket. No gimbal, differential throttle.",
+      "MaxThrust": 1755.0,
+      "MinThrust": 877.5,
+      "MassMult": 0.963467,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 346.0,
+      "IspSeaLevel": 260.0,
+      "MinThrottle": 0.5,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 3.0
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.3576,
+        "LqdOxygen": 0.6424
+      },
+      "Reliability": {
+        "RatedBurnTime": 240,
+        "IgnitionReliabilityStart": 0.87,
+        "IgnitionReliabilityEnd": 0.974,
+        "CycleReliabilityStart": 0.85,
+        "CycleReliabilityEnd": 0.96
+      }
+    },
+    "NK-43": {
+      "ConfigName": "NK-43",
+      "ConfigDescription": "Developed as an upgrade to the NK-15V, and then abandoned with the cancellation of the N-1. Gimbal, differential throttle.",
+      "MaxThrust": 1755.0,
+      "MinThrust": 877.5,
+      "MassMult": 1.1937,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 346.0,
+      "IspSeaLevel": 260.0,
+      "MinThrottle": 0.5,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 3,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.332,
+        "LqdOxygen": 0.668
+      },
+      "Reliability": {
+        "RatedBurnTime": 360,
+        "IgnitionReliabilityStart": 0.93,
+        "IgnitionReliabilityEnd": 0.996,
+        "CycleReliabilityStart": 0.92,
+        "CycleReliabilityEnd": 0.996
+      }
+    },
+    "NK-43-Original-NoGimbal": {
+      "ConfigName": "NK-43-Original-NoGimbal",
+      "ConfigDescription": "Developed as an upgrade to the NK-15, and then abandoned with the cancellation of the N-1. No gimbal, differential throttle.",
+      "MaxThrust": 1755.0,
+      "MinThrust": 877.5,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 346.0,
+      "IspSeaLevel": 260.0,
+      "MinThrottle": 0.5,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 3,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.332,
+        "LqdOxygen": 0.668
+      },
+      "Reliability": {
+        "RatedBurnTime": 360,
+        "IgnitionReliabilityStart": 0.93,
+        "IgnitionReliabilityEnd": 0.996,
+        "CycleReliabilityStart": 0.92,
+        "CycleReliabilityEnd": 0.996
+      }
+    }
+  }
+}

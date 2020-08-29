@@ -1,0 +1,375 @@
+{
+  "Title": "XLR81 (Agena) Vacuum Engine",
+  "Manufacturer": "Bell Aerosystems Company",
+  "Description": "Gas-generator nitric acid/UDMH vacuum engine used on Agena. The XLR81 family was derived from the Bell Hustler Rocket Engine, which was developed for use on an air-to-surface missile. Early engines were nearly identical to the Hustler engine, while later variants offered new capabilities and improved performance. Engine restart was introduced on the Agena B's XLR81-BA-7 (Model 8081). The XLR81-BA-11 (Model 8096) used on Agena D used propellant sumps to eliminate the need for ullage thrust. The XLR81-BA-13 (Model 8247) powered the Gemini Agena Target Vehicle (a modified Agena D) and was rated for up to 14 restarts.",
+  "OriginalMass": 0.127,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "Model117",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 5.0
+  },
+  "EngineConfigs": {
+    "Model117": {
+      "ConfigName": "Model117",
+      "ConfigDescription": "B-58 Hustler rocket pod",
+      "MaxThrust": 67.0,
+      "MinThrust": 67.0,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 265.5,
+      "IspSeaLevel": 220.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.4422,
+        "IRFNA-III": 0.5578
+      },
+      "Reliability": {
+        "RatedBurnTime": 60,
+        "IgnitionReliabilityStart": 0.8,
+        "IgnitionReliabilityEnd": 0.85,
+        "CycleReliabilityStart": 0.8,
+        "CycleReliabilityEnd": 0.9
+      }
+    },
+    "XLR81-BA-3": {
+      "ConfigName": "XLR81-BA-3",
+      "ConfigDescription": "Model 8001, Agena Prototype",
+      "MaxThrust": 67.0,
+      "MinThrust": 67.0,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 265.5,
+      "IspSeaLevel": 220.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.4422,
+        "IRFNA-III": 0.5578
+      },
+      "Reliability": {
+        "RatedBurnTime": 100,
+        "IgnitionReliabilityStart": 0.8,
+        "IgnitionReliabilityEnd": 0.96,
+        "CycleReliabilityStart": 0.8,
+        "CycleReliabilityEnd": 0.96
+      }
+    },
+    "XLR81-BA-5": {
+      "ConfigName": "XLR81-BA-5",
+      "ConfigDescription": "Model 8048, Agena A",
+      "MaxThrust": 68.9,
+      "MinThrust": 68.9,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 276.0,
+      "IspSeaLevel": 100.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Propellants": {
+        "UDMH": 0.4492,
+        "IRFNA-III": 0.5508
+      },
+      "Reliability": {
+        "RatedBurnTime": 120,
+        "IgnitionReliabilityStart": 0.8,
+        "IgnitionReliabilityEnd": 0.96,
+        "CycleReliabilityStart": 0.8,
+        "CycleReliabilityEnd": 0.96
+      }
+    },
+    "XLR81-BA-7": {
+      "ConfigName": "XLR81-BA-7",
+      "ConfigDescription": "Model 8081, Agena B",
+      "MaxThrust": 70.7,
+      "MinThrust": 70.7,
+      "MassMult": 1.0236,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 285.0,
+      "IspSeaLevel": 100.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 2,
+        "resources": {
+          "ElectricCharge": 0.2
+        }
+      },
+      "Propellants": {
+        "UDMH": 0.4492,
+        "IRFNA-III": 0.5508
+      },
+      "Reliability": {
+        "RatedBurnTime": 240,
+        "IgnitionReliabilityStart": 0.916667,
+        "IgnitionReliabilityEnd": 0.983333,
+        "CycleReliabilityStart": 0.916667,
+        "CycleReliabilityEnd": 0.983333
+      }
+    },
+    "XLR81-BA-11": {
+      "ConfigName": "XLR81-BA-11",
+      "ConfigDescription": "Model 8096, Agena D",
+      "MaxThrust": 71.2,
+      "MinThrust": 71.2,
+      "MassMult": 1.0394,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 291.0,
+      "IspSeaLevel": 100.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 2,
+        "resources": {
+          "ElectricCharge": 0.2
+        }
+      },
+      "Propellants": {
+        "UDMH": 0.4492,
+        "IRFNA-III": 0.5508
+      },
+      "Reliability": {
+        "RatedBurnTime": 240,
+        "IgnitionReliabilityStart": 0.958763,
+        "IgnitionReliabilityEnd": 0.991753,
+        "CycleReliabilityStart": 0.958763,
+        "CycleReliabilityEnd": 0.991753
+      }
+    },
+    "XLR81-BA-13": {
+      "ConfigName": "XLR81-BA-13",
+      "ConfigDescription": "Model 8247, Gemini ATV",
+      "MaxThrust": 71.2,
+      "MinThrust": 71.2,
+      "MassMult": 1.0394,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 291.0,
+      "IspSeaLevel": 100.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 15,
+        "resources": {
+          "ElectricCharge": 0.05
+        }
+      },
+      "Propellants": {
+        "UDMH": 0.4492,
+        "IRFNA-III": 0.5508
+      },
+      "Reliability": {
+        "RatedBurnTime": 240,
+        "IgnitionReliabilityStart": 0.958763,
+        "IgnitionReliabilityEnd": 0.991753,
+        "CycleReliabilityStart": 0.958763,
+        "CycleReliabilityEnd": 0.991753
+      }
+    },
+    "Model8096-39": {
+      "ConfigName": "Model8096-39",
+      "ConfigDescription": "Improved propellant, using high density acid (HDA)",
+      "MaxThrust": 75.3,
+      "MinThrust": 75.3,
+      "MassMult": 1.0394,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 300.0,
+      "IspSeaLevel": 100.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 3,
+        "resources": {
+          "ElectricCharge": 0.2
+        }
+      },
+      "Propellants": {
+        "UDMH": 0.4838,
+        "IRFNA-IV": 0.5161
+      },
+      "Reliability": {
+        "RatedBurnTime": 240,
+        "IgnitionReliabilityStart": 0.957746,
+        "IgnitionReliabilityEnd": 0.991549,
+        "CycleReliabilityStart": 0.957746,
+        "CycleReliabilityEnd": 0.991549
+      }
+    },
+    "Model8096A": {
+      "ConfigName": "Model8096A",
+      "ConfigDescription": "Higher expansion ratio nozzle prototype",
+      "MaxThrust": 78.3,
+      "MinThrust": 78.3,
+      "MassMult": 1.0394,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 312.0,
+      "IspSeaLevel": 100.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 3,
+        "resources": {
+          "ElectricCharge": 0.2
+        }
+      },
+      "Propellants": {
+        "UDMH": 0.4838,
+        "IRFNA-IV": 0.5161
+      },
+      "Reliability": {
+        "RatedBurnTime": 240,
+        "IgnitionReliabilityStart": 0.97,
+        "IgnitionReliabilityEnd": 0.996,
+        "CycleReliabilityStart": 0.968,
+        "CycleReliabilityEnd": 0.996
+      }
+    },
+    "Model8096L": {
+      "ConfigName": "Model8096L",
+      "ConfigDescription": "Reusable Agena for STS",
+      "MaxThrust": 71.1,
+      "MinThrust": 71.1,
+      "MassMult": 1.0394,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 324.0,
+      "IspSeaLevel": 75.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 15,
+        "resources": {
+          "ElectricCharge": 0.2
+        }
+      },
+      "Propellants": {
+        "MMH": 0.5276,
+        "IRFNA-IV": 0.4724
+      },
+      "Reliability": {
+        "RatedBurnTime": 1200,
+        "IgnitionReliabilityStart": 0.97,
+        "IgnitionReliabilityEnd": 0.997,
+        "CycleReliabilityStart": 0.97,
+        "CycleReliabilityEnd": 0.996
+      }
+    },
+    "Model8096C": {
+      "ConfigName": "Model8096C",
+      "ConfigDescription": "Growth Agena option, sacrificing thrust for improved effeciency",
+      "MaxThrust": 53.4,
+      "MinThrust": 53.4,
+      "MassMult": 0.6638,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 336.0,
+      "IspSeaLevel": 75.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 15,
+        "resources": {
+          "ElectricCharge": 0.2
+        }
+      },
+      "Propellants": {
+        "MMH": 0.4671,
+        "NTO": 0.5329
+      },
+      "Reliability": {
+        "RatedBurnTime": 240,
+        "IgnitionReliabilityStart": 0.97,
+        "IgnitionReliabilityEnd": 0.997,
+        "CycleReliabilityStart": 0.97,
+        "CycleReliabilityEnd": 0.996
+      }
+    },
+    "Agena-2000": {
+      "ConfigName": "Agena-2000",
+      "ConfigDescription": "Agena upgrade for proposed Atlas V upper stage. Tested, but cancelled when studies showed it would be more economical to use single engine centaur instead.",
+      "MaxThrust": 67.5,
+      "MinThrust": 67.5,
+      "MassMult": 1.0394,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 336.0,
+      "IspSeaLevel": 75.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 15,
+        "resources": {
+          "ElectricCharge": 0.2
+        }
+      },
+      "Propellants": {
+        "MMH": 0.4691,
+        "MON3": 0.5309
+      },
+      "Reliability": {
+        "RatedBurnTime": 700,
+        "IgnitionReliabilityStart": 0.97,
+        "IgnitionReliabilityEnd": 0.997,
+        "CycleReliabilityStart": 0.97,
+        "CycleReliabilityEnd": 0.997
+      }
+    },
+    "XLR81-LF2-SPS": {
+      "ConfigName": "XLR81-LF2-SPS",
+      "ConfigDescription": "Liquid Fluorine based design, proposed for use on the GE D-2 Apollo vehicle, and later high performance Agena tugs.",
+      "MaxThrust": 53.7,
+      "MinThrust": 17.7,
+      "MassMult": 1.1811,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 446.2,
+      "IspSeaLevel": 75.0,
+      "MinThrottle": 0.32960895,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 15,
+        "resources": {
+          "ElectricCharge": 0.2
+        }
+      },
+      "Propellants": {
+        "LqdFluorine": 0.3599,
+        "LqdHydrogen": 0.6401
+      },
+      "Reliability": {
+        "RatedBurnTime": 360,
+        "IgnitionReliabilityStart": 0.995305,
+        "IgnitionReliabilityEnd": 0.999061,
+        "CycleReliabilityStart": 0.990654,
+        "CycleReliabilityEnd": 0.998131
+      }
+    }
+  }
+}

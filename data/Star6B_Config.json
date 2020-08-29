@@ -1,0 +1,42 @@
+{
+  "Title": "Star 6B",
+  "Manufacturer": "ATK",
+  "Description": "The STAR 6B rocket motor was developed for spin-up and axial propulsion applications for re-entry vehicles. The design incorporates an aluminum case and a carbon-phenolic nozzle assembly. The STAR 6B was qualified in 1984 and first flew in 1985.",
+  "OriginalMass": 0.00404,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Solid",
+  "DefaultConfig": "Star-6B",
+  "Gimbal": {
+    "IsGimbaled": false,
+    "Range": 0.0
+  },
+  "EngineConfigs": {
+    "Star-6B": {
+      "ConfigName": "Star-6B",
+      "ConfigDescription": "",
+      "MaxThrust": 2.82,
+      "MinThrust": 2.82,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 269.0,
+      "IspSeaLevel": 100.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Propellants": {
+        "HTPB": 1.0
+      },
+      "Reliability": {
+        "RatedBurnTime": 8,
+        "IgnitionReliabilityStart": 0.98,
+        "IgnitionReliabilityEnd": 0.999,
+        "CycleReliabilityStart": 0.98,
+        "CycleReliabilityEnd": 0.9999
+      }
+    }
+  }
+}

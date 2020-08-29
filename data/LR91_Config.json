@@ -1,0 +1,225 @@
+{
+  "Title": "LR91 Series",
+  "Manufacturer": "Aerojet",
+  "Description": "The LR91 powered the second stage of Titan launchers. Exhaust from the gas generator provided roll control.",
+  "OriginalMass": 0.5,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "LR91-AJ-7",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 4.0
+  },
+  "EngineConfigs": {
+    "LR91-AJ-3": {
+      "ConfigName": "LR91-AJ-3",
+      "ConfigDescription": "Second stage engine for the Titan I ICBM.",
+      "MaxThrust": 362.87,
+      "MinThrust": 362.87,
+      "MassMult": 1.18,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 310.0,
+      "IspSeaLevel": 232.5,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.8
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.382,
+        "LqdOxygen": 0.618
+      },
+      "Reliability": {
+        "RatedBurnTime": 160,
+        "IgnitionReliabilityStart": 0.95,
+        "IgnitionReliabilityEnd": 0.99,
+        "CycleReliabilityStart": 0.95,
+        "CycleReliabilityEnd": 0.99
+      }
+    },
+    "LR91-AJ-5": {
+      "ConfigName": "LR91-AJ-5",
+      "ConfigDescription": "Second stage engine of Titan II. Modified to burn Aerozine50 and Nitrogen Tetroxide to allow storage for long periods of time.",
+      "MaxThrust": 448.2,
+      "MinThrust": 448.2,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 312.0,
+      "IspSeaLevel": 200.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.8
+        }
+      },
+      "Propellants": {
+        "Aerozine50": 0.4723,
+        "NTO": 0.5277
+      },
+      "Reliability": {
+        "RatedBurnTime": 180,
+        "IgnitionReliabilityStart": 0.956044,
+        "IgnitionReliabilityEnd": 0.991209,
+        "CycleReliabilityStart": 0.956044,
+        "CycleReliabilityEnd": 0.991209
+      }
+    },
+    "LR91-AJ-7": {
+      "ConfigName": "LR91-AJ-7",
+      "ConfigDescription": "Second stage engine of Titan II GLV. Modified for the Gemini program to reduce chances of failure and make the engine safer.",
+      "MaxThrust": 456.1,
+      "MinThrust": 456.1,
+      "MassMult": 1.13,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 315.0,
+      "IspSeaLevel": 200.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.8
+        }
+      },
+      "Propellants": {
+        "Aerozine50": 0.4723,
+        "NTO": 0.5277
+      },
+      "Reliability": {
+        "RatedBurnTime": 190,
+        "IgnitionReliabilityStart": 0.961165,
+        "IgnitionReliabilityEnd": 0.992233,
+        "CycleReliabilityStart": 0.961165,
+        "CycleReliabilityEnd": 0.992233
+      }
+    },
+    "LR91-AJ-9": {
+      "ConfigName": "LR91-AJ-9",
+      "ConfigDescription": "Second stage engine for Titan IIIA, IIIB and IIIC. Longer burn time and slightly higher performance for the stretched fuel tank of Titan III.",
+      "MaxThrust": 456.1,
+      "MinThrust": 456.1,
+      "MassMult": 1.18,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 316.0,
+      "IspSeaLevel": 200.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.8
+        }
+      },
+      "Propellants": {
+        "Aerozine50": 0.4723,
+        "NTO": 0.5277
+      },
+      "Reliability": {
+        "RatedBurnTime": 210,
+        "IgnitionReliabilityStart": 0.974359,
+        "IgnitionReliabilityEnd": 0.994872,
+        "CycleReliabilityStart": 0.974359,
+        "CycleReliabilityEnd": 0.994872
+      }
+    },
+    "LR91-AJ-11": {
+      "ConfigName": "LR91-AJ-11",
+      "ConfigDescription": "Second stage engine for Titan 24B, 34B, IIIBS, IIID, 34D, 34D7 and IIIE. Slightly improved performance.",
+      "MaxThrust": 456.1,
+      "MinThrust": 456.1,
+      "MassMult": 1.178,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 318.0,
+      "IspSeaLevel": 200.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.8
+        }
+      },
+      "Propellants": {
+        "Aerozine50": 0.4751,
+        "NTO": 0.5249
+      },
+      "Reliability": {
+        "RatedBurnTime": 250,
+        "IgnitionReliabilityStart": 0.972727,
+        "IgnitionReliabilityEnd": 0.994545,
+        "CycleReliabilityStart": 0.972727,
+        "CycleReliabilityEnd": 0.994545
+      }
+    },
+    "LR91-AJ-11A": {
+      "ConfigName": "LR91-AJ-11A",
+      "ConfigDescription": "Second stage engine for Titan IVA and IVB. Slightly improved performance",
+      "MaxThrust": 474.6,
+      "MinThrust": 474.6,
+      "MassMult": 1.178,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 318.0,
+      "IspSeaLevel": 200.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.8
+        }
+      },
+      "Propellants": {
+        "Aerozine50": 0.4751,
+        "NTO": 0.5249
+      },
+      "Reliability": {
+        "RatedBurnTime": 250,
+        "IgnitionReliabilityStart": 0.97561,
+        "IgnitionReliabilityEnd": 0.995122,
+        "CycleReliabilityStart": 0.97561,
+        "CycleReliabilityEnd": 0.995122
+      }
+    },
+    "LR91-AJ-9-Kero": {
+      "ConfigName": "LR91-AJ-9-Kero",
+      "ConfigDescription": "Speculative config converted back to burning Kerosene and LOX to increase safety and performance, for a purely non-military design",
+      "MaxThrust": 394.9,
+      "MinThrust": 394.9,
+      "MassMult": 1.18,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 325.5,
+      "IspSeaLevel": 167.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.8
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.382,
+        "LqdOxygen": 0.618
+      },
+      "Reliability": {
+        "RatedBurnTime": 210,
+        "IgnitionReliabilityStart": 0.974359,
+        "IgnitionReliabilityEnd": 0.994872,
+        "CycleReliabilityStart": 0.974359,
+        "CycleReliabilityEnd": 0.994872
+      }
+    }
+  }
+}

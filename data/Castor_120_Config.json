@@ -1,0 +1,96 @@
+{
+  "Title": "Castor 120",
+  "Manufacturer": "Thiokol (ATK)",
+  "Description": "The Castor 120 is a medium solid booster used on the Minotaur and Athena launch vehicles. Its design was based on the TU-903, which serves as the first stage of the Peacekeeper ICBM. The standard thrust curve can be modified to produce a regressive burn that reduces maximum acceleration or a saddle-shaped profile that limits aerodynamic forces. Burn time 79 seconds.",
+  "OriginalMass": 4.35,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Solid",
+  "DefaultConfig": "Castor-120",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 5.5
+  },
+  "EngineConfigs": {
+    "Castor-120": {
+      "ConfigName": "Castor-120",
+      "ConfigDescription": "",
+      "MaxThrust": 1875.0,
+      "MinThrust": 1875.0,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 280.0,
+      "IspSeaLevel": 253.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Propellants": {
+        "HTPB": 1.0
+      },
+      "Reliability": {
+        "RatedBurnTime": 80,
+        "IgnitionReliabilityStart": 0.99,
+        "IgnitionReliabilityEnd": 0.999,
+        "CycleReliabilityStart": 0.99,
+        "CycleReliabilityEnd": 0.999
+      }
+    },
+    "Castor-120/Saddle": {
+      "ConfigName": "Castor-120/Saddle",
+      "ConfigDescription": "",
+      "MaxThrust": 1950.0,
+      "MinThrust": 0.0,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 280.0,
+      "IspSeaLevel": 253.0,
+      "MinThrottle": 0.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Propellants": {
+        "HTPB": 1.0
+      },
+      "Reliability": {
+        "RatedBurnTime": 80,
+        "IgnitionReliabilityStart": 0.99,
+        "IgnitionReliabilityEnd": 0.999,
+        "CycleReliabilityStart": 0.99,
+        "CycleReliabilityEnd": 0.999
+      }
+    },
+    "Castor-120/Regressive": {
+      "ConfigName": "Castor-120/Regressive",
+      "ConfigDescription": "",
+      "MaxThrust": 2125.0,
+      "MinThrust": 2125.0,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 280.0,
+      "IspSeaLevel": 253.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Propellants": {
+        "HTPB": 1.0
+      },
+      "Reliability": {
+        "RatedBurnTime": 80,
+        "IgnitionReliabilityStart": 0.99,
+        "IgnitionReliabilityEnd": 0.999,
+        "CycleReliabilityStart": 0.99,
+        "CycleReliabilityEnd": 0.999
+      }
+    }
+  }
+}

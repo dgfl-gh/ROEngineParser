@@ -1,0 +1,103 @@
+{
+  "Title": "KVD-1/CE-7.5",
+  "Manufacturer": "KB Khimavtomatiki (Kosberg) / ISRO",
+  "Description": "Staged combustion hydrolox upper stage engine intended for use on the N-1M and considered for use on Proton and Angara, eventually licensed to India for its GSLV MkI and MkII.\tLater versions were developed by India for domestic use on the as the CE-7.5.  The main engine bell is fixed in place, and two verniers are used to provide combined pitch-yaw-roll control; this leads to lower control authority than on stages where the main engine can gimbal.\t This engine runs with a somewhat higher than average O/F ratio, resulting in a denser than average hydrolox stage.",
+  "OriginalMass": 0.282,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "KVD-1",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 4.0
+  },
+  "EngineConfigs": {
+    "RD-56": {
+      "ConfigName": "RD-56",
+      "ConfigDescription": "Developed for use as an N-1 upper stage. Cancelled with the N-1, but considered for use on Proton and Angara",
+      "MaxThrust": 69.6,
+      "MinThrust": 69.6,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 447.5,
+      "IspSeaLevel": 235.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 5,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Propellants": {
+        "LqdHydrogen": 0.72856,
+        "LqdOxygen": 0.27144
+      },
+      "Reliability": {
+        "RatedBurnTime": 800,
+        "IgnitionReliabilityStart": 0.85,
+        "IgnitionReliabilityEnd": 0.97,
+        "CycleReliabilityStart": 0.5,
+        "CycleReliabilityEnd": 0.9
+      }
+    },
+    "KVD-1": {
+      "ConfigName": "KVD-1",
+      "ConfigDescription": "AKA RD-56M. Upgraded model of the RD-56. Never saw use in the USSR, but was sold to India, and later license built in India. Poor overall reliability",
+      "MaxThrust": 73.58,
+      "MinThrust": 73.58,
+      "MassMult": 0.585,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 461.5,
+      "IspSeaLevel": 150.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 5,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Propellants": {
+        "LqdHydrogen": 0.72856,
+        "LqdOxygen": 0.27144
+      },
+      "Reliability": {
+        "RatedBurnTime": 800,
+        "IgnitionReliabilityStart": 0.875,
+        "IgnitionReliabilityEnd": 0.975,
+        "CycleReliabilityStart": 0.5,
+        "CycleReliabilityEnd": 0.9
+      }
+    },
+    "CE-7.5": {
+      "ConfigName": "CE-7.5",
+      "ConfigDescription": "Natively developed Indian upgrade of the KVD-1 following embargos and poor performance. Used for GSLV Mk.II.",
+      "MaxThrust": 69.55,
+      "MinThrust": 69.55,
+      "MassMult": 0.585,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 452.0,
+      "IspSeaLevel": 150.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 5,
+        "resources": {}
+      },
+      "Propellants": {
+        "LqdHydrogen": 0.72856,
+        "LqdOxygen": 0.27144
+      },
+      "Reliability": {
+        "RatedBurnTime": 850,
+        "IgnitionReliabilityStart": 0.928571,
+        "IgnitionReliabilityEnd": 0.985714,
+        "CycleReliabilityStart": 0.857143,
+        "CycleReliabilityEnd": 0.971429
+      }
+    }
+  }
+}

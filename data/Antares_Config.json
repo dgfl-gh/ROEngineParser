@@ -1,0 +1,42 @@
+{
+  "Title": "Antares I X-254",
+  "Manufacturer": "Allegany Ballistics Laboratory",
+  "Description": "The Antares solid rocket motor was used as the third stage for the Scout launch vehicle.",
+  "OriginalMass": 0.0767477,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Solid",
+  "DefaultConfig": "Antares-I",
+  "Gimbal": {
+    "IsGimbaled": false,
+    "Range": 0.0
+  },
+  "EngineConfigs": {
+    "Antares-I": {
+      "ConfigName": "Antares-I",
+      "ConfigDescription": "",
+      "MaxThrust": 62.27508,
+      "MinThrust": 62.27508,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 256.0,
+      "IspSeaLevel": 200.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {}
+      },
+      "Propellants": {
+        "PBAN": 1.0
+      },
+      "Reliability": {
+        "RatedBurnTime": 40,
+        "IgnitionReliabilityStart": 0.9,
+        "IgnitionReliabilityEnd": 0.98,
+        "CycleReliabilityStart": 0.9,
+        "CycleReliabilityEnd": 0.98
+      }
+    }
+  }
+}

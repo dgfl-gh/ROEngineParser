@@ -1,0 +1,46 @@
+{
+  "Title": "RS-84 Series",
+  "Manufacturer": "Pratt & Whitney Rocketdyne",
+  "Description": "Early 2000s atmospheric staged combustion kerolox engine. Developed as the booster engine for a Space Shuttle replacement as a part of the Space Launch Initiative program. Extremely high performance, cancelled during protorype phase.",
+  "OriginalMass": 8.128,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "RS-84",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 6.0
+  },
+  "EngineConfigs": {
+    "RS-84": {
+      "ConfigName": "RS-84",
+      "ConfigDescription": "",
+      "MaxThrust": 5026.49,
+      "MinThrust": 3267.22,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 324.0,
+      "IspSeaLevel": 304.0,
+      "MinThrottle": 0.6500003,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.6599,
+        "LqdOxygen": 0.3401
+      },
+      "Reliability": {
+        "RatedBurnTime": 500,
+        "IgnitionReliabilityStart": 0.98,
+        "IgnitionReliabilityEnd": 0.995,
+        "CycleReliabilityStart": 0.98,
+        "CycleReliabilityEnd": 0.995
+      }
+    }
+  }
+}

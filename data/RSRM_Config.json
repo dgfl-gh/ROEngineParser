@@ -1,0 +1,69 @@
+{
+  "Title": "RSRM",
+  "Manufacturer": "Thiokol",
+  "Description": "A four segment Reusable Solid Rocket Motor, one of the most powerful rocket motors ever built and flown. Two of them were used by the Space Shuttle for liftoff and the initial part of the flight, providing more than 75% of the overall stack thrust. Manufactured by Thiokol and later by ATK.",
+  "OriginalMass": 65.77,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Solid",
+  "DefaultConfig": "RSRM-1981",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 8.0
+  },
+  "EngineConfigs": {
+    "RSRM-1981": {
+      "ConfigName": "RSRM-1981",
+      "ConfigDescription": "Original version of the RSRM, used on early shuttle launches",
+      "MaxThrust": 14819.0,
+      "MinThrust": 14819.0,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 268.0,
+      "IspSeaLevel": 243.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {}
+      },
+      "Propellants": {
+        "PBAN": 1.0
+      },
+      "Reliability": {
+        "RatedBurnTime": 123,
+        "IgnitionReliabilityStart": 0.99,
+        "IgnitionReliabilityEnd": 1.0,
+        "CycleReliabilityStart": 0.958333,
+        "CycleReliabilityEnd": 0.991667
+      }
+    },
+    "RSRM-1986": {
+      "ConfigName": "RSRM-1986",
+      "ConfigDescription": "Redesigned RSRM, after Challenger disaster",
+      "MaxThrust": 14819.0,
+      "MinThrust": 14819.0,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 268.0,
+      "IspSeaLevel": 243.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {}
+      },
+      "Propellants": {
+        "PBAN": 1.0
+      },
+      "Reliability": {
+        "RatedBurnTime": 123,
+        "IgnitionReliabilityStart": 0.99,
+        "IgnitionReliabilityEnd": 1.0,
+        "CycleReliabilityStart": 0.995392,
+        "CycleReliabilityEnd": 0.999078
+      }
+    }
+  }
+}

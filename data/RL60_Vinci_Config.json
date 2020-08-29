@@ -1,0 +1,75 @@
+{
+  "Title": "RL60 Vacuum Engine",
+  "Manufacturer": "Pratt & Whitney",
+  "Description": "Next generation cryogenic upper stage engine designed to replace the RL10, providing higher performance while maintaining the same installation envelope.  Also available in a lower 180kN thrust Vinci-180 model.",
+  "OriginalMass": 0.499,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "RL60",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 4.25
+  },
+  "EngineConfigs": {
+    "RL60": {
+      "ConfigName": "RL60",
+      "ConfigDescription": "",
+      "MaxThrust": 267.0,
+      "MinThrust": 267.0,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 465.0,
+      "IspSeaLevel": 230.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 45,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Propellants": {
+        "LqdHydrogen": 0.7325,
+        "LqdOxygen": 0.2675
+      },
+      "Reliability": {
+        "RatedBurnTime": 4050,
+        "IgnitionReliabilityStart": 0.98,
+        "IgnitionReliabilityEnd": 0.9995,
+        "CycleReliabilityStart": 0.9643,
+        "CycleReliabilityEnd": 0.9979
+      }
+    },
+    "Vinci-180": {
+      "ConfigName": "Vinci-180",
+      "ConfigDescription": "",
+      "MaxThrust": 180.0,
+      "MinThrust": 180.0,
+      "MassMult": 1.1,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 465.0,
+      "IspSeaLevel": 230.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 5,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Propellants": {
+        "LqdHydrogen": 0.7325,
+        "LqdOxygen": 0.2675
+      },
+      "Reliability": {
+        "RatedBurnTime": 4050,
+        "IgnitionReliabilityStart": 0.98,
+        "IgnitionReliabilityEnd": 0.9995,
+        "CycleReliabilityStart": 0.9643,
+        "CycleReliabilityEnd": 0.9979
+      }
+    }
+  }
+}

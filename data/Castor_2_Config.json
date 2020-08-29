@@ -1,0 +1,69 @@
+{
+  "Title": "Castor 2",
+  "Manufacturer": "Thiokol",
+  "Description": "A derivative of the Castor 1 motor, the Castor 2 featured higher specific impulse and propellant load and lower dry mass fraction as well as a longer burn time. It was used as strap-on booster starting with Delta E and was also used in all but the early Scouts. Burn time 39s.",
+  "OriginalMass": 0.677,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Solid",
+  "DefaultConfig": "Castor-2-SL",
+  "Gimbal": {
+    "IsGimbaled": false,
+    "Range": 0.0
+  },
+  "EngineConfigs": {
+    "Castor-2-SL": {
+      "ConfigName": "Castor-2-SL",
+      "ConfigDescription": "",
+      "MaxThrust": 293.865,
+      "MinThrust": 293.865,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 260.7,
+      "IspSeaLevel": 235.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Propellants": {
+        "PSPC": 1.0
+      },
+      "Reliability": {
+        "RatedBurnTime": 39,
+        "IgnitionReliabilityStart": 0.99,
+        "IgnitionReliabilityEnd": 0.9999,
+        "CycleReliabilityStart": 0.965,
+        "CycleReliabilityEnd": 0.9985
+      }
+    },
+    "Castor-2-Vac": {
+      "ConfigName": "Castor-2-Vac",
+      "ConfigDescription": "",
+      "MaxThrust": 318.1,
+      "MinThrust": 318.1,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 282.2,
+      "IspSeaLevel": 210.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Propellants": {
+        "PSPC": 1.0
+      },
+      "Reliability": {
+        "RatedBurnTime": 39,
+        "IgnitionReliabilityStart": 0.945,
+        "IgnitionReliabilityEnd": 0.997,
+        "CycleReliabilityStart": 0.965,
+        "CycleReliabilityEnd": 0.9985
+      }
+    }
+  }
+}

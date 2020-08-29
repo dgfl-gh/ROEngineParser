@@ -1,0 +1,46 @@
+{
+  "Title": "TR-107 Series",
+  "Manufacturer": "Northrop Grumman",
+  "Description": "Early 2000s atmospheric staged combustion kerolox engine. Developed as the booster engine for a Space Shuttle replacement as a part of the Space Launch Initiative program. High performance with reusability and throttling capabilities, cancelled during prototype phase.",
+  "OriginalMass": 7.754,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "TR-107",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 6.0
+  },
+  "EngineConfigs": {
+    "TR-107": {
+      "ConfigName": "TR-107",
+      "ConfigDescription": "",
+      "MaxThrust": 5323.0,
+      "MinThrust": 3460.0,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 327.0,
+      "IspSeaLevel": 301.0,
+      "MinThrottle": 0.6500094,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 200,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 10.0
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.6599,
+        "LqdOxygen": 0.3401
+      },
+      "Reliability": {
+        "RatedBurnTime": 3600,
+        "IgnitionReliabilityStart": 0.98,
+        "IgnitionReliabilityEnd": 0.995,
+        "CycleReliabilityStart": 0.98,
+        "CycleReliabilityEnd": 0.995
+      }
+    }
+  }
+}

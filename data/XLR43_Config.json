@@ -1,0 +1,76 @@
+{
+  "Title": "XLR43 Series",
+  "Manufacturer": "North American Aviation (NAA)",
+  "Description": "Predecessor of all American liquid fueled boosters. Started as an upgraded copy of the German A-4. Rocketdyne engineers were able to solve the combustion instability issues of the A-4, allowing significant improvements. This became the XLR43-NA-1, which evolved into the Redstone NAA 75-110. Further improvements were added in the XLR43-NA-3, which evolved into the Navaho XLR71 booster, and when modified to burn kerosene, the Atlas LR43 engines. Diameter: 1.77 m.",
+  "OriginalMass": 0.67,
+  "LiteralZeroIgnitions": true,
+  "EngineType": "Liquid",
+  "DefaultConfig": "XLR43",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 2.0
+  },
+  "EngineConfigs": {
+    "XLR43-NA-1": {
+      "ConfigName": "XLR43-NA-1",
+      "ConfigDescription": "",
+      "MaxThrust": 392.6,
+      "MinThrust": 392.6,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 258.0,
+      "IspSeaLevel": 219.0,
+      "MinThrottle": 1.0,
+      "AirLightable": true,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Propellants": {
+        "Ethanol75": 0.5266,
+        "LqdOxygen": 0.4734,
+        "HTP": 0.0175
+      },
+      "Reliability": {
+        "RatedBurnTime": 60,
+        "IgnitionReliabilityStart": 0.7,
+        "IgnitionReliabilityEnd": 0.9,
+        "CycleReliabilityStart": 0.75,
+        "CycleReliabilityEnd": 0.9
+      }
+    },
+    "XLR43-NA-3": {
+      "ConfigName": "XLR43-NA-3",
+      "ConfigDescription": "",
+      "MaxThrust": 617.4,
+      "MinThrust": 617.4,
+      "MassMult": 0.73,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 265.0,
+      "IspSeaLevel": 230.0,
+      "MinThrottle": 1.0,
+      "AirLightable": true,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Propellants": {
+        "Ethanol90": 0.4945,
+        "LqdOxygen": 0.5055
+      },
+      "Reliability": {
+        "RatedBurnTime": 65,
+        "IgnitionReliabilityStart": 0.8,
+        "IgnitionReliabilityEnd": 0.9,
+        "CycleReliabilityStart": 0.8,
+        "CycleReliabilityEnd": 0.9
+      }
+    }
+  }
+}

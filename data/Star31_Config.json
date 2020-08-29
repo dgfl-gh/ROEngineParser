@@ -1,0 +1,42 @@
+{
+  "Title": "Star 31",
+  "Manufacturer": "Thiokol",
+  "Description": "Antares III is the third-generation third stage for Vought Corporation's Scout launch vehicle. The design incorporates an 89-percent-solids HTPB propellant in a Kevlar(r) filament-wound case insulated with silica-filled EPDM rubber.",
+  "OriginalMass": 0.09525,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Solid",
+  "DefaultConfig": "Star-31",
+  "Gimbal": {
+    "IsGimbaled": false,
+    "Range": 0.0
+  },
+  "EngineConfigs": {
+    "Star-31": {
+      "ConfigName": "Star-31",
+      "ConfigDescription": "",
+      "MaxThrust": 95.6,
+      "MinThrust": 95.6,
+      "MassMult": 0.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 293.5,
+      "IspSeaLevel": 150.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 0,
+        "resources": {}
+      },
+      "Propellants": {
+        "HTPB": 1.0
+      },
+      "Reliability": {
+        "RatedBurnTime": 51,
+        "IgnitionReliabilityStart": 0.95,
+        "IgnitionReliabilityEnd": 0.98,
+        "CycleReliabilityStart": 0.9,
+        "CycleReliabilityEnd": 0.98
+      }
+    }
+  }
+}

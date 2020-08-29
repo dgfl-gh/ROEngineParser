@@ -1,0 +1,170 @@
+{
+  "Title": "NK-15/33",
+  "Manufacturer": "SNTK Kuznetsov",
+  "Description": "The NK-15 and NK-33 were originally built in the 1960s/early 1970s for the Soviet N1 and then N1F rocket, respectively. Though the N1F was scrapped, the engines survived. Aerojet acquired several NK-33 engines in the 1990s and refurbished them as AJ26-62 engines for Orbital Science's Antares launch vehicle. Modifications made by Aerojet included increasing rated thrust and equipping the engines to support gimballing.",
+  "OriginalMass": 1.222,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "NK-15",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 6.0
+  },
+  "EngineConfigs": {
+    "NK-15": {
+      "ConfigName": "NK-15",
+      "ConfigDescription": "Developed as the first stage engine of the N-1 moon rocket. Gimbal, differential throttle.",
+      "MaxThrust": 1681.0,
+      "MinThrust": 841.0,
+      "MassMult": 1.21812,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 331.0,
+      "IspSeaLevel": 297.0,
+      "MinThrottle": 0.5002974,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 2.0
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.3576,
+        "LqdOxygen": 0.6424
+      },
+      "Reliability": {
+        "RatedBurnTime": 180,
+        "IgnitionReliabilityStart": 0.933333,
+        "IgnitionReliabilityEnd": 0.986667,
+        "CycleReliabilityStart": 0.933333,
+        "CycleReliabilityEnd": 0.986667
+      }
+    },
+    "NK-15-Original-NoGimbal": {
+      "ConfigName": "NK-15-Original-NoGimbal",
+      "ConfigDescription": "Developed as the first stage engine of the N-1 moon rocket. No gimbal, differential throttle.",
+      "MaxThrust": 1681.0,
+      "MinThrust": 841.0,
+      "MassMult": 1.020458,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 331.0,
+      "IspSeaLevel": 297.0,
+      "MinThrottle": 0.5002974,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 2.0
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.3576,
+        "LqdOxygen": 0.6424
+      },
+      "Reliability": {
+        "RatedBurnTime": 180,
+        "IgnitionReliabilityStart": 0.933333,
+        "IgnitionReliabilityEnd": 0.986667,
+        "CycleReliabilityStart": 0.933333,
+        "CycleReliabilityEnd": 0.986667
+      }
+    },
+    "NK-33": {
+      "ConfigName": "NK-33",
+      "ConfigDescription": "Developed as an upgrade to the NK-15, and then abandoned with the cancellation of the N-1. Revived following the fall of the USSR, now used on Soyuz 2.1v. Gimbal, differential throttle.",
+      "MaxThrust": 1766.0,
+      "MinThrust": 841.0,
+      "MassMult": 1.1937,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 331.0,
+      "IspSeaLevel": 297.0,
+      "MinThrottle": 0.47621745,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 2,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.3486,
+        "LqdOxygen": 0.6514
+      },
+      "Reliability": {
+        "RatedBurnTime": 240,
+        "IgnitionReliabilityStart": 0.9375,
+        "IgnitionReliabilityEnd": 0.9875,
+        "CycleReliabilityStart": 0.9375,
+        "CycleReliabilityEnd": 0.9875
+      }
+    },
+    "NK-33-Original-NoGimbal": {
+      "ConfigName": "NK-33-Original-NoGimbal",
+      "ConfigDescription": "Developed as an upgrade to the NK-15, and then abandoned with the cancellation of the N-1. Revived following the fall of the USSR, now used on Soyuz 2.1v. No gimbal, differential throttle.",
+      "MaxThrust": 1766.0,
+      "MinThrust": 841.0,
+      "MassMult": 1.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 331.0,
+      "IspSeaLevel": 297.0,
+      "MinThrottle": 0.47621745,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 2,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.3486,
+        "LqdOxygen": 0.6514
+      },
+      "Reliability": {
+        "RatedBurnTime": 240,
+        "IgnitionReliabilityStart": 0.9375,
+        "IgnitionReliabilityEnd": 0.9875,
+        "CycleReliabilityStart": 0.9375,
+        "CycleReliabilityEnd": 0.9875
+      }
+    },
+    "AJ26-62": {
+      "ConfigName": "AJ26-62",
+      "ConfigDescription": "The NK-33 design was sold to Aerojet in the mid 1990s. Aerojet modified it to create the AJ26. Formerly used for the Antares-100 series",
+      "MaxThrust": 1815.0,
+      "MinThrust": 941.92,
+      "MassMult": 1.1937,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 331.9,
+      "IspSeaLevel": 301.6,
+      "MinThrottle": 0.5189642,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 2,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.34,
+        "LqdOxygen": 0.66
+      },
+      "Reliability": {
+        "RatedBurnTime": 240,
+        "IgnitionReliabilityStart": 0.9375,
+        "IgnitionReliabilityEnd": 0.9875,
+        "CycleReliabilityStart": 0.9375,
+        "CycleReliabilityEnd": 0.9875
+      }
+    }
+  }
+}

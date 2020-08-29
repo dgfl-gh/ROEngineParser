@@ -1,0 +1,42 @@
+{
+  "Title": "Aerojet 2.5KS18000",
+  "Manufacturer": "Aerojet",
+  "Description": "Small, but powerful solid fueled booster used as the first stage for the Aerobee line of Sounding Rockets.",
+  "OriginalMass": 0.117934,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Solid",
+  "DefaultConfig": "2_5KS18000",
+  "Gimbal": {
+    "IsGimbaled": false,
+    "Range": 0.0
+  },
+  "EngineConfigs": {
+    "2_5KS18000": {
+      "ConfigName": "2_5KS18000",
+      "ConfigDescription": "",
+      "MaxThrust": 88.06796,
+      "MinThrust": 88.06796,
+      "MassMult": 1.0,
+      "Ullage": false,
+      "PressureFed": false,
+      "IspVacuum": 198.8,
+      "IspSeaLevel": 178.8,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {}
+      },
+      "Propellants": {
+        "NGNC": 1.0
+      },
+      "Reliability": {
+        "RatedBurnTime": -1,
+        "IgnitionReliabilityStart": 1.0,
+        "IgnitionReliabilityEnd": 1.0,
+        "CycleReliabilityStart": 1.0,
+        "CycleReliabilityEnd": 1.0
+      }
+    }
+  }
+}

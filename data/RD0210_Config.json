@@ -1,0 +1,75 @@
+{
+  "Title": "RD-0208/0210",
+  "Manufacturer": "Voronezh Mechanical Plant (VMZ)",
+  "Description": "A staged combustion, hypergolic vacuum rocket engine. Used as a power plant on the second stage of the Proton launch vehicle family. Features a two-axis gimbal mechanism for attitude control.",
+  "OriginalMass": 0.566,
+  "LiteralZeroIgnitions": false,
+  "EngineType": "Liquid",
+  "DefaultConfig": "RD-0208",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 3.25
+  },
+  "EngineConfigs": {
+    "RD-0208": {
+      "ConfigName": "RD-0208",
+      "ConfigDescription": "Used on the UR-500 second stage. AKA 8D411",
+      "MaxThrust": 574.05,
+      "MinThrust": 574.05,
+      "MassMult": 0.9541,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 326.105,
+      "IspSeaLevel": 164.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Propellants": {
+        "UDMH": 0.4135,
+        "NTO": 0.5865
+      },
+      "Reliability": {
+        "RatedBurnTime": 150,
+        "IgnitionReliabilityStart": 0.9375,
+        "IgnitionReliabilityEnd": 0.9875,
+        "CycleReliabilityStart": 0.9375,
+        "CycleReliabilityEnd": 0.9875
+      }
+    },
+    "RD-0210": {
+      "ConfigName": "RD-0210",
+      "ConfigDescription": "Slight upgrade for use on the Proton second stage. AKA 8D411K",
+      "MaxThrust": 584.77,
+      "MinThrust": 584.77,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 327.0,
+      "IspSeaLevel": 164.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5
+        }
+      },
+      "Propellants": {
+        "UDMH": 0.4135,
+        "NTO": 0.5865
+      },
+      "Reliability": {
+        "RatedBurnTime": 238,
+        "IgnitionReliabilityStart": 0.992063,
+        "IgnitionReliabilityEnd": 0.998413,
+        "CycleReliabilityStart": 0.992063,
+        "CycleReliabilityEnd": 0.998413
+      }
+    }
+  }
+}

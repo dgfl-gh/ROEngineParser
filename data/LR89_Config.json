@@ -1,0 +1,232 @@
+{
+  "Title": "LR89 Series",
+  "Manufacturer": "Rocketdyne",
+  "Description": "Kerolox gas-generator engine that served as booster for Atlas (as -89, MA-x sysem) and main engine for Thor/Thor-Delta/Delta and Jupiter/Juno II rockets (as -79, MB-x system). Late model LR89s were upgraded with RS-27 components for higher efficiency, whereas the RS-27 itself was used on Delta by that point. LR89 configs are comparable to similar-era -79 configs, since they were the same engine underneath.",
+  "OriginalMass": 0.72,
+  "LiteralZeroIgnitions": true,
+  "EngineType": "Liquid",
+  "DefaultConfig": "LR43-NA-3",
+  "Gimbal": {
+    "IsGimbaled": true,
+    "Range": 5.0
+  },
+  "EngineConfigs": {
+    "LR43-NA-3": {
+      "ConfigName": "LR43-NA-3",
+      "ConfigDescription": "MA-0 and prototype MA-1 Atlas Booster engine. An XLR43 modified to burn kerosene. Used on Convair X12 and Atlas A",
+      "MaxThrust": 756.8,
+      "MinThrust": 756.8,
+      "MassMult": 0.0,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 278.0,
+      "IspSeaLevel": 245.0,
+      "MinThrottle": 1.0,
+      "AirLightable": false,
+      "Ignition": {
+        "number": 1,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.382,
+        "LqdOxygen": 0.618
+      },
+      "Reliability": {
+        "RatedBurnTime": 135,
+        "IgnitionReliabilityStart": 0.826087,
+        "IgnitionReliabilityEnd": 0.965217,
+        "CycleReliabilityStart": 0.826087,
+        "CycleReliabilityEnd": 0.965217
+      }
+    },
+    "LR89-NA-3": {
+      "ConfigName": "LR89-NA-3",
+      "ConfigDescription": "MA-1 Atlas booster engine. Significantly upgraded and simplified, with both engines sharing turbopumps. Used on Atlas B/C",
+      "MaxThrust": 758.7,
+      "MinThrust": 758.7,
+      "MassMult": 0.89,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 282.0,
+      "IspSeaLevel": 248.0,
+      "MinThrottle": 1.0,
+      "AirLightable": true,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.382,
+        "LqdOxygen": 0.618
+      },
+      "Reliability": {
+        "RatedBurnTime": 135,
+        "IgnitionReliabilityStart": 0.833333,
+        "IgnitionReliabilityEnd": 0.966667,
+        "CycleReliabilityStart": 0.833333,
+        "CycleReliabilityEnd": 0.966667
+      }
+    },
+    "LR89-NA-5": {
+      "ConfigName": "LR89-NA-5",
+      "ConfigDescription": "MA-3 Atlas booster engine. Each engine had its own turbopump allow for engines to be quickly swapped. Developed for the USAF for Atlas D",
+      "MaxThrust": 831.4,
+      "MinThrust": 831.4,
+      "MassMult": 1.15,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 290.0,
+      "IspSeaLevel": 251.0,
+      "MinThrottle": 1.0,
+      "AirLightable": true,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.382,
+        "LqdOxygen": 0.618
+      },
+      "Reliability": {
+        "RatedBurnTime": 150,
+        "IgnitionReliabilityStart": 0.95671,
+        "IgnitionReliabilityEnd": 0.991342,
+        "CycleReliabilityStart": 0.95671,
+        "CycleReliabilityEnd": 0.991342
+      }
+    },
+    "LR89-NA-6": {
+      "ConfigName": "LR89-NA-6",
+      "ConfigDescription": "MA-3 Atlas booster engine. Slightly upgraded for Atlas E/F",
+      "MaxThrust": 846.6,
+      "MinThrust": 846.6,
+      "MassMult": 1.2264,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 290.0,
+      "IspSeaLevel": 256.0,
+      "MinThrottle": 1.0,
+      "AirLightable": true,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.382,
+        "LqdOxygen": 0.618
+      },
+      "Reliability": {
+        "RatedBurnTime": 160,
+        "IgnitionReliabilityStart": 0.939394,
+        "IgnitionReliabilityEnd": 0.987879,
+        "CycleReliabilityStart": 0.939394,
+        "CycleReliabilityEnd": 0.987879
+      }
+    },
+    "LR89-NA-7.1": {
+      "ConfigName": "LR89-NA-7.1",
+      "ConfigDescription": "MA-5.1 booster engine. Both engines shared turbopumps due to NASA preferring that configuration. Used for Atlas-Agena launches",
+      "MaxThrust": 931.7,
+      "MinThrust": 931.7,
+      "MassMult": 1.414,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 292.2,
+      "IspSeaLevel": 258.0,
+      "MinThrottle": 1.0,
+      "AirLightable": true,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.382,
+        "LqdOxygen": 0.618
+      },
+      "Reliability": {
+        "RatedBurnTime": 165,
+        "IgnitionReliabilityStart": 0.981481,
+        "IgnitionReliabilityEnd": 0.996296,
+        "CycleReliabilityStart": 0.981481,
+        "CycleReliabilityEnd": 0.996296
+      }
+    },
+    "LR89-NA-7.2": {
+      "ConfigName": "LR89-NA-7.2",
+      "ConfigDescription": "MA-5.2 booster engine. Both engines shared turbopumps due to NASA preferring that configuration. Used for Atlas-Centaur launches",
+      "MaxThrust": 950.8,
+      "MinThrust": 950.8,
+      "MassMult": 1.414,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 293.4,
+      "IspSeaLevel": 259.1,
+      "MinThrottle": 1.0,
+      "AirLightable": true,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.382,
+        "LqdOxygen": 0.618
+      },
+      "Reliability": {
+        "RatedBurnTime": 165,
+        "IgnitionReliabilityStart": 0.981481,
+        "IgnitionReliabilityEnd": 0.996296,
+        "CycleReliabilityStart": 0.981481,
+        "CycleReliabilityEnd": 0.996296
+      }
+    },
+    "RS-56-OBA": {
+      "ConfigName": "RS-56-OBA",
+      "ConfigDescription": "Atlas MA-5A booster engine. Upgraded with RS-27 components to reduce cost and improve performance. Used on Atlas II",
+      "MaxThrust": 1077.6,
+      "MinThrust": 1077.6,
+      "MassMult": 1.7896,
+      "Ullage": true,
+      "PressureFed": false,
+      "IspVacuum": 296.4,
+      "IspSeaLevel": 262.1,
+      "MinThrottle": 1.0,
+      "AirLightable": true,
+      "Ignition": {
+        "number": 0,
+        "resources": {
+          "ElectricCharge": 0.5,
+          "TEATEB": 1.0
+        }
+      },
+      "Propellants": {
+        "Kerosene": 0.382,
+        "LqdOxygen": 0.618
+      },
+      "Reliability": {
+        "RatedBurnTime": 170,
+        "IgnitionReliabilityStart": 0.994737,
+        "IgnitionReliabilityEnd": 0.998947,
+        "CycleReliabilityStart": 0.994737,
+        "CycleReliabilityEnd": 0.998947
+      }
+    }
+  }
+}
